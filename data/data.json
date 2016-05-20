@@ -2566,8 +2566,8 @@
 			"spellpoints": 0,
 			"attributepoints": {
 				"physical": 15,
-				"mental": 17,
-				"martial": 13
+				"mental": 15,
+				"martial": 15
 			},
 			"attributes": {
 				"strength": {
@@ -2654,8 +2654,8 @@
 			"spellpoints": 0,
 			"attributepoints": {
 				"physical": 15,
-				"mental": 17,
-				"martial": 13
+				"mental": 15,
+				"martial": 15
 			},
 			"attributes": {
 				"strength": {
@@ -2740,9 +2740,9 @@
 			"skillpoints": 30,
 			"spellpoints": 18,
 			"attributepoints": {
-				"physical": 15,
-				"mental": 17,
-				"martial": 13
+				"physical": 18,
+				"mental": 15,
+				"martial": 12
 			},
 			"attributes": {
 				"strength": {
@@ -2830,8 +2830,8 @@
 			"skillpoints": 30,
 			"spellpoints": 18,
 			"attributepoints": {
-				"physical": 15,
-				"mental": 17,
+				"physical": 16,
+				"mental": 16,
 				"martial": 13
 			},
 			"attributes": {
