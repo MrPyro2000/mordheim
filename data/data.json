@@ -5205,6 +5205,195 @@
 					"stackable": "n/a"
 				},
 				"icon": "globadier_wyrdstone_lure"
+			},
+			"liquid_courage": {
+				"name": "Liquid Courage",
+				"type": "basic",
+				"attribute": "alertness",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Initiative by 10 and the chance to pass All Alone tests by 15%. Not Stackable.",
+					"mastery": "Initiative bonus increases to 20, and chance to pass All Alone increases by 30%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 2
+					},
+					"range": "0m",
+					"target": "Self",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "smuggler_liquid_courage"
+			},
+			"white_powder_trap": {
+				"name": "White Powder Trap",
+				"type": "basic",
+				"attribute": "agility",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Place a fake Search Point at target location that explodes when an enemy approaches within 0.5 meters, stunning everyone within 5m for 1 turn. Usable once per turn",
+					"mastery": "Cost decreases to 2 Offense Points."
+				},
+				"info": {
+					"cost": {
+						"offense": 4
+					},
+					"range": "0m",
+					"target": "Special",
+					"duration": "1 turn",
+					"stackable": "n/a"
+				},
+				"icon": "smuggler_white_powder_trap"
+			},
+			"hand_bomb": {
+				"name": "Hand Bomb",
+				"type": "basic",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15 
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Deals 10-15 damage. Bypasses Armour Absorption.",
+					"mastery": "Damage increases to 20-30"
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "15m",
+					"target": "Everyone withim 3m",
+					"duration": "0 turns",
+					"stackable": "n/a"
+				},
+				"icon": "smuggler_hand_bomb"
+			},
+			"captains_speech": {
+				"name": "Captain's Speech",
+				"type": "basic",
+				"attribute": "leadership",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases the chance to pass All Alone, Fear, and Terror tests by 20%. Not Stackable.",
+					"mastery": "Chance to pass All Alone, Fear, and Terror tests increases by 40%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 4
+					},
+					"range": "0m",
+					"target": "Everyone within 5m of user",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "smuggler_captains_speech"
+			},
+			"impact_shot": {
+				"name": "Impact Shot",
+				"type": "basic",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "A ranged attack that deals regular damage and bypasses 20% of the target's Armour Absorption.",
+					"mastery": "Armour Absorption bypass increases to 40%"
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0m",
+					"target": "Single enemy",
+					"duration": "0 turns",
+					"stackable": "n/a"
+				},
+				"icon": "smuggler_impact_shot"
+			},
+			"riposte_stance": {
+				"name": "Riposte Stance",
+				"type": "basic",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Take a stance that ends the current turn. The stance allows 1 attempt to Parry incoming attacks and increases Counter-Attack Hit chance by 10%.",
+					"mastery": "Parry attempts increases to 2, Counter Attack Hit chance increases by 20%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 2
+					},
+					"range": "0m",
+					"target": "Self",
+					"duration": "1 turn",
+					"stackable": "N/A"
+				},
+				"icon": "smuggler_riposte_stance"
+			},
+			"captains_order": {
+				"name": "Captain's Order",
+				"type": "basic",
+				"attribute": "leadership",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases damage by 15%. Not Stackable.",
+					"mastery": "Damage increases to 30%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 2
+					},
+					"range": "15m",
+					"target": "Single ally",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "smuggler_captains_order"
 			}
 		},
 		"passive": {
