@@ -2621,7 +2621,7 @@
 				"movement": 7
 			},
 			"skills": [
-				"for_sigmar"
+				"black_powder_trap"
 			],
 			"restrictions": {
 				"skills": [
@@ -2644,7 +2644,7 @@
 					"helmet"
 				]
 			},
-			"icon": "sis_sister_superior"
+			"icon": "smuggler"
 		},
 		"poison_wind_globadier": {
 			"type": "hero",
@@ -2709,7 +2709,7 @@
 				"movement": 7
 			},
 			"skills": [
-				"for_sigmar"
+				"poison_globe"
 			],
 			"restrictions": {
 				"skills": [
@@ -2731,7 +2731,7 @@
 					"helmet"
 				]
 			},
-			"icon": "sis_sister_superior"
+			"icon": "poison_wind_globadier"
 		},
 		"doomweaver": {
 			"type": "hero",
@@ -2796,7 +2796,7 @@
 				"movement": 6
 			},
 			"skills": [
-				"for_sigmar"
+				"favoured"
 			],
 			"restrictions": {
 				"skills": [
@@ -2821,7 +2821,7 @@
 					"helmet"
 				]
 			},
-			"icon": "sis_sister_superior"
+			"icon": "doomweaver"
 		},
 		"wolf_priest_of_ulric": {
 			"type": "hero",
@@ -2911,7 +2911,7 @@
 					"helmet"
 				]
 			},
-			"icon": "sis_sister_superior"
+			"icon": "wolf_priest_of_ulric"
 		}
 	},
 
@@ -4976,6 +4976,235 @@
 					"stackable": "No"
 				},
 				"icon": "possessed_touch_of_palsy"
+			},
+			"black_powder_trap": {
+				"name": "Black Powder Trap",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "Place a fake Search Point at target location that explodes when an enemy approaches within 0.5 meters. Deals 20-40 damage to everyone within 5m."
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0",
+					"target": "Special",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "smuggler_black_powder_trap"
+			},
+			"poison_globe": {
+				"name": "Poison Globe",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "Throw a globe that leaves a poisonous cloud at the selected area. Starting a turn inside the area deals 20-25 damage. Entering the area deals 15-20 damage and inflicts a poison debuff that deals an additional 15-20 poison damage per turn for 2 turns. Not Stackable."
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "15m",
+					"target": "Everyone within 3m of impact",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "globadier_poison_globe"
+			},
+						"warp_globe": {
+				"name": "Warp Globe",
+				"type": "basic",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Inflicts a random debuff from the following: -10% Melee or Ranged Resistance, or -20% Poison, Magic, or Critical Resistance. Effects last for 2 turns. Not stackable.",
+					"mastery": "Duration increases to 3 turns."
+				},
+				"info": {
+					"cost": {
+						"offense": 2
+					},
+					"range": "15m",
+					"target": "Everyone within 5m",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "globadier_warp_globe"
+			},
+			"": {
+				"name": "",
+				"type": "basic",
+				"attribute": "",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12 
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Inflicts a random buff from the following: +10% Melee or Ranged Resistance, or +20% Poison, Magic, or Critical Resistance. Effects last for 2 turns. Not stackable.",
+					"mastery": "Duration increases to 3 turns"
+				},
+				"info": {
+					"cost": {
+						"offense": 2
+					},
+					"range": "15m",
+					"target": "Everyone within 5m",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "globadier_enriched_globe"
+			},
+			"strangling_globe": {
+				"name": "Strangling Globe",
+				"type": "basic",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15 
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Prevents Spellcasting and vocal skills (such as Leadership buffs.)",
+					"mastery": "Duration increases to 2 turns."
+				},
+				"info": {
+					"cost": {
+						"offense": 4
+					},
+					"range": "15m",
+					"target": "Everyone within 5m",
+					"duration": "1 turn",
+					"stackable": "N/A"
+				},
+				"icon": "globadier_strangling_globe"
+			},
+			"infused_globe": {
+				"name": "Infused Globe",
+				"type": "basic",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15 
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Restores up to 15 wounds and inflicts a random debuff from the following: -1 OP, -1 movement range, - 15% athletics tests, or prevent Switch Weapons. Not Stackable.",
+					"mastery": "Wounds restored increases to 30"
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "15m",
+					"target": "Everyone within 5m",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "globadier_infused_globe"
+			},
+			"vent": {
+				"name": "Vent",
+				"type": "basic",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Reduces Melee and Ranged Hit chance by 10%. Not Stackable.",
+					"mastery": "Melee and Ranged Hit chance penalty increases to 20%"
+				},
+				"info": {
+					"cost": {
+						"offense": 2
+					},
+					"range": "0m",
+					"target": "Everyone within 5m of user",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "globadier_vent"
+			},
+			"warp_fumes": {
+				"name": "Warp Fumes",
+				"type": "basic",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Increases Melee Hit and Dodge chance by 10%. Reduces Ranged Hit chance and Ranged Resistance by 20%. Not Stackable.",
+					"mastery": "Melee Hit and Dodge bonus increases to 20%. Ranged Hit and Resistance penalty decreases to 15%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 3
+					},
+					"range": "0m",
+					"target": "Self",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "globadier_warp_fumes"
+			},
+			"wyrdstone_lure": {
+				"name": "Wyrdstone Lure",
+				"type": "basic",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12 
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Place a fake Wyrdstone Cluster at target location that explodes when an enemy approaches within 0.5 meters. Deals 10-20 poison damage and reduces movement range by 1m to everyone within 5m for 2 turns. Usable once per turn.",
+					"mastery": "Damage increases to 20-40"
+				},
+				"info": {
+					"cost": {
+						"offense": 2
+					},
+					"range": "0m",
+					"target": "Special",
+					"duration": "1 turn",
+					"stackable": "n/a"
+				},
+				"icon": "globadier_wyrdstone_lure"
 			}
 		},
 		"passive": {
@@ -6937,6 +7166,17 @@
 					"basic": "Enemies who engage or start the turn engaged with the user must perform a Terror test. Failing the test reduces maximum Offense and Strategy Points by 3. The debuff persists until passing a Terror test on turn start. Passing any Terror test will grant immunity to Terror for 2 turns."
 				},
 				"icon": "restricted_terror"
+			},
+			"favoured": {
+				"name": "Favoured",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "Increases the chance to trigger a Tzeentch Curse by 10% and only Curses with areas of effect will ever be triggered."
+				},
+				"icon": "doomweaver_favoured"
 			},
 			"heart_of_the_wolf": {
 				"name": "Heart of the Wolf",
