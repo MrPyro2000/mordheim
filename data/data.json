@@ -7546,6 +7546,414 @@
 					}
 				},
                 "icon": "wolf_priest_heart_of_the_wolf"
+			},
+			"paralysing_discharge": {
+				"name": "Paralysing Discharge",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "After dealing melee damage, the target gains a poison debuff that reduces Initiative by 5 for 1 turn. Stackable.",
+					"mastery": "Initiative penalty increases to 10"
+				},
+				"icon": "globadier_paralysing_discharge"
+			},
+			"invigorating_fumes": {
+				"name": "Invigorating Fumes",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Climb, Leap, and Jump Down chance by 15% and Charge and Ambush hit chance by 5%.",
+					"mastery": "Climb, Leap, and Jump Down chance increases by 30% and Charge and Ambush hit chance by 10%."
+				},
+				"icon": "globadier_invigorating_fumes"
+			},
+			"agitiation": {
+				"name": "Agitation",
+				"attribute": "alertness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "When receiving damage, Initiative increases by 5 for 2 turns. Stackable.",
+					"mastery": "Initiative bonus increases to 10"
+				},
+				"icon": "globadier_agitation"
+			},
+			"potent_globes": {
+				"name": "Potent Globes",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Globe skills used by the warrior will apply an additional debuff that reduces Poison Resistance by 10% for 1 turn. Not Stackable.",
+					"mastery": "Poison Resistance debuff increases to 20%"
+				},
+				"icon": "globadier_potent_globes"
+			},
+			"dagger_specialist": {
+				"name": "Dagger Specialist",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Gain +5% chance to hit and attacks bypass 5% of the target's Dodge and Parry chance when equipped with a dagger.",
+					"mastery": "Chance to hit, Dodge and Parry bypass increase by 10%"
+				},
+			    "effects": {
+					"basic": {
+					    "melee_hit_chance": 5
+					},
+					"mastery": {
+		                "melee_hit_chance": 10
+					},
+					"restrictions": [
+					    "dagger"
+					]
+				},
+				"icon": "globadier_dagger_specialist"
+			},
+			"warp_resistance": {
+				"name": "Warp Resistance",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Wyrdstone Resistance by 25%",
+					"mastery": "Wyrdstone Resistance increases by 50%"
+				},
+				"effects": {
+					"basic": {
+					    "wyrdstone": 25
+					},
+					"mastery": {
+					    "wyrdstone": 50
+					}
+				},
+				"icon": "globadier_warp_resistance"
+			},
+			"warp_rush": {
+				"name": "Warp Rush",
+				"attribute": "alertness",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "After gathering a Wyrdstone, Initiative increases by 10 for 2 turns. Not Stackable.",
+					"mastery": "Initative bonus increases to 20"
+				},
+				"icon": "globadier_warp_rush"
+			},
+			"expert_fencer": {
+				"name": "Expert Fencer",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Melee Resistance and Parry chance by 5% and Initiative by 5 when equipped with a dagger or sword.",
+					"mastery": "Melee Resistance and Parry chance increased by 10% and Initiative by 10"
+				},
+				"effects": {
+					"basic": {
+					    "parry": 5,
+						"melee": 5,
+						"initiative": 5
+					},
+					"mastery": {
+					    "parry": 10,
+						"melee": 10,
+						"initiative": 10
+					},
+					"restrictions": [
+					    "dagger",
+						"sword"
+					]
+				},
+				"icon": "smuggler_expert_fencer"
+			},
+			"tight_crew": {
+				"name": "Tight Crew",
+				"attribute": "agility",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "When another ally is engaged with the same enemy, increases Dodge and Parry bypass against the target by 10%.",
+					"mastery": "Dodge and Parry bypass increases to 20%"
+				},
+				"icon": "smuggler_tight_crew"
+			},
+			"fine_tuning": {
+				"name": "Fine-Tuning",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases ranged Critical hit chance by 5% when using black powder weapons.",
+					"mastery": "Ranged Critical hit chance increases by 10%"
+				},
+				"effects": {
+					"basic": {
+					    "critical_hit_chance": 5
+					},
+					"mastery": {
+					    "critical_hit_chance": 10
+					},
+					"restrictions": [
+					    "duelling_pistols",
+						"pistol",
+						"blunderbuss",
+						"handgun",
+						"hunting_rifle"
+					]
+				},
+				"icon": "smuggler_fine_tuning"
+			},
+			"in_and_out": {
+				"name": " In and Out",
+				"attribute": "alertness",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " After gathering a Wyrdstone, increases Movement range by 1 meter and Initiative by 5 for 2 turns. Not Stackable.",
+					"mastery": "Movement ragnce increases by 2 and Initiative by 10"
+				},
+				"icon": "smuggler_in_and_out"
+			},
+			"walk_the_topsail": {
+				"name": "Walk the Topsail",
+				"attribute": "agility",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases the chance to pass Climb, Leap, and Jump Down tests by 25%.",
+					"mastery": "Chance to pass Climb, Leap, and Jump Down tests increased by 50%"
+				},
+				"icon": "smuggler_walk_the_topsail"
+			},
+			"boarding_prowess": {
+				"name": "Boarding Prowess",
+				"attribute": "agility",
+				"requirements": {
+					"basic": 3,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Increases the Critical hit chance of Charge, Leap and Jump Down attacks by 10%.",
+					"mastery": "Critical hit chance of Charge, Leap and Jump Down attacks increased by 20%"
+				},
+				"icon": "smuggler_boarding_prowess"
+			},
+			"survival_instinct": {
+				"name": "Survival Instinct",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "When engaged with 2 or more enemies, increases melee Critical hit chance by 5%. Not Stackable.",
+					"mastery": "Critical hit chance increases by 10%"
+				},
+				"icon": "smuggler_survival_instinct"
+			},
+			"ulrics_chosen": {
+				"name": "Ulric's Chosen",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Spellcasting chance and Critical Hit Damage by 5%.",
+					"mastery": "Spellcasting chance and Critical Hit damage increase by 10%"
+				},
+				"effects": {
+					"basic": {
+					    "critical_hit_damage": 5
+					},
+					"mastery": {
+					    "critical_hit_damage": 10
+					}
+				},
+				"icon": "wolf_priest_ulrics_chosen"
+			},
+			"ulrics_fury": {
+				"name": "Ulric's Fury",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "After dealing melee damage, Spell Damage increases by 15%. The next action taken must be a spell or the effect is lost.",
+					"mastery": "Spell damage increases by 30%"
+				},
+				"icon": "wolf_priest_ulrics_fury"
+			},
+			"northern_tenacity": {
+				"name": "Northern Tenacity",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " After dealing melee damage, Critical Resistance increases by 5% for 1 turn. Stackable.",
+					"mastery": "Critical Resistance increases by 10%."
+				},
+				"icon": "wolf_priest_northern_tenacity"
+			},
+            "daub_of_obscurity": {
+				"name": "Daub of Obscurity",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Increases Melee and Ranged Resistance by 5%",
+					"mastery": "Melee and Ranged Resistances increase by 10%"
+				},
+				"effects": {
+					"basic": {
+					    "melee": 5,
+                        "ranged": 5
+					},
+					"mastery": {
+						"melee": 10,
+                        "ranged": 10
+					}
+				},
+				"icon": "doomweaver_daub_of_obscurity"
+			},
+			"daub_of_change": {
+				"name": "Daub of Change",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases the chance to trigger a Tzeentch Curse by 10%.",
+					"mastery": "Chance to trigger Tzeentch Curse increases by 20%"
+				},
+				"icon": "doomweaver_daub_of_change"
+			},
+			"daub_of_hatred": {
+				"name": "Daub of Hatred",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Increases Spell Damage by 10%.",
+					"mastery": "Spell damage increased by 20%"
+				},
+				"icon": "doomweaver_daub_of_hatred"
 			}
 		}
 	},
