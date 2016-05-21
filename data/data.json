@@ -2798,7 +2798,13 @@
 			"skills": [
 				"favoured"
 			],
+			"spells": [
+				"boon_of_ruin"
+			],
 			"restrictions": {
+				"spells": [
+					"doomweaver"
+				],
 				"skills": [
 					"sisters_of_sigmar"
 				],
@@ -2888,7 +2894,13 @@
 			"skills": [
 				"heart_of_the_wolf"
 			],
+			"spells": [
+				"ulrics_gift"
+			],
 			"restrictions": {
+				"spells": [
+					"wolf_priest"
+				],
 				"skills": [
 					"wolf_priest_of_ulric",
 					"divine_caster"
@@ -8852,6 +8864,454 @@
 				"divine_wrath": "+25%"
 			},
 			"icon": "skaven_warp_lightning"
+		},
+        "ulrics_gift": {
+			"name": "Ulric's Gift",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": " Increases melee Hit chance and melee Damage by 10%. Grants immunity to All Alone. Prevents the use of Flee, Disengage, and ranged attacks and skills. Not Stackable.",
+				"mastery": "Melee Hit chance and melee damage boost increased to 20%. Range increased to 30m. Casting chance and Wrath chance increased by 5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wolf_priest_ulrics_gift"
+		},
+		"wild_pack": {
+			"name": "Wild Pack",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Grants immunity to fear and provokes Fear on engaged enemies, reducing melee Hit chance by 10%. Not Stackable.",
+				"mastery": "Fear penalty increases to 30% hit chance. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Self and allies within 5m of caster",
+				"divine_wrath": "+20%"
+			},
+			"icon": "wolf_priest_wild_pack"
+		},
+		"howl_of_the_wolf": {
+			"name": "Howl of the Wolf",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Reduces the cost of Charge by 1 Offense Point. When another ally is engaged with the same enemy, increases melee Hit chance and Critical hit chance by 5%. Not Stackable.",
+				"mastery": "Melee hit change and Critical Hit chance increased by 10%. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Self and allies within 5m of caster",
+				"divine_wrath": "+20%"
+			},
+			"icon": "wolf_priest_howl_of_the_wolf"
+		},
+		"winters_chill": {
+			"name": "Winter's Chill",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Enemies engaged with target receive a debuff that reduces melee Hit chance and melee Damage by 10% for 1 turn. Not Stackable.",
+				"mastery": "Melee Hit chance and Damage penalty increases to 20%, range to 30m. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Self or single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wolf_priest_winters_chill"
+		},
+		"snow_kings_decree": {
+			"name": "Snow King's Decree",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "When performing a melee or ranged attack, inflicts 10-15 damage to self. Priests of Ulric are immune. Not Stackable.",
+				"mastery": "Damage increases to 20-30, range to 30m. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single enemy",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wolf_priest_snow_kings_decree"
+		},
+		"ice_storm": {
+			"name": "Ice Storm",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 8-12 damage and reduces maximum and current Offense Points by 1. Not Stackable.",
+				"mastery": "Damage increases to 16-24, range to 30m. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-25%",
+				"target": "Everyone within 5m",
+				"divine_wrath": "+25%"
+			},
+			"icon": "wolf_priest_ice_storm"
+		},
+		"frosts_bite": {
+			"name": "Frost's Bite",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 12-17 damage and reduces maximum Strategy Points by 1. Bypasses Armour Absorption. Not Stackable.",
+				"mastery": "Damage increases to 24-34, SP penalty increases to 3, range increases to 30m. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Single enemy",
+				"divine_wrath": "+20%"
+			},
+			"icon": "wolf_priest_frosts_bite"
+		},
+		"blessing_of_ulric": {
+			"name": "Blessing of Ulric",
+			"type": "wolf_priest",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": " Increases Melee Critical hit chance by 5% and Critical damage by 15%. Not Stackable.",
+				"mastery": "Melee Critical hit chance increases by 10% and Critical damage by 30%. Casting chance and Wrath chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-25%",
+				"target": "self and allies within 5m of caster.",
+				"divine_wrath": "+25%"
+			},
+			"icon": "wolf_priest_blessing_of_ulric"
+		},
+		"boon_of_ruin": {
+			"name": "Boon of Ruin",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Reduces the cost of Counter-Attack by 1 Offense Point and increases Melee Hit Chance by 10%. When performing a melee attack, suffer 10-20 damage. Not Stackable.",
+				"mastery": "Melee Hit Chance increases by 20%, damage to 20-30, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single ally or enemy",
+				"divine_wrath": "+15%"
+			},
+			"icon": "doomweaver_boon_of_ruin"
+		},
+		"warp_accretion": {
+			"name": "Warp Accretion",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": " Increases Wyrdstone Resistance by 20%. Gathering a Wyrdstone increases Critical Resistance by 10% for 2 turns. Stackable.",
+				"mastery": "Wyrdstone Resistance increases by 40%, Critical Resistance by 20%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Self or single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "doomweaver_warp_accretion"
+		},
+		"spiteful_manifestation": {
+			"name": "Spiteful Manifestation",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 8-13 damage and reduces Armour Absorption by 10%. Bypasses Armour Absorption. Not Stackable.",
+				"mastery": "Damage increases to 16-26, Armour Absorption penalty to 20%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-25%",
+				"target": "Everyone in a 5m radius",
+				"divine_wrath": "+25%"
+			},
+			"icon": "doomweaver_spiteful_manifestation"
+		},
+		"burning_blood": {
+			"name": "Burning Blood",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 10-14 damage and inflicts a debuff that deals 14-18 damage on the target's next turn. Bypasses Armour Absorption. Stackable.",
+				"mastery": "Damage increases to 20-28, debuff Damage to 28-36, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-25%",
+				"target": "Single enemy",
+				"divine_wrath": "+25%"
+			},
+			"icon": "doomweaver_burning_blood"
+		},
+		"idol_of_blood": {
+			"name": "Idol of Blood",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Summons an idol at target area. Allies near the totem cannot use Flee or Disengage, are immune to All Alone, and gain 5 wounds when dealing melee damage. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
+				"mastery": "Wounds gained increased to 10, range to 10m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "5m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Allies within 5m of the idol",
+				"divine_wrath": "+20%"
+			},
+			"icon": "doomweaver_idol_of_blood"
+		},
+		"idol_of_change": {
+			"name": "Idol of Change",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Summons an idol at target area. Everyone near the totem is purged of Magic effects, gains 25% Magic Resistance, and has their Spellcasting cost reduced by 1 Offense Point for Arcane spells and increased by 1 Offense Point for Divine spells. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
+				"mastery": "Magic Resistance increases by 50%, range to 10m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "5m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Everyone within 5m of the idol",
+				"divine_wrath": "+20%"
+			},
+			"icon": "doomweaver_idol_of_change"
+		},
+		"idol_of_pestilence": {
+			"name": "Idol of Pestilence",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Summons an idol at target area.  Enemies near the totem have their 9 primary attributes reduced by 2. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
+				"mastery": "Primary attribute penalty increased to 4, range to 10m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "5m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Enemies within 5m of the idol",
+				"divine_wrath": "+20%"
+			},
+			"icon": "doomweaver_idol_of_pestilence"
+		},
+		"idol_of_lust": {
+			"name": "Idol of Lust",
+			"type": "doomweaver",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Summons an idol at target area. When receiving damage, Allies near the totem gain a buff that reduces Morale Impact by 2 and increases Stun and Critical Resistance by 10%. The idol must be placed on a walk-able area, and can be destroyed by enemies. Only 1 idol may be created per turn",
+				"mastery": "Morale Impact reduction increases to 4, Stun and Critical Resistance increase by 20%, range to 10m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "5m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Allies within 5m of the idol",
+				"divine_wrath": "+20%"
+			},
+			"icon": "doomweaver_idol_of_lust"
 		}
 	},
 
