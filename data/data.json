@@ -2644,9 +2644,9 @@
 					"helmet"
 				]
 			},
-			"icon": "smuggler"
+			"icon": "dlc_smuggler"
 		},
-		"poison_wind_globadier": {
+		"globadier": {
 			"type": "hero",
 			"rating": 99,
 			"wounds": 104,
@@ -2731,7 +2731,7 @@
 					"helmet"
 				]
 			},
-			"icon": "poison_wind_globadier"
+			"icon": "dlc_globadier"
 		},
 		"doomweaver": {
 			"type": "hero",
@@ -2827,9 +2827,9 @@
 					"helmet"
 				]
 			},
-			"icon": "doomweaver"
+			"icon": "dlc_doomweaver"
 		},
-		"wolf_priest_of_ulric": {
+		"wolf_priest": {
 			"type": "hero",
 			"rating": 96,
 			"wounds": 114,
@@ -2923,7 +2923,7 @@
 					"helmet"
 				]
 			},
-			"icon": "wolf_priest_of_ulric"
+			"icon": "dlc_wolf_priest"
 		}
 	},
 
@@ -7557,7 +7557,7 @@
 						"terror": 35
 					}
 				},
-                "icon": "wolf_priest_heart_of_the_wolf"
+        "icon": "wolf_priest_heart_of_the_wolf"
 			},
 			"paralysing_discharge": {
 				"name": "Paralysing Discharge",
