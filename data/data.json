@@ -2625,7 +2625,7 @@
 			],
 			"restrictions": {
 				"skills": [
-					"sisters_of_sigmar"
+					"smuggler"
 				],
 				"equipment": [
 					"empty_hand",
@@ -2713,7 +2713,7 @@
 			],
 			"restrictions": {
 				"skills": [
-					"sisters_of_sigmar"
+					"globadier"
 				],
 				"equipment": [
 					"empty_hand",
@@ -2806,7 +2806,7 @@
 					"doomweaver"
 				],
 				"skills": [
-					"sisters_of_sigmar"
+					"doomweaver"
 				],
 				"equipment": [
 					"empty_hand",
@@ -2902,7 +2902,7 @@
 					"wolf_priest"
 				],
 				"skills": [
-					"wolf_priest_of_ulric",
+					"wolf_priest",
 					"divine_caster"
 				],
 				"equipment": [
@@ -5029,7 +5029,7 @@
 				},
 				"icon": "globadier_poison_globe"
 			},
-						"warp_globe": {
+			"warp_globe": {
 				"name": "Warp Globe",
 				"type": "basic",
 				"attribute": "ballistic_skill",
@@ -5056,10 +5056,10 @@
 				},
 				"icon": "globadier_warp_globe"
 			},
-			"": {
-				"name": "",
+			"enriched_globe": {
+				"name": "Enriched Globe",
 				"type": "basic",
-				"attribute": "",
+				"attribute": "ballistic_skill",
 				"requirements": {
 					"basic": 6,
 					"mastery": 12 
@@ -7593,7 +7593,7 @@
 				},
 				"icon": "globadier_invigorating_fumes"
 			},
-			"agitiation": {
+			"agitation": {
 				"name": "Agitation",
 				"attribute": "alertness",
 				"requirements": {

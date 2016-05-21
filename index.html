@@ -380,7 +380,150 @@
               </tbody>
             </table>
             <div class="selector-ability">
-              <form class="ability-select form-inline"><select id="skill-select-active" class="form-control" name="skill"><option>Select a skill</option><optgroup class="skill-options-basic" label="Strength"><option value="mighty_charge">Mighty Charge</option><option value="swift_charge">Swift Charge</option><option value="kidney_strike">Kidney Strike</option><option value="strong_blow">Strong Blow</option><option value="daredevil">Daredevil</option><option value="overpower">Overpower</option></optgroup><optgroup class="skill-options-basic" label="Toughness"><option value="frenzy">Frenzy</option><option value="intensity">Intensity</option><option value="adrenaline_rush">Adrenaline Rush</option><option value="exhaustion">Exhaustion</option><option value="cauterize">Cauterize</option><option value="ignore_pain">Ignore Pain</option></optgroup><optgroup class="skill-options-basic" label="Agility"><option value="quick_leap">Quick Leap</option><option value="swift_jump">Swift Jump</option><option value="careful_approach">Careful Approach</option><option value="wall_runner">Wall Runner</option><option value="prowl">Prowl</option><option value="sidestep">Sidestep</option></optgroup><optgroup class="skill-options-mixed" label="Leadership"><option class="skill-options-leader" value="courage">Courage</option><option class="skill-options-leader" value="rallying_cry">Rallying Cry</option><option class="skill-options-basic" value="taunt">Taunt</option><option class="skill-options-basic" value="threaten">Threaten</option><option class="skill-options-leader" value="coordination">Coordination</option><option class="skill-options-basic" value="guidance">Guidance</option><option class="skill-options-basic" value="hold_ground">Hold Ground</option><option class="skill-options-basic" value="insult">Insult</option><option class="skill-options-basic" value="intimidate">Intimidate</option><option class="skill-options-leader" value="order">Order</option><option class="skill-options-leader" value="retreat">Retreat</option><option class="skill-options-leader" value="war_cry">War Cry</option></optgroup><optgroup class="skill-options-mixed" label="Intelligence"><option class="skill-options-basic" value="battle_plan">Battle Plan</option><option class="skill-options-basic" value="combat_savy">Combat Savy</option><option class="skill-options-basic" value="exploit_positioning">Exploit Positioning</option><option class="skill-options-arcane-caster" value="wild_casting">Wild Casting</option><option class="skill-options-divine-caster" value="plea">Plea</option><option class="skill-options-arcane-caster" value="quick_casting">Quick Casting</option><option class="skill-options-divine-caster" value="quick_prayer">Quick Prayer</option><option class="skill-options-basic" value="study">Study</option><option class="skill-options-basic" value="introspection">Introspection</option><option class="skill-options-basic" value="meditation">Meditation</option></optgroup><optgroup class="skill-options-basic" label="Alertness"><option value="staggering_blow">Staggering Blow</option><option value="stimulus">Stimulus</option><option value="ready_stance">Ready Stance</option><option value="scouts_advice">Scout's Advice</option><option value="deft_stance">Deft Stance</option><option value="safe_stance">Safe Stance</option></optgroup><optgroup class="skill-options-basic" label="Weapon Skill"><option value="combat_focus">Combat Focus</option><option value="jaw_strike">Jaw Strike</option><option value="defensive_stance">Defensive Stance</option><option value="hamstring">Hamstring</option><option value="onslaught">Onslaught</option><option value="web_of_steel">Web of Steel</option></optgroup><optgroup class="skill-options-basic" label="Ballistic Skill"><option value="hand_shot">Hand Shot</option><option value="knee_shot">Knee Shot</option><option value="crippling_shot">Crippling Shot</option><option value="pinning_shot">Pinning Shot</option><option value="entrenched">Entrenched</option><option value="nerve_shot">Nerve Shot</option></optgroup><optgroup class="skill-options-basic" label="Accuracy"><option value="vital_shot">Vital Shot</option><option value="vital_strike">Vital Strike</option><option value="feint">Feint</option><option value="precise_strike">Precise Strike</option><option value="armour_break">Armour Break</option><option value="head_shot">Head Shot</option></optgroup><optgroup class="skill-options-human-mercenaries" label="Human Mercenaries"><option value="guard_stance">Guard Stance</option><option value="sniper_shot">Sniper Shot</option><option value="tactician">Tactician</option></optgroup><optgroup class="skill-options-sisters-of-sigmar" label="Sisters of Sigmar"><option value="prayer_of_swiftness">Prayer of Swiftness</option><option value="righteous_fury">Righteous Fury</option><option value="sign_of_sigmar">Sign of Sigmar</option></optgroup><optgroup class="skill-options-clan-eshin" label="Clan Eshin"><option value="black_hunger">Black Hunger</option><option value="numbing_poison">Numbing Poison</option><option value="warp_poison">Warp Poison</option></optgroup><optgroup class="skill-options-cult-of-the-possessed" label="Cult of the Possessed"><option value="attracting_lure">Attracting Lure</option><option value="blood_offering">Blood Offering</option><option value="touch_of_palsy">Touch of Palsy</option></optgroup></select><button id="skill-action-add-active" type="button"><img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button></form>
+                <form class="ability-select form-inline">
+					<select id="skill-select-active" class="form-control" name="skill">
+						<option>Select a skill</option>
+					<optgroup class="skill-options-basic" label="Strength">
+						<option value="mighty_charge">Mighty Charge</option>
+						<option value="swift_charge">Swift Charge</option>
+						<option value="kidney_strike">Kidney Strike</option>
+						<option value="strong_blow">Strong Blow</option>
+						<option value="daredevil">Daredevil</option>
+						<option value="overpower">Overpower</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Toughness">
+						<option value="frenzy">Frenzy</option>
+						<option value="intensity">Intensity</option>
+						<option value="adrenaline_rush">Adrenaline Rush</option>
+						<option value="exhaustion">Exhaustion</option>
+						<option value="cauterize">Cauterize</option>
+						<option value="ignore_pain">Ignore Pain</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Agility">
+						<option value="quick_leap">Quick Leap</option>
+						<option value="swift_jump">Swift Jump</option>
+						<option value="careful_approach">Careful Approach</option>
+						<option value="wall_runner">Wall Runner</option>
+						<option value="prowl">Prowl</option>
+						<option value="sidestep">Sidestep</option>
+					</optgroup>
+					<optgroup class="skill-options-mixed" label="Leadership">
+						<option class="skill-options-leader" value="courage">Courage</option>
+						<option class="skill-options-leader" value="rallying_cry">Rallying Cry</option>
+						<option class="skill-options-basic" value="taunt">Taunt</option>
+						<option class="skill-options-basic" value="threaten">Threaten</option>
+						<option class="skill-options-leader" value="coordination">Coordination</option>
+						<option class="skill-options-basic" value="guidance">Guidance</option>
+						<option class="skill-options-basic" value="hold_ground">Hold Ground</option>
+						<option class="skill-options-basic" value="insult">Insult</option>
+						<option class="skill-options-basic" value="intimidate">Intimidate</option>
+						<option class="skill-options-leader" value="order">Order</option>
+						<option class="skill-options-leader" value="retreat">Retreat</option>
+						<option class="skill-options-leader" value="war_cry">War Cry</option>
+					</optgroup>
+					<optgroup class="skill-options-mixed" label="Intelligence">
+						<option class="skill-options-basic" value="battle_plan">Battle Plan</option>
+						<option class="skill-options-basic" value="combat_savy">Combat Savy</option>
+						<option class="skill-options-basic" value="exploit_positioning">Exploit Positioning</option>
+						<option class="skill-options-arcane-caster" value="wild_casting">Wild Casting</option>
+						<option class="skill-options-divine-caster" value="plea">Plea</option>
+						<option class="skill-options-arcane-caster" value="quick_casting">Quick Casting</option>
+						<option class="skill-options-divine-caster" value="quick_prayer">Quick Prayer</option>
+						<option class="skill-options-basic" value="study">Study</option>
+						<option class="skill-options-basic" value="introspection">Introspection</option>
+						<option class="skill-options-basic" value="meditation">Meditation</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Alertness">
+						<option value="staggering_blow">Staggering Blow</option>
+						<option value="stimulus">Stimulus</option>
+						<option value="ready_stance">Ready Stance</option>
+						<option value="scouts_advice">Scout's Advice</option>
+						<option value="deft_stance">Deft Stance</option>
+						<option value="safe_stance">Safe Stance</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Weapon Skill">
+						<option value="combat_focus">Combat Focus</option>
+						<option value="jaw_strike">Jaw Strike</option>
+						<option value="defensive_stance">Defensive Stance</option>
+						<option value="hamstring">Hamstring</option>
+						<option value="onslaught">Onslaught</option>
+						<option value="web_of_steel">Web of Steel</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Ballistic Skill">
+						<option value="hand_shot">Hand Shot</option>
+						<option value="knee_shot">Knee Shot</option>
+						<option value="crippling_shot">Crippling Shot</option>
+						<option value="pinning_shot">Pinning Shot</option>
+						<option value="entrenched">Entrenched</option>
+						<option value="nerve_shot">Nerve Shot</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Accuracy">
+						<option value="vital_shot">Vital Shot</option>
+						<option value="vital_strike">Vital Strike</option>
+						<option value="feint">Feint</option>
+						<option value="precise_strike">Precise Strike</option>
+						<option value="armour_break">Armour Break</option>
+						<option value="head_shot">Head Shot</option>
+					</optgroup>
+					<optgroup class="skill-options-human-mercenaries" label="Human Mercenaries">
+						<option value="guard_stance">Guard Stance</option>
+						<option value="sniper_shot">Sniper Shot</option>
+						<option value="tactician">Tactician</option>
+					</optgroup>
+					<optgroup class="skill-options-sisters-of-sigmar" label="Sisters of Sigmar">
+						<option value="prayer_of_swiftness">Prayer of Swiftness</option>
+						<option value="righteous_fury">Righteous Fury</option>
+						<option value="sign_of_sigmar">Sign of Sigmar</option>
+					</optgroup>
+					<optgroup class="skill-options-clan-eshin" label="Clan Eshin">
+						<option value="black_hunger">Black Hunger</option>
+						<option value="numbing_poison">Numbing Poison</option>
+						<option value="warp_poison">Warp Poison</option>
+					</optgroup>
+					<optgroup class="skill-options-cult-of-the-possessed" label="Cult of the Possessed">
+						<option value="attracting_lure">Attracting Lure</option>
+						<option value="blood_offering">Blood Offering</option>
+						<option value="touch_of_palsy">Touch of Palsy</option>
+					</optgroup>
+					<optgroup class="skill-options-smuggler" label="Smuggler">
+					    <option value="impact_shot">Impact Shot</option>
+						<option value="liquid_courage">Liquid Courage</option>
+						<option value="riposte_stance">Riposte Stance</option>
+						<option value="captains_speech">Captain's Speech</option>
+						<option value="sniper_shot">Sniper Shot</option>
+						<option value="tactician">Tactician</option>
+						<option value="white_powder_trap">White Powder Trap</option>
+						<option value="captains_order">Captain's Order</option>
+						<option value="hand_bomb">Hand Bomb</option>
+					</optgroup>
+					<optgroup class="skill-options-globadier" label="Poison Wind Globadier">
+					    <option value="vent">Vent</option>
+						<option value="warp_fumes">Warp Fumes</option>
+						<option value="warp_globe">Warp Globe</option>
+						<option value="enriched_globe">Enriched Globe</option>
+						<option value="numbing_poison">Numbing Poison</option>
+						<option value="warp_poison">Warp Poison</option>
+						<option value="wyrdstone_lure">Wyrdstone Lure</option>
+						<option value="infused_globe">Infused Globe</option>
+						<option value="strangling_globe">Strangling Globe</option>
+					</optgroup>
+					<optgroup class="skill-options-doomweaver" label="Doomweaver">
+					    <option value="blood_offering">Blood Offering</option>
+						<option value="ritual_of_defiance">Ritual of Defiance</option>
+						<option value="ritual_of_suffering">Ritual of Suffering</option>
+						<option value="touch_of_palsy">Touch of Palsy</option>
+						<option value="ritual_of_scorn">Ritual of Scorn</option>
+					</optgroup>
+					<optgroup class="skill-options-wolf-priest" label="Wolf-Priest of Ulric">
+					    <option value="alpha_howl">Alpha Howl</option>
+						<option value="guard_stance">Guard Stance</option>
+						<option value="righteous_fury">Righteous Fury</option>
+						<option value="crush_the_weak">Crush the Weak</option>
+						<option value="wild_swipe">Wild Swipe</option>
+					</optgroup>
+				</select>
+				<button id="skill-action-add-active" type="button">	<img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button>
+			    </form>
             </div>
             <h4>Passive Skills <small id="skillslots-remaining-passive" class="slots-remaining-panel pull-right">0 / 5 Skillslots used</small></h4>
             <table id="skill-table-passive" class="table table-ability">
@@ -391,7 +534,153 @@
               </tbody>
             </table>
             <div class="selector-ability">
-              <form class="ability-select form-inline"><select id="skill-select-passive" class="form-control" name="skill"><option>Select a skill</option><optgroup class="skill-options-basic" label="Strength"><option value="blitz">Blitz</option><option value="bull_charge">Bull Charge</option><option value="armour_proficient">Armour Proficient</option><option value="strider">Strider</option><option value="assault">Assault</option><option value="surprise">Surprise</option></optgroup><optgroup class="skill-options-basic" label="Toughness"><option value="resist_poison">Resist Poison</option><option value="unstoppable">Unstoppable</option><option value="hardy">Hardy</option><option value="quick_recovery">Quick Recovery</option><option value="resilient">Resilient</option><option value="veteran">Veteran</option></optgroup><optgroup class="skill-options-basic" label="Agility"><option value="ambuscade">Ambuscade</option><option value="athletic_expert">Athletic Expert</option><option value="acrobatic">Acrobatic</option><option value="counterblow">Counterblow</option><option value="avoid">Avoid</option><option value="quick_draw">Quick Draw</option></optgroup><optgroup class="skill-options-mixed" label="Leadership"><option class="skill-options-leader" value="commander">Commander</option><option class="skill-options-basic" value="coolheaded">Coolheaded</option><option class="skill-options-basic" value="demoralize">Demoralize</option><option class="skill-options-basic" value="inspiring">Inspiring</option><option class="skill-options-leader" value="battle_tongue">Battle Tongue</option><option class="skill-options-basic" value="force_of_will">Force Of Will</option><option class="skill-options-basic" value="nerves_of_steel">Nerves Of Steel</option><option class="skill-options-basic" value="serenity">Serenity</option><option class="skill-options-leader" value="heroic_presence">Heroic Presence</option><option class="skill-options-born-leader" value="born_leader">Born Leader</option></optgroup><optgroup class="skill-options-mixed" label="Intelligence"><option class="skill-options-arcane-caster" value="channeling">Channeling</option><option class="skill-options-divine-caster" value="devotion">Devotion</option><option class="skill-options-basic" value="knowledge_tactics">Knowledge: Tactics</option><option class="skill-options-basic" value="resist_magic">Resist Magic</option><option class="skill-options-basic" value="knowledge_ambush">Knowledge: Ambush</option><option class="skill-options-lads-got-talent" value="lads_got_talent">Lad's Got Talent</option><option class="skill-options-basic" value="tracker">Tracker</option><option class="skill-options-arcane-caster" value="arcane_study">Arcane Study</option><option class="skill-options-divine-caster" value="divine_study">Divine Study</option><option class="skill-options-arcane-caster" value="expert_casting">Expert Casting</option><option class="skill-options-divine-caster" value="piety">Piety</option><option class="skill-options-arcane-caster" value="improved_casting">Improved Casting</option><option class="skill-options-divine-caster" value="improved_prayer">Improved Prayer</option><option class="skill-options-basic" value="knowledge_mordheim">Knowledge: Mordheim</option><option class="skill-options-basic" value="resist_corruption">Resist Corruption</option></optgroup><optgroup class="skill-options-basic" label="Alertness"><option value="sixth_sense">Sixth Sense</option><option value="vigilance">Vigilance</option><option value="combat_movement">Combat Movement</option><option value="concealment">Concealment</option><option value="awareness">Awareness</option><option value="nimble">Nimble</option></optgroup><optgroup class="skill-options-basic" label="Weapon Skill"><option value="flash_parry">Flash Parry</option><option value="shield_specialist">Shield Specialist</option><option value="hit_and_run">Hit And Run</option><option value="retaliation">Retaliation</option><option value="anticipation">Anticipation</option><option value="swift_counter">Swift Counter</option></optgroup><optgroup class="skill-options-basic" label="Ballistic Skill"><option value="eagle_eyes">Eagle Eyes</option><option value="overhead">Overhead</option><option value="quick_reload">Quick Reload</option><option value="trick_shooter">Trick Shooter</option><option value="bullseye">Bullseye</option><option value="sharpshooter">Sharpshooter</option></optgroup><optgroup class="skill-options-basic" label="Accuracy"><option value="quick_incision">Quick Incision</option><option value="weak_spot">Weak Spot</option><option value="fatality">Fatality</option><option value="underdog">Underdog</option><option value="break_defenses">Break Defenses</option><option value="deep_wounds">Deep Wounds</option></optgroup><optgroup class="skill-options-human-mercenaries" label="Human Mercenaries"><option value="combat_expertise">Combat Expertise</option><option value="flawless_positioning">Flawless Positioning</option><option value="hunter">Hunter</option></optgroup><optgroup class="skill-options-sisters-of-sigmar" label="Sisters of Sigmar"><option value="absolute_faith">Absolute Faith</option><option value="divine_aegis">Divine Aegis</option><option value="protection_of_sigmar">Protection Of Sigmar</option></optgroup><optgroup class="skill-options-clan-eshin" label="Clan Eshin"><option value="art_of_silent_death">Art Of Silent Death</option><option value="poison_expert">Poison Expert</option><option value="swarm">Swarm</option></optgroup><optgroup class="skill-options-cult-of-the-possessed" label="Cult of the Possessed"><option value="chaos_evolution">Chaos Evolution</option><option value="chaotic_advantage">Chaotic Advantage</option><option value="tzeentchs_warding">Tzeentch's Warding</option></optgroup></select><button id="skill-action-add-passive" type="button"><img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button></form>
+				<form class="ability-select form-inline">
+					<select id="skill-select-passive" class="form-control" name="skill">		
+						<option>Select a skill</option>
+					<optgroup class="skill-options-basic" label="Strength">
+						<option value="blitz">Blitz</option>
+						<option value="bull_charge">Bull Charge</option>
+						<option value="armour_proficient">Armour Proficient</option>
+						<option value="strider">Strider</option>
+						<option value="assault">Assault</option>
+						<option value="surprise">Surprise</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Toughness">
+						<option value="resist_poison">Resist Poison</option>
+						<option value="unstoppable">Unstoppable</option>
+						<option value="hardy">Hardy</option>
+						<option value="quick_recovery">Quick Recovery</option>
+						<option value="resilient">Resilient</option>
+						<option value="veteran">Veteran</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Agility">
+						<option value="ambuscade">Ambuscade</option>
+						<option value="athletic_expert">Athletic Expert</option>
+						<option value="acrobatic">Acrobatic</option>
+						<option value="counterblow">Counterblow</option>
+						<option value="avoid">Avoid</option>
+						<option value="quick_draw">Quick Draw</option>
+					</optgroup>
+					<optgroup class="skill-options-mixed" label="Leadership">
+						<option class="skill-options-leader" value="commander">Commander</option>
+						<option class="skill-options-basic" value="coolheaded">Coolheaded</option>
+						<option class="skill-options-basic" value="demoralize">Demoralize</option>
+						<option class="skill-options-basic" value="inspiring">Inspiring</option>
+						<option class="skill-options-leader" value="battle_tongue">Battle Tongue</option>
+						<option class="skill-options-basic" value="force_of_will">Force Of Will</option>
+						<option class="skill-options-basic" value="nerves_of_steel">Nerves Of Steel</option>
+						<option class="skill-options-basic" value="serenity">Serenity</option>
+						<option class="skill-options-leader" value="heroic_presence">Heroic Presence</option>
+						<option class="skill-options-born-leader" value="born_leader">Born Leader</option>
+					</optgroup>
+					<optgroup class="skill-options-mixed" label="Intelligence">
+						<option class="skill-options-arcane-caster" value="channeling">Channeling</option>
+						<option class="skill-options-divine-caster" value="devotion">Devotion</option>
+						<option class="skill-options-basic" value="knowledge_tactics">Knowledge: Tactics</option>
+						<option class="skill-options-basic" value="resist_magic">Resist Magic</option>
+						<option class="skill-options-basic" value="knowledge_ambush">Knowledge: Ambush</option>
+						<option class="skill-options-lads-got-talent" value="lads_got_talent">Lad's Got Talent</option>
+						<option class="skill-options-basic" value="tracker">Tracker</option>
+						<option class="skill-options-arcane-caster" value="arcane_study">Arcane Study</option>
+						<option class="skill-options-divine-caster" value="divine_study">Divine Study</option>
+						<option class="skill-options-arcane-caster" value="expert_casting">Expert Casting</option>
+						<option class="skill-options-divine-caster" value="piety">Piety</option>
+						<option class="skill-options-arcane-caster" value="improved_casting">Improved Casting</option>
+						<option class="skill-options-divine-caster" value="improved_prayer">Improved Prayer</option>
+						<option class="skill-options-basic" value="knowledge_mordheim">Knowledge: Mordheim</option>
+						<option class="skill-options-basic" value="resist_corruption">Resist Corruption</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Alertness">
+						<option value="sixth_sense">Sixth Sense</option>
+						<option value="vigilance">Vigilance</option>
+						<option value="combat_movement">Combat Movement</option>
+						<option value="concealment">Concealment</option>
+						<option value="awareness">Awareness</option>
+						<option value="nimble">Nimble</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Weapon Skill">
+						<option value="flash_parry">Flash Parry</option>
+						<option value="shield_specialist">Shield Specialist</option>
+						<option value="hit_and_run">Hit And Run</option>
+						<option value="retaliation">Retaliation</option>
+						<option value="anticipation">Anticipation</option>
+						<option value="swift_counter">Swift Counter</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Ballistic Skill">
+						<option value="eagle_eyes">Eagle Eyes</option>
+						<option value="overhead">Overhead</option>
+						<option value="quick_reload">Quick Reload</option>
+						<option value="trick_shooter">Trick Shooter</option>
+						<option value="bullseye">Bullseye</option>
+						<option value="sharpshooter">Sharpshooter</option>
+					</optgroup>
+					<optgroup class="skill-options-basic" label="Accuracy">
+						<option value="quick_incision">Quick Incision</option>
+						<option value="weak_spot">Weak Spot</option>
+						<option value="fatality">Fatality</option>
+						<option value="underdog">Underdog</option>
+						<option value="break_defenses">Break Defenses</option>
+						<option value="deep_wounds">Deep Wounds</option>
+					</optgroup>
+					<optgroup class="skill-options-human-mercenaries" label="Human Mercenaries">
+						<option value="combat_expertise">Combat Expertise</option>
+						<option value="flawless_positioning">Flawless Positioning</option>
+						<option value="hunter">Hunter</option>
+					</optgroup>
+					<optgroup class="skill-options-sisters-of-sigmar" label="Sisters of Sigmar">
+						<option value="absolute_faith">Absolute Faith</option>
+						<option value="divine_aegis">Divine Aegis</option>
+						<option value="protection_of_sigmar">Protection Of Sigmar</option>
+					</optgroup>
+					<optgroup class="skill-options-clan-eshin" label="Clan Eshin">
+						<option value="art_of_silent_death">Art Of Silent Death</option>
+						<option value="poison_expert">Poison Expert</option>
+						<option value="swarm">Swarm</option>
+					</optgroup>
+					<optgroup class="skill-options-cult-of-the-possessed" label="Cult of the Possessed">
+						<option value="chaos_evolution">Chaos Evolution</option>
+						<option value="chaotic_advantage">Chaotic Advantage</option>
+						<option value="tzeentchs_warding">Tzeentch's Warding</option>
+					</optgroup>
+					<optgroup class="skill-options-smuggler" label="Smuggler">
+					    <option value="boarding_prowess">Boarding Prowess</option>
+						<option value="in_and_out">In And Out</option>
+						<option value="combat_expertise">Combat Expertise</option>
+						<option value="expert_fencer">Expert Fencer</option>
+						<option value="flawless_positioning">Flawless Positioning</option>
+						<option value="tight_crew">Tight Crew</option>
+						<option value="walk_the_topsail">Walk the Topsail</option>
+						<option value="fine_tuning">Fine Tuning</option>
+						<option value="survival_instinct">Survival Instinct</option>
+					</optgroup>
+					<optgroup class="skill-options-globadier" label="Poison Wind Globadier">
+					    <option value="warp_resistance">Warp Resistance</option>
+						<option value="warp_rush">Warp Rush</option>
+						<option value="agitation">Agitation</option>
+						<option value="dagger_specialist">Dagger Specialist</option>
+						<option value="invigorating_fumes">Invigorating Fumes</option>
+						<option value="poison_expert">Poison Expert</option>
+						<option value="swarm">Swarm</option>
+						<option value="paralysing_discharge">Paralysing Discharge</option>
+						<option value="potent_globes">Potent Globes</option>
+					</optgroup>
+					<optgroup class="skill-options-doomweaver" label="Doomweaver">
+					    <option value="chaos_evolution">Chaos Evolution</option>
+						<option value="chaotic_advantage">Chaotic Advantage</option>
+						<option value="daub_of_change">Daub of Change</option>
+						<option value="daub_of_hatred">Daub of Hatred</option>
+						<option value="daub_of_obscurity">Daub of Obscurity</option>
+					</optgroup>
+					<optgroup class="skill-options-wolf-priest" label="Wolf-Priest of Ulric">
+					    <option value="absolute_faith">Absolute Faith</option>
+						<option value="divine_aegis">Divine Aegis</option>
+						<option value="ulrics_chosen">Ulric's Chosen</option>
+						<option value="ulrics_fury">Ulric's Fury</option>
+						<option value="northern_tenacity">Northern Tenacity</option>
+					</optgroup>
+					</select>
+					<button id="skill-action-add-passive" type="button"><img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button>
+				</form>
             </div>
           </div>
           <div id="panel-spells" class="panel-ability panel-spells">
@@ -405,7 +694,72 @@
               </tbody>
             </table>
             <div class="text-right">
-              <form class="ability-select form-inline"><select id="spell-select" class="form-control" name="spell"><option>Select a spell</option><optgroup id="spell-options-human-mercenaries" label="Human Mercenaries"><option value="blinding_light">Blinding Light</option><option value="curse_of_rust">Curse of Rust</option><option value="scavengers_curse">Scavenger's Curse</option><option value="armour_of_lead">Armour of Lead</option><option value="dispel">Dispel</option><option value="lightning_strike">Lightning Strike</option><option value="dread_of_aramar">Dread of Aramar</option><option value="fireball">Fireball</option></optgroup><optgroup id="spell-options-sisters-of-sigmar" label="Sisters of Sigmar"><option value="comet_of_sigmar">Comet of Sigmar</option><option value="sigmars_might">Sigmar's Might</option><option value="sinful_speech">Sinful Speech</option><option value="blessing_of_athleticism">Blessing of Athleticism</option><option value="divine_revelation">Divine Revelation</option><option value="hearts_of_the_gryphon">Hearts of the Gryphon</option><option value="healing_circle">Healing Circle</option><option value="sigmars_second_wind">Sigmar's second Wind</option></optgroup><optgroup id="spell-options-clan-eshin" label="Clan Eshin"><option value="wither">Wither</option><option value="bless_with_filth">Bless with Filth</option><option value="musk_of_courage">Musk of Courage</option><option value="enshrouding_mist">Enshrouding Mist</option><option value="warp_mists">Warp Mists</option><option value="sorcerers_curse">Sorcerer's Curse</option><option value="gaze_of_the_horned_rat">Gaze of the Horned Rat</option><option value="warp_lightning">Warp Lightning</option></optgroup><optgroup id="spell-options-cult-of-the-possessed" label="Cult of the Possessed"><option value="weapons_of_destruction">Weapons of Destruction</option><option value="boon_of_chaos">Boon of Chaos</option><option value="veil_of_corruption">Veil of Corruption</option><option value="acid_breath">Acid Breath</option><option value="chains_of_chaos">Chains of Chaos</option><option value="curse_of_chaos">Curse of Chaos</option><option value="word_of_pain">Word of Pain</option><option value="veil_of_torment">Veil of Torment</option></optgroup></select><button id="spell-action-add" type="button"><img src="images/icons/action_stance/mordheim_icons_action_cast.png"> Add spell</button></form>
+				<form class="ability-select form-inline">
+					<select id="spell-select" class="form-control" name="spell">
+						<option>Select a spell</option>
+					<optgroup id="spell-options-human-mercenaries" label="Human Mercenaries">
+						<option value="blinding_light">Blinding Light</option>
+						<option value="curse_of_rust">Curse of Rust</option>
+						<option value="scavengers_curse">Scavenger's Curse</option>
+						<option value="armour_of_lead">Armour of Lead</option>
+						<option value="dispel">Dispel</option>
+						<option value="lightning_strike">Lightning Strike</option>
+						<option value="dread_of_aramar">Dread of Aramar</option>
+						<option value="fireball">Fireball</option>
+					</optgroup>
+					<optgroup id="spell-options-sisters-of-sigmar" label="Sisters of Sigmar">
+						<option value="comet_of_sigmar">Comet of Sigmar</option>
+						<option value="sigmars_might">Sigmar's Might</option>
+						<option value="sinful_speech">Sinful Speech</option>
+						<option value="blessing_of_athleticism">Blessing of Athleticism</option>
+						<option value="divine_revelation">Divine Revelation</option>
+						<option value="hearts_of_the_gryphon">Hearts of the Gryphon</option>
+						<option value="healing_circle">Healing Circle</option>
+						<option value="sigmars_second_wind">Sigmar's second Wind</option>
+					</optgroup>
+					<optgroup id="spell-options-clan-eshin" label="Clan Eshin">
+						<option value="wither">Wither</option>
+						<option value="bless_with_filth">Bless with Filth</option>
+						<option value="musk_of_courage">Musk of Courage</option>
+						<option value="enshrouding_mist">Enshrouding Mist</option>
+						<option value="warp_mists">Warp Mists</option>
+						<option value="sorcerers_curse">Sorcerer's Curse</option>
+						<option value="gaze_of_the_horned_rat">Gaze of the Horned Rat</option>
+						<option value="warp_lightning">Warp Lightning</option>
+					</optgroup>
+					<optgroup id="spell-options-cult-of-the-possessed" label="Cult of the Possessed">
+						<option value="weapons_of_destruction">Weapons of Destruction</option>
+						<option value="boon_of_chaos">Boon of Chaos</option>
+						<option value="veil_of_corruption">Veil of Corruption</option>
+						<option value="acid_breath">Acid Breath</option>
+						<option value="chains_of_chaos">Chains of Chaos</option>
+						<option value="curse_of_chaos">Curse of Chaos</option>
+						<option value="word_of_pain">Word of Pain</option>
+						<option value="veil_of_torment">Veil of Torment</option>
+					</optgroup>
+					<optgroup id="spell-options-doomweaver" label="Doomweaver">
+						<option value="boon_of_ruin">Boon of Ruin</option>
+						<option value="warp_accretion">Warp Accretion</option>
+						<option value="idol_of_blood">Idol of Blood</option>
+						<option value="idol_of_change">Idol of Change</option>
+						<option value="idol_of_lust">Idol of Lust</option>
+						<option value="idol_of_pestilence">Idol of Pestilence</option>
+						<option value="burning_blood">Burning Blood</option>
+						<option value="spiteful_manifestation">Spiteful Manifestation</option>
+					</optgroup>
+					<optgroup id="spell-options-wolf-priest" label="Wolf-Priest of Ulric">
+						<option value="ulrics_gift">Ulric's Gift</option>
+						<option value="snow_kings_decree">Snow King's Decree</option>
+						<option value="winters_chill">Winter's Chill</option>
+						<option value="frosts_bite">Frost's Bite</option>
+						<option value="howl_of_the_wolf">Howl of the Wolf</option>
+						<option value="wild_pack">Wild Pack</option>
+						<option value="blessing_of_ulric">Blessing of Ulric</option>
+						<option value="ice_storm">Ice Storm</option>
+					</optgroup>
+					</select>
+					<button id="spell-action-add" type="button"><img src="images/icons/action_stance/mordheim_icons_action_cast.png"> Add spell</button>
+				</form>
             </div>
           </div>
           <div id="panel-mutations" class="panel-ability panel-mutations">
@@ -453,7 +807,7 @@
                   </tbody>
                 </table>
                 <div class="selector-ability">
-                  <form class="ability-select form-inline"><select id="equipment-mainhand-select" class="form-control" name="mainhand"><option value="">Select a weapon</option><optgroup label="Melee weapons - One-handed weapons"><option value="armband">Armband</option><option value="axe">Axe</option><option value="dagger">Dagger</option><option value="flail">Flail</option><option value="hammer">Hammer</option><option value="mace">Mace</option><option value="sigmarite_warhammer">Sigmarite Warhammer</option><option value="spear">Spear</option><option value="sword">Sword</option></optgroup><optgroup id="equipment-weapons-twohanded" label="Melee weapons - Two-handed weapons"><option value="bracers">Bracers</option><option value="great_axe">Great Axe</option><option value="great_flail">Great Flail</option><option value="great_hammer">Great Hammer</option><option value="great_sword">Great Sword</option><option value="halberd">Halberd</option><option value="staff">Staff</option></optgroup><optgroup id="equipment-weapons-dual-wield" label="Melee weapons - Dual wield"><option value="fighting_claws">Fighting Claws</option><option value="weeping_blades">Weeping Blades</option></optgroup><optgroup label="Range weapons"><option value="bow">Bow</option><option value="crossbow">Crossbow</option><option value="longbow">Longbow</option><option value="short_bow">Short Bow</option><option value="shuriken">Shuriken</option></optgroup><optgroup label="Range weapons - Flintlock"><option value="blunderbuss">Blunderbuss</option><option value="duelling_pistols">Duelling Pistols</option><option value="handgun">Handgun</option><option value="hunting_rifle">Hunting Rifle</option><option value="warplock_pistols">Warplock Pistols</option></optgroup></select><button id="equipment-mainhand-action-add" type="button"><img src="images/icons/stats/Icn_stats_handling.png"> Equip weapon</button></form>
+                  <form class="ability-select form-inline"><select id="equipment-mainhand-select" class="form-control" name="mainhand"><option value="">Select a weapon</option><optgroup label="Melee weapons - One-handed weapons"><option value="armband">Armband</option><option value="axe">Axe</option><option value="dagger">Dagger</option><option value="flail">Flail</option><option value="hammer">Hammer</option><option value="mace">Mace</option><option value="sigmarite_warhammer">Sigmarite Warhammer</option><option value="spear">Spear</option><option value="sword">Sword</option></optgroup><optgroup id="equipment-weapons-twohanded" label="Melee weapons - Two-handed weapons"><option value="bracers">Bracers</option><option value="great_axe">Great Axe</option><option value="great_flail">Great Flail</option><option value="great_hammer">Great Hammer</option><option value="great_sword">Great Sword</option><option value="halberd">Halberd</option><option value="staff">Staff</option></optgroup><optgroup id="equipment-weapons-dual-wield" label="Melee weapons - Dual wield"><option value="fighting_claws">Fighting Claws</option><option value="weeping_blades">Weeping Blades</option></optgroup><optgroup label="Range weapons"><option value="bow">Bow</option><option value="crossbow">Crossbow</option><option value="longbow">Longbow</option><option value="short_bow">Short Bow</option><option value="shuriken">Shuriken</option></optgroup><optgroup label="Range weapons - Flintlock"><option value="blunderbuss">Blunderbuss</option><option value="duelling_pistols">Duelling Pistols</option><option value="pistol">Pistol</option><option value="handgun">Handgun</option><option value="hunting_rifle">Hunting Rifle</option><option value="warplock_pistols">Warplock Pistols</option></optgroup></select><button id="equipment-mainhand-action-add" type="button"><img src="images/icons/stats/Icn_stats_handling.png"> Equip weapon</button></form>
                 </div>
               </div>
               <div id="panel-equipment-offhand">
