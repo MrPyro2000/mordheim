@@ -5394,6 +5394,168 @@
 					"stackable": "No"
 				},
 				"icon": "smuggler_captains_order"
+			},
+			"wild_swipe": {
+				"name": "Wild Swipe",
+				"type": "basic",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "A melee attack that deals regular damage and cannot be parried, but with a -25% chance to hit. Only usable with Great Weapons.",
+					"mastery": "Hit penalty reduced to -10%"
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0m",
+					"target": "180 degree arc",
+					"duration": "0 turns",
+					"stackable": "n/a"
+				},
+				"icon": "wolf_priest_wild_swipe"
+			},
+			"crush_the_weak": {
+				"name": "Crush the Weak",
+				"type": "basic",
+				"attribute": "accuracy",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that reduces Critical Resistance by 15% for 1 turn. Not Stackable.",
+					"mastery": "Critical Resistance penalty increases to 30%"
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0m",
+					"target": "Single enemy",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "wolf_priest_crush_the_weak"
+			},
+			"alpha_howl": {
+				"name": "Alpha Howl",
+				"type": "basic",
+				"attribute": "leadership",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Increases Initiative by 5 and Charge/Ambush range by 2 meters. Not Stackable.",
+					"mastery": "Initiative bonus increases to 10 and Charge/Ambush range bonus to 4 meters."
+				},
+				"info": {
+					"cost": {
+						"strategy": 4
+					},
+					"range": "0m",
+					"target": "Allies within 5m of user",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "wolf_priest_alpha_howl"
+			},
+			"ritual_of_scorn": {
+				"name": "Ritual of Scorn",
+				"type": "basic",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 9,
+					"mastery": 15
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": " Increases melee Critical Hit chance of allies by 5% for 1 turn, but reduces Critical Resistance of the caster by 10% for 2 turns. Cannot be used while engaged. Not Stackable.",
+					"mastery": "Melee Critical Hit chance bonus increases to 10%, but Critical Resistance penalty of user increases to 20%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 2
+					},
+					"range": "0m",
+					"target": "Self and allies within 5m of user",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "doomweaver_ritual_of_scorn"
+			},
+			"ritual_of_suffering": {
+				"name": "Ritual of Suffering",
+				"type": "basic",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Reduces melee Damage of enemies by 10% for 1 turn, but deals 15-25 damage to the caster. Cannot be used while engaged. Not Stackable.",
+					"mastery": "Melee damage of enemies decreased by 20%, but damage to user increased to 25-45."
+				},
+				"info": {
+					"cost": {
+						"strategy": 2
+					},
+					"range": "0m",
+					"target": "Self and enemies within 5m of user",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "doomweaver_ritual_of_suffering"
+			},
+			"ritual_of_defiance": {
+				"name": "Ritual of Defiance",
+				"type": "basic",
+				"attribute": "alertness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 12
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Ranged Resistance of allies by 20% for 1 turn, but reduces Movement range of the caster by 2 meters for 2 turns. Cannot be used while engaged. Not Stackable.",
+					"mastery": "Ranged Resistance bonus increases to 40%, but Movement range penalty increases to 4m"
+				},
+				"info": {
+					"cost": {
+						"strategy": 2
+					},
+					"range": "0m",
+					"target": "Self and allies within 5m of user",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "doomweaver_ritual_of_defiance"
 			}
 		},
 		"passive": {
