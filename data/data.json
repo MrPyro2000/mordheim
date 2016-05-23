@@ -2806,7 +2806,8 @@
 					"doomweaver"
 				],
 				"skills": [
-					"doomweaver"
+					"doomweaver",
+					"arcane_caster"
 				],
 				"equipment": [
 					"empty_hand",
@@ -7367,7 +7368,8 @@
 				},
 				"effects": {
 					"basic": {
-						"poison": 25
+						"poison": 25,
+						"wyrdstone": 666
 					}
 				},
 				"icon": "skaven_warp_immunity"
@@ -9685,7 +9687,7 @@
 			"name": "Book of Training: Intelligence",
 			"description": "Permanently increases maximum Intelligence by 3 points, up to a maxmimum of 20 (25 for Impressive).<br>Only usable out of combat.<br>Only ONE Book can be used per warrior (Accuracy, Agility, Alertness, Ballistic Skill, Intelligence, Leadership, Strength, Toughness or Weapon Skill).",
 			"effects": {
-				"accuracy": 3
+				"intelligence": 3
 			}
 		},
 		"book_of_leadership": {
@@ -10323,20 +10325,20 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 19,
-							"max": 29
+							"min": 22,
+							"max": 32
 						}
 					},
 					"good": {
 						"damage": {
-							"min": 27,
-							"max": 37
+							"min": 30,
+							"max": 40
 						}
 					},
 					"masterwork": {
 						"damage": {
-							"min": 35,
-							"max": 45
+							"min": 38,
+							"max": 48
 						}
 					}
 				}
@@ -10381,22 +10383,22 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 21,
-							"max": 29
+							"min": 24,
+							"max": 32
 						},
 						"ranged_hit_chance": 8
 					},
 					"good": {
 						"damage": {
-							"min": 29,
-							"max": 37
+							"min": 32,
+							"max": 40
 						},
 						"ranged_hit_chance": 10
 					},
 					"masterwork": {
 						"damage": {
-							"min": 37,
-							"max": 45
+							"min": 40,
+							"max": 48
 						},
 						"ranged_hit_chance": 12
 					}
@@ -10412,22 +10414,22 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 26,
-							"max": 32
+							"min": 29,
+							"max": 35
 						},
 						"ranged_armour_bypass": 12
 					},
 					"good": {
 						"damage": {
-							"min": 34,
-							"max": 40
+							"min": 37,
+							"max": 43
 						},
 						"ranged_armour_bypass": 15
 					},
 					"masterwork": {
 						"damage": {
-							"min": 42,
-							"max": 48
+							"min": 45,
+							"max": 51
 						},
 						"ranged_armour_bypass": 18
 					}
@@ -10443,22 +10445,22 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 26,
-							"max": 28
+							"min": 29,
+							"max": 31
 						},
 						"critical_hit_damage": 20
 					},
 					"good": {
 						"damage": {
-							"min": 34,
-							"max": 36
+							"min": 35,
+							"max": 39
 						},
 						"critical_hit_damage": 25
 					},
 					"masterwork": {
 						"damage": {
-							"min": 42,
-							"max": 44
+							"min": 45,
+							"max": 47
 						},
 						"critical_hit_damage": 30
 					}
@@ -10504,22 +10506,22 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 24,
-							"max": 34
+							"min": 27,
+							"max": 37
 						},
 						"critical_hit_chance": 3
 					},
 					"good": {
 						"damage": {
-							"min": 32,
-							"max": 42
+							"min": 35,
+							"max": 45
 						},
 						"critical_hit_chance": 5
 					},
 					"masterwork": {
 						"damage": {
-							"min": 40,
-							"max": 50
+							"min": 43,
+							"max": 53
 						},
 						"critical_hit_chance": 7
 					}
@@ -10598,22 +10600,22 @@
 				"effects": {
 					"normal": {
 						"damage": {
-							"min": 23,
-							"max": 31
+							"min": 26,
+							"max": 34
 						},
 						"warp_ammo": 2
 					},
 					"good": {
 						"damage": {
-							"min": 31,
-							"max": 39
+							"min": 34,
+							"max": 42
 						},
 						"warp_ammo": 4
 					},
 					"masterwork": {
 						"damage": {
-							"min": 39,
-							"max": 47
+							"min": 42,
+							"max": 50
 						},
 						"warp_ammo": 6
 					}
@@ -10729,7 +10731,7 @@
 						"climb": -10,
 						"jump": -10,
 						"leap": -10,
-						"dodge": 15
+						"dodge": -15
 					},
 					"masterwork": {
 						"movement": -2,
@@ -10738,7 +10740,7 @@
 						"climb": -5,
 						"jump": -5,
 						"leap": -5,
-						"dodge": 10
+						"dodge": -10
 					}
 				}
 			},
