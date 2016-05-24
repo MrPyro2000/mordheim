@@ -1920,6 +1920,9 @@
 			"skills": [
 				"fear"
 			],
+			"perks": [
+				"large"
+			],
 			"icon": "mer_ogre_mercenary",
 			"restrictions": {
 				"skills": [
@@ -7968,6 +7971,20 @@
 					"mastery": "Spell damage increased by 20%"
 				},
 				"icon": "doomweaver_daub_of_hatred"
+			}
+		}
+	},
+	
+	"perks": {
+		"large": {
+			"name": "Large",
+			"description": "Increases Poison, Critical and Stun Resistance by 30% as well as Armour Absorption by 15% but decreases Ranged Resistance by 10%. Cannot use consumable items, or the Search and Activate actions.",
+			"effects": {
+				"ranged": -10,
+				"critical_hit": 30,
+				"stun": 30,
+				"poison": 30,
+				"armour": 15
 			}
 		}
 	},
