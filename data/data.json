@@ -2946,7 +2946,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Charge in an unbstructed line to engage a target and perform a melee attack that has a -30% chance to hit, deals +75% damage, and bypasses 10% of the target's Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
+					"basic": "Charge in an unobstructed line to engage a target and perform a melee attack that has a -30% chance to hit, deals +75% damage, and bypasses 10% of the target's Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
 					"mastery": "Damage increases to 100% and Parry chance bypass to 20%."
 				},
 				"info": {
@@ -8633,8 +8633,8 @@
 			},
 			"icon": "possessed_word_of_pain"
 		},
-		"veil_of_torment": {
-			"name": "Veil of Torment",
+		"vision_of_torment": {
+			"name": "Vision of Torment",
 			"attribute": "intelligence",
 			"requirements": {
 				"basic": 9,
@@ -8646,7 +8646,7 @@
 			},
 			"description": {
 				"basic": "Either Stuns all targets who fail a Stun Resistance test, OR inflicts a debuff on all targets that reduces Melee and Ranged Resistance along with Parry and Dodge chance by 5%.",
-				"mastery": "Damage increases to 28-38.<br>Casting chance and Tzeentch Curse +5%."
+				"mastery": "All penalities listed above increase to 15%.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -10237,7 +10237,7 @@
 				"type": "melee",
 				"name": "Sword",
 				"description": "Parrying: Allows the use of Parry stance.<br>Savage: Critical hit chance +{{ critical_hit_chance }}%.",
-				"initiative": 10,
+				"initiative": 5,
 				"effects": {
 					"normal": {
 						"damage": {
@@ -10642,7 +10642,7 @@
 				"type": "offhand",
 				"name": "Empty Hand",
 				"description": "Fleet: Dodge chance +{{ dodge }}%.",
-				"initiative": 0,
+				"initiative": 10,
 				"effects": {
 					"normal": {
 						"dodge": 10
