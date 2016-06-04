@@ -7408,7 +7408,7 @@
 				},
 				"icon": "skaven_night_master"
 			},
-			"fleet_flooted": {
+			"fleet_footed": {
 				"name": "Fleet-footed",
 				"attribute": "class",
 				"cost": {
@@ -7417,7 +7417,7 @@
 				"description": {
 					"basic": "After a successful Leap or Jump Down, Movement range increases by 3 meters for 1 turn."
 				},
-				"icon": "skaven_fleet_flooted"
+				"icon": "skaven_fleet_footed"
 			},
 			"perfect_killer": {
 				"name": "Perfect Killer",
