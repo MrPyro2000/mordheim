@@ -65,6 +65,9 @@
 			"skills": [
 				"divine_fervor"
 			],
+			"perks": [
+				"divine_caster"
+			],
 			"spells": [
 				"sigmars_might"
 			],
@@ -162,6 +165,9 @@
 			"skills": [
 				"sigmars_sight"
 			],
+			"perks": [
+				"immunity_eye_injury"
+			],
 			"restrictions": {
 				"skills": [
 					"born_leader",
@@ -249,6 +255,10 @@
 			},
 			"skills": [
 				"unsettling_charge"
+			],
+			"perks": [
+				"divine_caster",
+				"last_stand"
 			],
 			"spells": [
 				"comet_of_sigmar"
@@ -614,6 +624,12 @@
 			"skills": [
 				"sigmars_chosen"
 			],
+			"perks": [
+				"divine_caster",
+				"impressive",
+				"unwavering",
+				"last_stand"
+			],
 			"spells": [
 				"sinful_speech"
 			],
@@ -707,6 +723,9 @@
 			},
 			"skills": [
 				"blood_sacrifice"
+			],
+			"perks": [
+				"arcane_caster"
 			],
 			"spells": [
 				"weapons_of_destruction"
@@ -810,6 +829,11 @@
 			"skills": [
 				"fear"
 			],
+			"perks": [
+				"last_stand",
+				"unwavering",
+				"mutations"
+			],
 			"icon": "pos_possessed",
 			"restrictions": {
 				"skills": [
@@ -889,6 +913,10 @@
 			},
 			"skills": [
 				"norse_charge"
+			],
+			"perks": [
+				"last_stand",
+				"mutations"
 			],
 			"icon": "pos_marauder",
 			"restrictions": {
@@ -986,6 +1014,9 @@
 			},
 			"skills": [
 				"shadow_lords_touch"
+			],
+			"perks": [
+				"mutations"
 			],
 			"icon": "pos_mutant",
 			"restrictions": {
@@ -1086,6 +1117,9 @@
 			},
 			"skills": [
 				"crazed"
+			],
+			"perks": [
+				"last_stand"
 			],
 			"icon": "pos_darksouls",
 			"restrictions": {
@@ -1272,6 +1306,15 @@
 			},
 			"skills": [
 				"terror"
+			],
+			"perks": [
+				"last_stand",
+				"unwavering",
+				"mutations",
+				"creation_instability",
+				"immunity_poison",
+				"large",
+				"impressive"
 			],
 			"icon": "pos_chaos_spawn",
 			"restrictions": {
@@ -1541,6 +1584,9 @@
 			},
 			"skills": [
 				"concentration"
+			],
+			"perks": [
+				"arcane_caster"
 			],
 			"spells": [
 				"blinding_light"
@@ -1921,7 +1967,10 @@
 				"fear"
 			],
 			"perks": [
-				"large"
+				"large",
+				"impressive",
+				"last_stand",
+				"unwavering"
 			],
 			"icon": "mer_ogre_mercenary",
 			"restrictions": {
@@ -2098,6 +2147,9 @@
 			"skills": [
 				"warp_resonance",
 				"guidance"
+			],
+			"perks": [
+				"arcane_caster"
 			],
 			"spells": [
 				"wither"
@@ -2548,6 +2600,13 @@
 			"skills": [
 				"fear"
 			],
+			"perks": [
+				"last_stand",
+				"unwavering",
+				"stupidity",
+				"large",
+				"impressive"
+			],
 			"icon": "ska_rat_ogre",
 			"restrictions": {
 				"skills": [
@@ -2625,6 +2684,10 @@
 			},
 			"skills": [
 				"black_powder_trap"
+			],
+			"perks": [
+				"pillager",
+				"fast"
 			],
 			"restrictions": {
 				"skills": [
@@ -2714,6 +2777,11 @@
 			"skills": [
 				"poison_globe"
 			],
+			"perks": [
+				"gas_mask",
+				"cumbersome_gear"
+			],
+
 			"restrictions": {
 				"skills": [
 					"globadier"
@@ -2800,6 +2868,9 @@
 			},
 			"skills": [
 				"favoured"
+			],
+			"perks": [
+				"arcane_caster"
 			],
 			"spells": [
 				"boon_of_ruin"
@@ -2897,6 +2968,9 @@
 			},
 			"skills": [
 				"heart_of_the_wolf"
+			],
+			"perks": [
+				"divine_caster"
 			],
 			"spells": [
 				"ulrics_gift"
@@ -7987,6 +8061,65 @@
 				"poison": 30,
 				"armour": 15
 			}
+		},
+		"arcane_caster": {
+		    "name": "Arcane Caster",
+			"description": " Allows the casting of Arcane spells. Casting may result in ill effects named Tzeentch's Curse."
+		},
+		"divine_caster": {
+		    "name": "Divine Caster",
+			"description": " Allows the casting of Divine spells. Casting may result in ill effects named Divine Wrath."
+		},
+		"last_stand": {
+		    "name": "Last Stand",
+			"description": "Always fights to the death. Prevents the use of Flee and Retreat actions. Immune to All Alone."
+		},
+		"unwavering": {
+		    "name": "Unwavering",
+			"description": "Immune to Alone, Fear, and Terror tests."
+		},
+		"mutations": {
+		    "name": "Mutations",
+			"description": "Gifted with a random mutation at Ranks 1, 4 and 7."
+		},
+		"creation_instability": {
+		    "name": "Creation Instability",
+			"description": " Instead of suffering permanent injuries when it falls Out of Action, the warrior has a 20% chance to vanish back to the Realm of Chaos."
+		},
+		"impressive": {
+		    "name": "Impressive",
+			"description": "Immune to Tiring effects."
+		},
+		"immunity_poison": {
+		    "name": "Immunity Poison",
+			"description": "Immune to Poison effects."
+		},
+		"stupidity": {
+		    "name": "Stupidity",
+			"description": "On turn start, the warrior must perform an Intelligence test if not Engaged. On failure, the warrior skips this turn."
+		},
+		"immunity_eye_injury": {
+		    "name": "Immunity - Eye Injury",
+			"description": "The warrior is blessed with divine vision, and is therefore immune to eye Injuries."
+		},
+		"gas_mask":{
+		    "name": "Gas Mask",
+			"description": "Immune to breathable poison effects, such as Globes, most traps, and certain spells."
+		},
+		"cumbersome_gear": {
+		    "name": "Cumbersome Gear",
+			"description": "Reduces Movement range by 1m."
+		},
+		"pillager": {
+		    "name": "Pillager",
+			"description": "Immune to Trap effects.",
+			"effects": {
+				"trap": 200
+			}
+		},
+		"fast": {
+		    "name": "Fast",
+			"description": "Increases Movement range by 1m."
 		}
 	},
 
