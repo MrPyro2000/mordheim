@@ -6149,6 +6149,7 @@
 						"intelligence": 3,
 						"alertness": 3,
 						"leadership": 4,
+						"points_strategy": 1,
 						"type": "leader",
 						"restrictions": {
 							"skills": ["leader"]
