@@ -592,7 +592,7 @@
 					"max": 20
 				},
 				"alertness": {
-					"min": 6,
+					"min": 7,
 					"max": 13
 				},
 				"weapon_skill": {
