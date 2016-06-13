@@ -3003,6 +3003,303 @@
 				]
 			},
 			"icon": "dlc_wolf_priest"
+		},
+		"witch_hunter_captain": {
+			"type": "leader",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 15,
+				"mental": 15,
+				"martial": 15
+			},
+			"attributes": {
+				"strength": {
+					"min": 5,
+					"max": 13
+				},
+				"toughness": {
+					"min": 5,
+					"max": 13
+				},
+				"agility": {
+					"min": 6,
+					"max": 15
+				},
+				"leadership": {
+					"min": 8,
+					"max": 16
+				},
+				"intelligence": {
+					"min": 6,
+					"max": 12
+				},
+				"alertness": {
+					"min": 5,
+					"max": 15
+				},
+				"weapon_skill": {
+					"min": 5,
+					"max": 15
+				},
+				"ballistic_skill": {
+					"min": 5,
+					"max": 16
+				},
+				"accuracy": {
+					"min": 5,
+					"max": 15
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"hunters_patience"
+			],
+			"perks": [
+				"sigmars_aegis"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter",
+					"leader"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"sword",
+					"great_hammer",
+					"great_sword",
+					"blunderbuss",
+					"crossbow",
+					"crossbow_pistol",
+					"duelling_pistols",
+					"handgun",
+					"hunting_rifle",					
+					"pistol",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_witch_hunter_captain"
+		},
+		"witch_hunter": {
+			"type": "hero",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 15,
+				"mental": 15,
+				"martial": 15
+			},
+			"attributes": {
+				"strength": {
+					"min": 3,
+					"max": 12
+				},
+				"toughness": {
+					"min": 3,
+					"max": 12
+				},
+				"agility": {
+					"min": 6,
+					"max": 16
+				},
+				"leadership": {
+					"min": 4,
+					"max": 9
+				},
+				"intelligence": {
+					"min": 3,
+					"max": 12
+				},
+				"alertness": {
+					"min": 5,
+					"max": 15
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 12
+				},
+				"ballistic_skill": {
+					"min": 6,
+					"max": 15
+				},
+				"accuracy": {
+					"min": 6,
+					"max": 17
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"purge_the_heretic"
+			],
+			"perks": [
+				"sigmars_ward"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"sword",
+					"great_hammer",
+					"great_sword",
+					"blunderbuss",
+					"crossbow",
+					"crossbow_pistol",
+					"duelling_pistols",
+					"handgun",
+					"hunting_rifle",					
+					"pistol",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_witch_hunter"
+		},
+		"warrior_priest": {
+			"type": "hero",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 15,
+				"mental": 15,
+				"martial": 15
+			},
+			"attributes": {
+				"strength": {
+					"min": 4,
+					"max": 13
+				},
+				"toughness": {
+					"min": 5,
+					"max": 15
+				},
+				"agility": {
+					"min": 3,
+					"max": 9
+				},
+				"leadership": {
+					"min": 6,
+					"max": 9
+				},
+				"intelligence": {
+					"min": 8,
+					"max": 15
+				},
+				"alertness": {
+					"min": 3,
+					"max": 18
+				},
+				"weapon_skill": {
+					"min": 5,
+					"max": 16
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 12
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"divine_rage"
+			],
+			"spells": [
+			    "immaculate_flesh"
+			],
+			"perks": [
+				"divine_caster"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter",
+					"divine_caster"
+				],
+				"spells": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"dagger",
+					"flail",
+					"hammer",
+					"mace",
+					"sigmarite_warhammer",
+					"great_flail",
+					"great_hammer",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet"
+				]
+			},
+			"icon": "wh_warrior_priest"
 		}
 	},
 
@@ -3049,7 +3346,7 @@
 				},
 				"description": {
 					"basic": "Charge in an unbstructed line to engage a target and perform a melee attack that has a +10% chance to hit, deals +25% damage, and bypasses 15% of the target's Dodge and Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
-					"mastery": "Chance to hit increases to 20% and Dodge and Parry chance bypess to 30%."
+					"mastery": "Chance to hit increases to 20% and Dodge and Parry chance bypass to 30%."
 				},
 				"info": {
 					"cost": {
@@ -7638,7 +7935,7 @@
 						"terror": 35
 					}
 				},
-        "icon": "wolf_priest_heart_of_the_wolf"
+                "icon": "wolf_priest_heart_of_the_wolf"
 			},
 			"paralysing_discharge": {
 				"name": "Paralysing Discharge",
@@ -8047,7 +8344,40 @@
 					"mastery": "Spell damage increased by 20%"
 				},
 				"icon": "doomweaver_daub_of_hatred"
-			}
+			},
+			"hunters_patience": {
+				"name": "Hunter's Patience",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point."
+				},
+                "icon": "witch_hunters_hunters_patience"
+			},
+			"purge_the_heretic": {
+				"name": "Purge the Heretic!",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "When dealing melee damage, increases melee damage by 20% for the next attack. The next action taken must be a melee attack or skill, or the effect is lost."
+				},
+                "icon": "witch_hunters_purge_the_heretic"
+			},
+			"divine_rage": {
+				"name": "Divine Rage",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": " When dealing melee damage, increases the Spellcasting chance of the next spell by 15%. The next action taken must be a spell or the effect is lost."
+				},
+                "icon": "witch_hunters_divine_rage"
+			}			
 		}
 	},
 	
@@ -8121,6 +8451,20 @@
 		"fast": {
 		    "name": "Fast",
 			"description": "Increases Movement range by 1m."
+		},
+		"sigmars_aegis": {
+		    "name": "Sigmar's Aegis",
+			"description": "The warrior has a natural Magic resistance bonus of 20%.",
+			"effects": {
+				"magic": 20
+			}
+		},
+		"sigmars_ward": {
+		    "name": "Sigmar's Ward",
+			"description": "The warrior has a natural Magic resistance bonus of 10%.",
+			"effects": {
+				"magic": 10
+			}
 		}
 	},
 
@@ -9466,6 +9810,230 @@
 				"divine_wrath": "+20%"
 			},
 			"icon": "doomweaver_idol_of_lust"
+		},
+		"immaculate_flesh": {
+			"name": "Immaculate Flesh",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Removes all active Poison effects and increases Poison and Wyrdstone Resistance by 15% to a single ally. Not stackable.",
+				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_immaculate_flesh"
+		},
+		"shield_of_faith": {
+			"name": "Shield of Faith",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": " Increases Magic Resistance by 15% of every allies around the caster. Not Stackable.",
+				"mastery": "Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Allies within 5m of the caster",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_shield_of_faith"
+		},
+		"armour_of_righteousness": {
+			"name": "Armour of Righteousness",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": " Give a buff to a single ally. Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10%. Not Stackable.",
+				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single Ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_armour_of_righteousness"
+		},
+		"deny_the_heretic": {
+			"name": "Deny the Heretic",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Creates a zone effect at the selected area. Enemies entering or starting a turn inside the area inflicts a debuff that reduces current and maximum Offense Points by 1 and Melee Hit chance by 5% for 1 turn. Not Stackable.",
+				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Enemies in a 5m radius",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_deny_the_heretic"
+		},
+		"word_of_damnation": {
+			"name": "Word of Damnation",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Reduces Magic Resistance by 10% and the chance to pass All Alone, Fear, and Terror tests by 25% of a single enemy. Not Stackable.",
+				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single enemy",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_word_of_damnation"
+		},
+		"soulfire": {
+			"name": "Soulfire",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 10-15 damage to enemies around the caster. Bypasses Armour Absorption.",
+				"mastery": "Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Enemies within 5m of the caster",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_soulfire"
+		},
+		"prayer_of_absolution": {
+			"name": "Prayer of Absolution",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Increases Armour Absorption by 5% and Dodge and Parry chance by 10% of allies around the caster. Not Stackable.",
+				"mastery": "Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Allies within 5m of the caster",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_prayer_of_absolution"
+		},
+		"healing_hand": {
+			"name": "Healing Hand",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Restores up to 40 wounds to a single target.",
+				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "N/A",
+				"casting_chance": "-15%",
+				"target": "Single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "wh_healing_hand"
 		}
 	},
 
