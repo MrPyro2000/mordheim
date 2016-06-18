@@ -122,15 +122,15 @@
                     <h5>Maiden of Sigmar</h5></div>
                 </div>
 				<div class="panel-profile-icons-warband">
-                  <h3>Witch Hunters</h3>
+                  <h3>Witch Hunters (WIP Edition! New skills and spells may be inaccurate!)</h3>
                   <div class="profile-icon"><button class="button-profile-icon" value="witch_hunter_captain"><div><img src="images/class_icons/unit_icon_wh_witch_hunter_captain.png"></div></button>
                     <h5>Witch Hunter Captain</h5></div>
+				  <div class="profile-icon"><button class="button-profile-icon" value="templar_knight"><div><img src="images/class_icons/unit_icon_wh_templar_knight.png"></div></button>
+                    <h5>Templar Knight</h5></div>
                   <div class="profile-icon"><button class="button-profile-icon" value="witch_hunter"><div><img src="images/class_icons/unit_icon_wh_witch_hunter.png"></div></button>
                     <h5>Witch Hunter</h5></div>
                   <div class="profile-icon"><button class="button-profile-icon" value="warrior_priest"><div><img src="images/class_icons/unit_icon_wh_warrior_priest.png"></div></button>
                     <h5>Warrior Priest</h5></div>
-                  <div class="profile-icon"><button class="button-profile-icon" value="knight_templar"><div><img src="images/class_icons/unit_icon_wh_knight_templar.png"></div></button>
-                    <h5>Knight Templar</h5></div>
                   <div class="profile-icon"><button class="button-profile-icon" value="zealot"><div><img src="images/class_icons/unit_icon_wh_zealot.png"></div></button>
                     <h5>Zealot</h5></div>
                   <div class="profile-icon"><button class="button-profile-icon" value="flagellant"><div><img src="images/class_icons/unit_icon_wh_flagellant.png"></div></button>
@@ -538,6 +538,11 @@
 						<option value="crush_the_weak">Crush the Weak</option>
 						<option value="wild_swipe">Wild Swipe</option>
 					</optgroup>
+					<optgroup class="skill-options-witch-hunter" label="Witch Hunters">
+					    <option value="trial_by_pain">Trial by Pain</option>
+						<option value="burn_the_witch">Burn the Witch</option>
+						<option value="fanatical_zeal">Fanatical Zeal</option>
+					</optgroup>
 				</select>
 				<button id="skill-action-add-active" type="button">	<img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button>
 			    </form>
@@ -695,6 +700,11 @@
 						<option value="ulrics_fury">Ulric's Fury</option>
 						<option value="northern_tenacity">Northern Tenacity</option>
 					</optgroup>
+					<optgroup class="skill-options-witch-hunter" label="Witch Hunters">
+					    <option value="ardent_cleansing">Ardent Cleansing</option>
+						<option value="sigil_of_sigmar">Sigil of Sigmar</option>
+						<option value="witchfinders_ward">Witchfinder's Ward</option>
+					</optgroup>
 					</select>
 					<button id="skill-action-add-passive" type="button"><img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button>
 				</form>
@@ -773,6 +783,15 @@
 						<option value="wild_pack">Wild Pack</option>
 						<option value="blessing_of_ulric">Blessing of Ulric</option>
 						<option value="ice_storm">Ice Storm</option>
+					</optgroup>
+					<optgroup id="spell-options-witch-hunter" label="Witch Hunter">
+						<option value="shield_of_faith">Shield of Faith</option>
+						<option value="armour_of_righteousness">Armour of Righteousness</option>
+						<option value="deny_the_heretic">Deny the Heretic</option>
+						<option value="word_of_damnation">Word of Damnation</option>
+						<option value="soulfire">Soulfire</option>
+						<option value="prayer_of_absolution">Prayer of Absolution</option>
+						<option value="healing_hand">Healing Hand</option>
 					</optgroup>
 					</select>
 					<button id="spell-action-add" type="button"><img src="images/icons/action_stance/mordheim_icons_action_cast.png"> Add spell</button>
@@ -894,6 +913,7 @@
       </div>
       <div class="col-md-6">
         <h5>News / Changes</h5>
+		<p>(2016-06-18) V1.7alpha: Early build of the Witch Hunters warband. Information on new skills and spells may be inaccurate.
 		<p>(2016-06-04) V1.6: Added Perks to the unit description, which also fixes some issues with Large units having wrong Resistance values. Some minor bugfixes as well
         <p>(2016-05-21) V1.5: an import of the original builder from Nithon, plus: </p>
 		<ul>
