@@ -3405,7 +3405,7 @@
 			"type": "henchman",
 			"rating": 96,
 			"wounds": 114,
-			"skillpoints": 18,
+			"skillpoints": 14,
 			"spellpoints": 0,
 			"attributepoints": {
 				"physical": 21,
@@ -3493,7 +3493,7 @@
 			"type": "henchman",
 			"rating": 96,
 			"wounds": 114,
-			"skillpoints": 18,
+			"skillpoints": 14,
 			"spellpoints": 0,
 			"attributepoints": {
 				"physical": 15,
@@ -5526,12 +5526,13 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage but with a -25% chance to hit. If hit, the target gains a debuff that reduces maximum Offense and Strategy Points by 1 for 1 turn.",
-					"mastery": "Maximum Offense and Strategy Points penalty increased to 2 and Hit chance penalty reduced to -15%."
+					"basic": "A melee attack that deals regular damage but with a -20% chance to hit. If hit, the target gains a debuff that reduces maximum Offense and Strategy Points by 1 for 1 turn.",
+					"mastery": "Maximum Offense and Strategy Points penalty increased to 2 and Hit chance penalty reduced to -10%."
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2,
+						"strategy": 1
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -5796,8 +5797,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": " Inflicts a random debuff from the following: -10% Melee or Ranged Resistance, or -20% Poison, Magic, or Critical Resistance. Effects last for 2 turns. Not stackable.",
-					"mastery": "Duration increases to 3 turns."
+					"basic": "Inflicts a random debuff from the following: -15% Melee and Poison Resistance, OR -15% Magic and Stun Resistance, OR -15% Ranged and Critical Resistance. Effects last for 1 turn. Not stackable.",
+					"mastery": "Duration increases to 2 turns."
 				},
 				"info": {
 					"cost": {
@@ -5805,7 +5806,7 @@
 					},
 					"range": "15m",
 					"target": "Everyone within 5m",
-					"duration": "2 turns",
+					"duration": "1 turn",
 					"stackable": "No"
 				},
 				"icon": "globadier_warp_globe"
@@ -5823,8 +5824,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Inflicts a random buff from the following: +10% Melee or Ranged Resistance, or +20% Poison, Magic, or Critical Resistance. Effects last for 2 turns. Not stackable.",
-					"mastery": "Duration increases to 3 turns"
+					"basic": "Inflicts a random buff from the following: +15% Melee and Poison Resistance, OR +15% Ranged and Critical Resistance, OR +15% Magic and Stun Resistance. Effects last for 1 turn. Not stackable.",
+					"mastery": "Duration increases to 2 turns"
 				},
 				"info": {
 					"cost": {
@@ -6346,6 +6347,8 @@
 				"name": "Trial by Pain",
 				"attribute": "ballistic_skill",
 				"requirements": {
+					"basic": 6,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -6357,6 +6360,7 @@
 				},
 				"info": {
 					"cost": {
+						"offense": 3
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -6369,6 +6373,8 @@
 				"name": "Burn the Witch",
 				"attribute": "weapon_skill",
 				"requirements": {
+					"basic": 6,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -6380,6 +6386,7 @@
 				},
 				"info": {
 					"cost": {
+						"offense": 3
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -6390,8 +6397,10 @@
 			},
 			"fanatical_zeal": {
 				"name": "Fanatical Zeal",
-				"attribute": "leadership",
+				"attribute": "accuracy",
 				"requirements": {
+					"basic": 6,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -6403,6 +6412,7 @@
 				},
 				"info": {
 					"cost": {
+						"strategy": 3
 					},
 					"range": "0m",
 					"target": "Self",
@@ -7160,15 +7170,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Trap Resistance by 15%.",
-					"mastery": "Trap Resistance increases to 30%."
+					"basic": "Increases Trap Resistance by 30%.",
+					"mastery": "Trap Resistance increases to 60%."
 				},
 				"effects": {
 					"basic": {
-						"trap": 15
+						"trap": 30
 					},
 					"mastery": {
-						"trap": 30
+						"trap": 60
 					}
 				},
 				"icon": "intelligence_tracker"
@@ -7328,15 +7338,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Wyrdstone Resistance by 10%.",
-					"mastery": "Wyrdstone Resistance increases to 20%."
+					"basic": "Increases Wyrdstone Resistance by 20%.",
+					"mastery": "Wyrdstone Resistance increases to 40%."
 				},
 				"effects": {
 					"basic": {
-						"wyrdstone": 10
+						"wyrdstone": 20
 					},
 					"mastery": {
-						"wyrdstone": 20
+						"wyrdstone": 40
 					}
 				},
 				"icon": "intelligence_resist_corruption"
@@ -7353,8 +7363,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Perception chance by 10%.",
-					"mastery": "Perception chance increases to 20%."
+					"basic": "Increases Perception chance by 20%.",
+					"mastery": "Perception chance increases to 40%."
 				},
 				"icon": "alertness_sixth_sense"
 			},
@@ -8881,6 +8891,8 @@
 				"name": "Ardent Cleansing",
 				"attribute": "toughness",
 				"requirements": {
+					"basic": 6,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -8896,6 +8908,8 @@
 				"name": "Sigil of Sigmar",
 				"attribute": "intelligence",
 				"requirements": {
+					"basic": 6,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -8911,6 +8925,8 @@
 				"name": "Witchfinder's Ward",
 				"attribute": "toughness",
 				"requirements": {
+					"basic": 6,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -9524,8 +9540,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the nine Primary attributes and increases it by 4. Stackable.",
-				"mastery": "Attribute bonus increases to 8, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and increases its stats by 2. Not Stackable (per category).",
+				"mastery": "Attribute bonus increases to 4, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -9636,8 +9652,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the nine Primary attributes and reduces it by 3 on all targets. Cannot reduce below 1. Stackable.",
-				"mastery": "Attributes penalty increases to 6, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and reduces its stats by 1 on all targets. Cannot reduce below 1. Stackable.",
+				"mastery": "Attributes penalty increases to 2, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -11656,6 +11672,36 @@
 							"max": 36
 						},
 						"ranged_armour_bypass": 15
+					}
+				}
+			},
+			"crossbow_pistol": {
+				"type": "ranged",
+				"name": "Crossbow Pistol",
+				"description": "Reload: 1 Strategy Point.<br>Sunder: Attacks bypass {{ ranged_armour_bypass }}% Armour Absorption.",
+				"initiative": 5,
+				"twohanded": true,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 16,
+							"max": 22
+						},
+						"ranged_armour_bypass": 6
+					},
+					"good": {
+						"damage": {
+							"min": 16,
+							"max": 22
+						},
+						"ranged_armour_bypass": 6
+					},
+					"masterwork": {
+						"damage": {
+							"min": 16,
+							"max": 22
+						},
+						"ranged_armour_bypass": 6
 					}
 				}
 			},
