@@ -2994,6 +2994,7 @@
 					"great_axe",
 					"great_hammer",
 					"great_sword",
+					"great_ulrican_axe",
 					"cloth",
 					"light",
 					"heavy",
@@ -11231,6 +11232,39 @@
 							"max": 62
 						},
 						"melee_armour_bypass": 21
+					}
+				}
+			},
+			"great_ulrican_axe": {
+				"type": "melee",
+				"name": "Great Ulrican Axe",
+				"description": "Blessed: Divine Wrath chance -{{ divine_wrath }}%. <br>Savage: Critical Hit chance +{{ critical_hit_chance }}% <br>Slow: Attacks have a +10% chance to be Dodged.<br>Heavy: -15% melee damage after each successive Attack. Stackable.<br>Tiring: +1 OP cost for each successive Attack or Attack Skill. Stackable.",
+				"initiative": -10,
+				"twohanded": true,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 28,
+							"max": 38
+						},
+						"divine_wrath": 4,
+						"critical_hit_chance": 5
+					},
+					"good": {
+						"damage": {
+							"min": 28,
+							"max": 38
+						},
+						"divine_wrath": 4,
+						"critical_hit_chance": 5
+					},
+					"masterwork": {
+						"damage": {
+							"min": 28,
+							"max": 38
+						},
+						"divine_wrath": 4,
+						"critical_hit_chance": 5
 					}
 				}
 			},
