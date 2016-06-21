@@ -6356,7 +6356,7 @@
 				},
 				"description": {
 					"basic": "A ranged attack that deals regular damage. If hit, the target gains a debuff that deals 5-15 damage every time a melee or ranged attack is used for 1 turn. Not Stackable.",
-					"mastery": "???"
+					"mastery": "Debuff damage increases to 10-30 and also prevents Switch Weapons."
 				},
 				"info": {
 					"cost": {
@@ -6382,7 +6382,7 @@
 				},
 				"description": {
 					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that increases Spellcasting cost by 1 Offense Point for 1 turn. Stackable.",
-					"mastery": "???"
+					"mastery": "Spellcasting cost penalty increases to 2 OP"
 				},
 				"info": {
 					"cost": {
@@ -6408,7 +6408,7 @@
 				},
 				"description": {
 					"basic": "Increases Melee Hit chance by 5% for 1 turn. Prevents Flee and Disengage for 2 turns. Not Stackable.",
-					"mastery": "???"
+					"mastery": "Melee hit chance boost increases to 10%"
 				},
 				"info": {
 					"cost": {
@@ -8900,7 +8900,7 @@
 				},
 				"description": {
 					"basic": "After gathering a Wyrdstone, increases Wyrdstone Resistance by 10% for 2 turns and receive a 25% chance to recover 1 Strategy Point. Not Stackable.",
-					"mastery": "???"
+					"mastery": "Wyrdstone Resistance increases to 20% and change to recover 1 SP to 50%"
 				},
 				"icon": "wh_ardent_cleansing"
 			},
@@ -8917,7 +8917,7 @@
 				},
 				"description": {
 					"basic": "After failing a Magic Resistance test, increases Melee Damage by 20% for 1 turn. Stackable.",
-					"mastery": "???"
+					"mastery": "Melee damage boost increases to 40%"
 				},
 				"icon": "wh_sigil_of_sigmar"
 			},
@@ -8934,7 +8934,7 @@
 				},
 				"description": {
 					"basic": "Increases Poison and Wyrdstone Resistance by 10%.",
-					"mastery": "???"
+					"mastery": "Poison and Wyrdstone Resistance increases to 20%"
 				},
 				"effects": {
 					"basic": {
@@ -8942,8 +8942,8 @@
                         "wyrdstone": 10
 					},
 					"mastery": {
-					    "poison": 10,
-                        "wyrdstone": 10
+					    "poison": 20,
+                        "wyrdstone": 20
 					}
 				},
 				"icon": "wh_witchfinders_ward"
