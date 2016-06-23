@@ -10408,7 +10408,7 @@
 			},
 			"description": {
 				"basic": "Removes all active Poison effects and increases Poison and Wyrdstone Resistance by 15% to a single ally. Not stackable.",
-				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+				"mastery": "Also removes Warp effects. Poison and Wyrdstone Resistance boost increases to 30%, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -10436,7 +10436,7 @@
 			},
 			"description": {
 				"basic": " Increases Magic Resistance by 15% of every allies around the caster. Not Stackable.",
-				"mastery": "Casting chance and Curse chance +5%"
+				"mastery": "Magic Resistance boost increases to 25%, duration to 2 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -10455,26 +10455,26 @@
 			"type": "witch_hunter",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
 				"mastery": 4
 			},
 			"description": {
-				"basic": " Give a buff to a single ally. Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10%. Not Stackable.",
-				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10%. Not Stackable.",
+				"mastery": "Armour Absorbtion boost increases to 20%, range to 30m and duration to 2 turns. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 3
 				},
 				"range": "15m",
 				"duration": "1 turn",
-				"casting_chance": "-15%",
+				"casting_chance": "-20%",
 				"target": "Single Ally",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+20%"
 			},
 			"icon": "wh_armour_of_righteousness"
 		},
@@ -10483,8 +10483,8 @@
 			"type": "witch_hunter",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
@@ -10492,17 +10492,17 @@
 			},
 			"description": {
 				"basic": "Creates a zone effect at the selected area. Enemies entering or starting a turn inside the area inflicts a debuff that reduces current and maximum Offense Points by 1 and Melee Hit chance by 5% for 1 turn. Not Stackable.",
-				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+				"mastery": "Hit chance reduction increases to 15%. Zone duration increases to 2 turns, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 3
 				},
 				"range": "15m",
 				"duration": "1 turn",
-				"casting_chance": "-15%",
+				"casting_chance": "-20%",
 				"target": "Enemies in a 5m radius",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+20%"
 			},
 			"icon": "wh_deny_the_heretic"
 		},
@@ -10520,7 +10520,7 @@
 			},
 			"description": {
 				"basic": "Reduces Magic Resistance by 10% and the chance to pass All Alone, Fear, and Terror tests by 25% of a single enemy. Not Stackable.",
-				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+				"mastery": "Magic Resistance penalty increases to 20%, All Alone, Fear, and Terror penalty to 50%, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
@@ -10539,8 +10539,8 @@
 			"type": "witch_hunter",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 9,
+				"mastery": 15
 			},
 			"cost": {
 				"basic": 2,
@@ -10548,17 +10548,17 @@
 			},
 			"description": {
 				"basic": "Deals 10-15 damage to enemies around the caster. Bypasses Armour Absorption.",
-				"mastery": "Casting chance and Curse chance +5%"
+				"mastery": "Damage increases to 20-30. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 4
 				},
 				"range": "0m",
 				"duration": "1 turn",
-				"casting_chance": "-15%",
+				"casting_chance": "-25%",
 				"target": "Enemies within 5m of the caster",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+25%"
 			},
 			"icon": "wh_soulfire"
 		},
@@ -10567,8 +10567,8 @@
 			"type": "witch_hunter",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 6,
+				"mastery": 12
 			},
 			"cost": {
 				"basic": 2,
@@ -10576,17 +10576,17 @@
 			},
 			"description": {
 				"basic": "Increases Armour Absorption by 5% and Dodge and Parry chance by 10% of allies around the caster. Not Stackable.",
-				"mastery": "Casting chance and Curse chance +5%"
+				"mastery": "Armour Absorbtion boost increases to 10% and Dodge and Parry boost to 20%. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 3
 				},
 				"range": "0m",
 				"duration": "1 turn",
-				"casting_chance": "-15%",
+				"casting_chance": "-20%",
 				"target": "Allies within 5m of the caster",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+20%"
 			},
 			"icon": "wh_prayer_of_absolution"
 		},
@@ -10595,8 +10595,8 @@
 			"type": "witch_hunter",
 			"attribute": "intelligence",
 			"requirements": {
-				"basic": 3,
-				"mastery": 9
+				"basic": 9,
+				"mastery": 15
 			},
 			"cost": {
 				"basic": 2,
@@ -10604,17 +10604,17 @@
 			},
 			"description": {
 				"basic": "Restores up to 40 wounds to a single target.",
-				"mastery": ", range to 30m. Casting chance and Curse chance +5%"
+				"mastery": "Wounds restored increases to 80, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
-					"offense": 2
+					"offense": 4
 				},
 				"range": "15m",
 				"duration": "N/A",
-				"casting_chance": "-15%",
+				"casting_chance": "-25%",
 				"target": "Single ally",
-				"divine_wrath": "+15%"
+				"divine_wrath": "+25%"
 			},
 			"icon": "wh_healing_hand"
 		}
