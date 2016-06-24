@@ -1312,6 +1312,7 @@
 				"unwavering",
 				"mutations",
 				"creation_instability",
+				"chaotic_behaviour",
 				"immunity_poison",
 				"large",
 				"impressive"
@@ -2402,11 +2403,11 @@
 					"max": 14
 				},
 				"ballistic_skill": {
-					"min": 3,
+					"min": 2,
 					"max": 9
 				},
 				"accuracy": {
-					"min": 2,
+					"min": 3,
 					"max": 12
 				}
 			},
@@ -6336,13 +6337,14 @@
 				},
 				"info": {
 					"cost": {
+					    "strategy": 4
 					},
 					"range": "5m",
 					"target": "Allies within 5m of the pyre",
 					"duration": "1 turn",
 					"stackable": "No"
 				},
-				"icon": "wh_pyre_of_the_righteous"
+				"icon": "witch_hunters_pyre_of_the_righteous"
 			},
 			"trial_by_pain": {
 				"name": "Trial by Pain",
@@ -6368,7 +6370,7 @@
 					"duration": "1 turn",
 					"stackable": "No"
 				},
-				"icon": "wh_trial_by_pain"
+				"icon": "witch_hunters_trial_by_pain"
 			},
 			"burn_the_witch": {
 				"name": "Burn the Witch",
@@ -6394,7 +6396,7 @@
 					"duration": "1 turn",
 					"stackable": "Yes"
 				},
-				"icon": "wh_burn_the_witch"
+				"icon": "witch_hunters_burn_the_witch"
 			},
 			"fanatical_zeal": {
 				"name": "Fanatical Zeal",
@@ -6420,7 +6422,7 @@
 					"duration": "1 turn/2 turns",
 					"stackable": "No"
 				},
-				"icon": "wh_fanatical_zeal"
+				"icon": "witch_hunters_fanatical_zeal"
 			}
 		},
 		"passive": {
@@ -8903,7 +8905,7 @@
 					"basic": "After gathering a Wyrdstone, increases Wyrdstone Resistance by 10% for 2 turns and receive a 25% chance to recover 1 Strategy Point. Not Stackable.",
 					"mastery": "Wyrdstone Resistance increases to 20% and change to recover 1 SP to 50%"
 				},
-				"icon": "wh_ardent_cleansing"
+				"icon": "witch_hunters_ardent_cleansing"
 			},
 			"sigil_of_sigmar": {
 				"name": "Sigil of Sigmar",
@@ -8920,7 +8922,7 @@
 					"basic": "After failing a Magic Resistance test, increases Melee Damage by 20% for 1 turn. Stackable.",
 					"mastery": "Melee damage boost increases to 40%"
 				},
-				"icon": "wh_sigil_of_sigmar"
+				"icon": "witch_hunters_sigil_of_sigmar"
 			},
 			"witchfinders_ward": {
 				"name": "Witchfinder's Ward",
@@ -8947,7 +8949,7 @@
                         "wyrdstone": 20
 					}
 				},
-				"icon": "wh_witchfinders_ward"
+				"icon": "witch_hunters_witchfinders_ward"
 			}
 		}
 	},
@@ -8987,6 +8989,10 @@
 		"creation_instability": {
 		    "name": "Creation Instability",
 			"description": " Instead of suffering permanent injuries when it falls Out of Action, the warrior has a 20% chance to vanish back to the Realm of Chaos."
+		},
+		"chaotic_behaviour": {
+		    "name": "Chaotic Behaviour",
+			"description": "Cannot Parry."
 		},
 		"impressive": {
 		    "name": "Impressive",
@@ -10420,7 +10426,7 @@
 				"target": "Single ally",
 				"divine_wrath": "+15%"
 			},
-			"icon": "wh_immaculate_flesh"
+			"icon": "witch_hunters_immaculate_flesh"
 		},
 		"shield_of_faith": {
 			"name": "Shield of Faith",
@@ -10448,7 +10454,7 @@
 				"target": "Allies within 5m of the caster",
 				"divine_wrath": "+15%"
 			},
-			"icon": "wh_shield_of_faith"
+			"icon": "witch_hunters_shield_of_faith"
 		},
 		"armour_of_righteousness": {
 			"name": "Armour of Righteousness",
@@ -10476,7 +10482,7 @@
 				"target": "Single Ally",
 				"divine_wrath": "+20%"
 			},
-			"icon": "wh_armour_of_righteousness"
+			"icon": "witch_hunters_armour_of_righteousness"
 		},
 		"deny_the_heretic": {
 			"name": "Deny the Heretic",
@@ -10504,7 +10510,7 @@
 				"target": "Enemies in a 5m radius",
 				"divine_wrath": "+20%"
 			},
-			"icon": "wh_deny_the_heretic"
+			"icon": "witch_hunters_deny_the_heretic"
 		},
 		"word_of_damnation": {
 			"name": "Word of Damnation",
@@ -10532,7 +10538,7 @@
 				"target": "Single enemy",
 				"divine_wrath": "+15%"
 			},
-			"icon": "wh_word_of_damnation"
+			"icon": "witch_hunters_word_of_damnation"
 		},
 		"soulfire": {
 			"name": "Soulfire",
@@ -10560,7 +10566,7 @@
 				"target": "Enemies within 5m of the caster",
 				"divine_wrath": "+25%"
 			},
-			"icon": "wh_soulfire"
+			"icon": "witch_hunters_soulfire"
 		},
 		"prayer_of_absolution": {
 			"name": "Prayer of Absolution",
@@ -10588,7 +10594,7 @@
 				"target": "Allies within 5m of the caster",
 				"divine_wrath": "+20%"
 			},
-			"icon": "wh_prayer_of_absolution"
+			"icon": "witch_hunters_prayer_of_absolution"
 		},
 		"healing_hand": {
 			"name": "Healing Hand",
@@ -10616,7 +10622,7 @@
 				"target": "Single ally",
 				"divine_wrath": "+25%"
 			},
-			"icon": "wh_healing_hand"
+			"icon": "witch_hunters_healing_hand"
 		}
 	},
 
@@ -11252,19 +11258,19 @@
 					},
 					"good": {
 						"damage": {
-							"min": 28,
-							"max": 38
+							"min": 38,
+							"max": 48
 						},
-						"divine_wrath": 4,
-						"critical_hit_chance": 5
+						"divine_wrath": 7,
+						"critical_hit_chance": 7
 					},
 					"masterwork": {
 						"damage": {
-							"min": 28,
-							"max": 38
+							"min": 48,
+							"max": 58
 						},
-						"divine_wrath": 4,
-						"critical_hit_chance": 5
+						"divine_wrath": 10,
+						"critical_hit_chance": 9
 					}
 				}
 			},
@@ -11725,10 +11731,10 @@
 					},
 					"good": {
 						"damage": {
-							"min": 16,
-							"max": 22
+							"min": 22,
+							"max": 28
 						},
-						"ranged_armour_bypass": 6
+						"ranged_armour_bypass": 9
 					},
 					"masterwork": {
 						"damage": {
