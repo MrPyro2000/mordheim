@@ -198,7 +198,7 @@
 			"skillpoints": 30,
 			"spellpoints": 18,
 			"attributepoints": {
-				"physical": 15,
+				"physical": 16,
 				"mental": 15,
 				"martial": 14
 			},
@@ -9603,8 +9603,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "A veil of corruption encloses the targeted area. Reduces Wyrdstone Resistance by 25% for anyone within the area. Gathering a Wyrdstone in the area deals 6-11 damage on next turn start. Leaving the area inflicts a debuff that reduces Wyrdstone Resistance by 25% and lasts 2 turns. Stackable.",
-				"mastery": "Damage increases to 12-22, Wyrdstone Resistance penalty to 50%, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Deals 7-12 damage. Applies a debuff that reduces Armour Absorption by 5% for 1 turn and deals another 7-12 damage on turn start. Stackable.",
+				"mastery": "Damage increases to 10-20, Armour Absorption penalty to 10%.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -11738,10 +11738,10 @@
 					},
 					"masterwork": {
 						"damage": {
-							"min": 16,
-							"max": 22
+							"min": 28,
+							"max": 34
 						},
-						"ranged_armour_bypass": 6
+						"ranged_armour_bypass": 12
 					}
 				}
 			},
