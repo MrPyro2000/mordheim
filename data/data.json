@@ -198,7 +198,7 @@
 			"skillpoints": 30,
 			"spellpoints": 18,
 			"attributepoints": {
-				"physical": 15,
+				"physical": 16,
 				"mental": 15,
 				"martial": 14
 			},
@@ -1312,6 +1312,7 @@
 				"unwavering",
 				"mutations",
 				"creation_instability",
+				"chaotic_behaviour",
 				"immunity_poison",
 				"large",
 				"impressive"
@@ -2402,11 +2403,11 @@
 					"max": 14
 				},
 				"ballistic_skill": {
-					"min": 3,
+					"min": 2,
 					"max": 9
 				},
 				"accuracy": {
-					"min": 2,
+					"min": 3,
 					"max": 12
 				}
 			},
@@ -2994,6 +2995,7 @@
 					"great_axe",
 					"great_hammer",
 					"great_sword",
+					"great_ulrican_axe",
 					"cloth",
 					"light",
 					"heavy",
@@ -3003,7 +3005,682 @@
 				]
 			},
 			"icon": "dlc_wolf_priest"
-		}
+		},
+		"witch_hunter_captain": {
+			"type": "leader",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 14,
+				"mental": 14,
+				"martial": 17
+			},
+			"attributes": {
+				"strength": {
+					"min": 5,
+					"max": 13
+				},
+				"toughness": {
+					"min": 5,
+					"max": 13
+				},
+				"agility": {
+					"min": 6,
+					"max": 15
+				},
+				"leadership": {
+					"min": 8,
+					"max": 16
+				},
+				"intelligence": {
+					"min": 6,
+					"max": 12
+				},
+				"alertness": {
+					"min": 5,
+					"max": 15
+				},
+				"weapon_skill": {
+					"min": 5,
+					"max": 15
+				},
+				"ballistic_skill": {
+					"min": 5,
+					"max": 16
+				},
+				"accuracy": {
+					"min": 5,
+					"max": 15
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"hunters_patience"
+			],
+			"perks": [
+				"sigmars_aegis"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter",
+					"leader"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"sword",
+					"great_hammer",
+					"great_sword",
+					"blunderbuss",
+					"crossbow",
+					"crossbow_pistol",
+					"duelling_pistols",
+					"handgun",
+					"hunting_rifle",					
+					"pistol",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_witch_hunter_captain"
+		},
+		"witch_hunter": {
+			"type": "hero",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 13,
+				"mental": 15,
+				"martial": 17
+			},
+			"attributes": {
+				"strength": {
+					"min": 3,
+					"max": 12
+				},
+				"toughness": {
+					"min": 3,
+					"max": 12
+				},
+				"agility": {
+					"min": 6,
+					"max": 16
+				},
+				"leadership": {
+					"min": 4,
+					"max": 9
+				},
+				"intelligence": {
+					"min": 3,
+					"max": 12
+				},
+				"alertness": {
+					"min": 5,
+					"max": 15
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 15
+				},
+				"ballistic_skill": {
+					"min": 6,
+					"max": 12
+				},
+				"accuracy": {
+					"min": 6,
+					"max": 17
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"purge_the_heretic"
+			],
+			"perks": [
+				"sigmars_ward"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"sword",
+					"great_hammer",
+					"great_sword",
+					"blunderbuss",
+					"crossbow",
+					"crossbow_pistol",
+					"duelling_pistols",
+					"handgun",
+					"hunting_rifle",					
+					"pistol",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_witch_hunter"
+		},
+		"warrior_priest": {
+			"type": "hero",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 18,
+			"attributepoints": {
+				"physical": 16,
+				"mental": 16,
+				"martial": 13
+			},
+			"attributes": {
+				"strength": {
+					"min": 4,
+					"max": 13
+				},
+				"toughness": {
+					"min": 5,
+					"max": 15
+				},
+				"agility": {
+					"min": 3,
+					"max": 9
+				},
+				"leadership": {
+					"min": 6,
+					"max": 15
+				},
+				"intelligence": {
+					"min": 8,
+					"max": 18
+				},
+				"alertness": {
+					"min": 3,
+					"max": 9
+				},
+				"weapon_skill": {
+					"min": 5,
+					"max": 16
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 12
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"divine_rage"
+			],
+			"spells": [
+			    "immaculate_flesh"
+			],
+			"perks": [
+				"divine_caster"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter",
+					"divine_caster",
+					"born_leader"
+				],
+				"spells": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"dagger",
+					"flail",
+					"hammer",
+					"mace",
+					"sigmarite_warhammer",
+					"great_flail",
+					"great_hammer",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet"
+				]
+			},
+			"icon": "wh_warrior_priest"
+		},
+		"templar_knight": {
+			"type": "hero",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 16,
+				"mental": 14,
+				"martial": 15
+			},
+			"attributes": {
+				"strength": {
+					"min": 6,
+					"max": 16
+				},
+				"toughness": {
+					"min": 6,
+					"max": 16
+				},
+				"agility": {
+					"min": 3,
+					"max": 12
+				},
+				"leadership": {
+					"min": 4,
+					"max": 15
+				},
+				"intelligence": {
+					"min": 3,
+					"max": 9
+				},
+				"alertness": {
+					"min": 4,
+					"max": 12
+				},
+				"weapon_skill": {
+					"min": 8,
+					"max": 18
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 12
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 10
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"stoic"
+			],
+			"perks": [
+				"last_stand",
+				"unwavering"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"spear",
+					"sword",
+					"halberd",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"bow",
+					"longbow",
+					"short_bow",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_templar_knight"
+		},
+		"flagellant": {
+			"type": "henchman",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 14,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 21,
+				"mental": 14,
+				"martial": 10
+			},
+			"attributes": {
+				"strength": {
+					"min": 3,
+					"max": 12
+				},
+				"toughness": {
+					"min": 4,
+					"max": 16
+				},
+				"agility": {
+					"min": 3,
+					"max": 15
+				},
+				"leadership": {
+					"min": 5,
+					"max": 15
+				},
+				"intelligence": {
+					"min": 1,
+					"max": 6
+				},
+				"alertness": {
+					"min": 3,
+					"max": 12
+				},
+				"weapon_skill": {
+					"min": 3,
+					"max": 12
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 5,
+					"max": 14
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"fanaticism"
+			],
+			"perks": [
+				"no_talent"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"flail",
+					"hammer",
+					"great_axe",
+					"great_flail",
+					"great_hammer",
+					"cloth",
+					"pendant",
+					"amulet"
+				]
+			},
+			"icon": "wh_flagellant"
+		},
+		"zealot": {
+			"type": "henchman",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 14,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 15,
+				"mental": 13,
+				"martial": 17
+			},
+			"attributes": {
+				"strength": {
+					"min": 3,
+					"max": 12
+				},
+				"toughness": {
+					"min": 3,
+					"max": 12
+				},
+				"agility": {
+					"min": 5,
+					"max": 13
+				},
+				"leadership": {
+					"min": 3,
+					"max": 12
+				},
+				"intelligence": {
+					"min": 3,
+					"max": 12
+				},
+				"alertness": {
+					"min": 5,
+					"max": 13
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 12
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 15
+				},
+				"accuracy": {
+					"min": 1,
+					"max": 9
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"vengeance"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter",
+					"lads_got_talent"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"spear",
+					"sword",
+					"halberd",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"bow",
+					"longbow",
+					"short_bow",
+					"cloth",
+					"light",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_zealot"
+		},
+		"executioner": {
+			"type": "impressive",
+			"rating": 96,
+			"wounds": 114,
+			"skillpoints": 38,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 18,
+				"mental": 17,
+				"martial": 10
+			},
+			"attributes": {
+				"strength": {
+					"min": 8,
+					"max": 16
+				},
+				"toughness": {
+					"min": 7,
+					"max": 15
+				},
+				"agility": {
+					"min": 12,
+					"max": 20
+				},
+				"leadership": {
+					"min": 5,
+					"max": 12
+				},
+				"intelligence": {
+					"min": 12,
+					"max": 20
+				},
+				"alertness": {
+					"min": 9,
+					"max": 16
+				},
+				"weapon_skill": {
+					"min": 9,
+					"max": 18
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 15,
+					"max": 20
+				}
+			},
+			"resistances": {
+				"poison": 31,
+				"melee": 9,
+				"critical_hit": 7,
+				"wyrdstone": 25,
+				"magic": 6,
+				"ranged": 9,
+				"stun": 12,
+				"trap": 0
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"pyre_of_the_righteous"
+			],
+			"perks": [
+				"fire_purge",
+				"unwavering",
+				"last_stand",
+				"impressive",
+				"burning_rage"
+			],
+			"restrictions": {
+				"skills": [
+					"witch_hunter"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"sword",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"cloth",
+					"light",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			},
+			"icon": "wh_executioner"
+		}		
 	},
 
 	"skills": {
@@ -3049,7 +3726,7 @@
 				},
 				"description": {
 					"basic": "Charge in an unbstructed line to engage a target and perform a melee attack that has a +10% chance to hit, deals +25% damage, and bypasses 15% of the target's Dodge and Parry chance. Target may Counter-Attack with a -10% chance to hit. Charge distance is based on Movement Range.<br>Requires a melee weapon. Cannot use while engaged.",
-					"mastery": "Chance to hit increases to 20% and Dodge and Parry chance bypess to 30%."
+					"mastery": "Chance to hit increases to 20% and Dodge and Parry chance bypass to 30%."
 				},
 				"info": {
 					"cost": {
@@ -4851,12 +5528,13 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "A melee attack that deals regular damage but with a -25% chance to hit. If hit, the target gains a debuff that reduces maximum Offense and Strategy Points by 1 for 1 turn.",
-					"mastery": "Maximum Offense and Strategy Points penalty increased to 2 and Hit chance penalty reduced to -15%."
+					"basic": "A melee attack that deals regular damage but with a -20% chance to hit. If hit, the target gains a debuff that reduces maximum Offense and Strategy Points by 1 for 1 turn.",
+					"mastery": "Maximum Offense and Strategy Points penalty increased to 2 and Hit chance penalty reduced to -10%."
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2,
+						"strategy": 1
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -5121,8 +5799,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": " Inflicts a random debuff from the following: -10% Melee or Ranged Resistance, or -20% Poison, Magic, or Critical Resistance. Effects last for 2 turns. Not stackable.",
-					"mastery": "Duration increases to 3 turns."
+					"basic": "Inflicts a random debuff from the following: -15% Melee and Poison Resistance, OR -15% Magic and Stun Resistance, OR -15% Ranged and Critical Resistance. Effects last for 1 turn. Not stackable.",
+					"mastery": "Duration increases to 2 turns."
 				},
 				"info": {
 					"cost": {
@@ -5130,7 +5808,7 @@
 					},
 					"range": "15m",
 					"target": "Everyone within 5m",
-					"duration": "2 turns",
+					"duration": "1 turn",
 					"stackable": "No"
 				},
 				"icon": "globadier_warp_globe"
@@ -5148,8 +5826,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Inflicts a random buff from the following: +10% Melee or Ranged Resistance, or +20% Poison, Magic, or Critical Resistance. Effects last for 2 turns. Not stackable.",
-					"mastery": "Duration increases to 3 turns"
+					"basic": "Inflicts a random buff from the following: +15% Melee and Poison Resistance, OR +15% Ranged and Critical Resistance, OR +15% Magic and Stun Resistance. Effects last for 1 turn. Not stackable.",
+					"mastery": "Duration increases to 2 turns"
 				},
 				"info": {
 					"cost": {
@@ -5647,6 +6325,104 @@
 					"stackable": "No"
 				},
 				"icon": "doomweaver_ritual_of_defiance"
+			},
+			"pyre_of_the_righteous": {
+				"name": "Pyre of the Righteous",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "Places an effigy at a target location that can be destroyed by enemies. The effigy increases the chance to pass All Alone, Fear, Terror by 30%, and Melee and Ranged Hit chance by 10% for allies within 5 meters. Usable once every 2 turns. Not Stackable."
+				},
+				"info": {
+					"cost": {
+					    "strategy": 4
+					},
+					"range": "5m",
+					"target": "Allies within 5m of the pyre",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "witch_hunters_pyre_of_the_righteous"
+			},
+			"trial_by_pain": {
+				"name": "Trial by Pain",
+				"attribute": "ballistic_skill",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "A ranged attack that deals regular damage. If hit, the target gains a debuff that deals 5-15 damage every time a melee or ranged attack is used for 1 turn. Not Stackable.",
+					"mastery": "Debuff damage increases to 10-30 and also prevents Switch Weapons."
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0m",
+					"target": "Single enemy",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "witch_hunters_trial_by_pain"
+			},
+			"burn_the_witch": {
+				"name": "Burn the Witch",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "A melee attack that deals regular damage. If hit, the target gains a debuff that increases Spellcasting cost by 1 Offense Point for 1 turn. Stackable.",
+					"mastery": "Spellcasting cost penalty increases to 2 OP"
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0m",
+					"target": "Single enemy",
+					"duration": "1 turn",
+					"stackable": "Yes"
+				},
+				"icon": "witch_hunters_burn_the_witch"
+			},
+			"fanatical_zeal": {
+				"name": "Fanatical Zeal",
+				"attribute": "accuracy",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Melee Hit chance by 5% for 1 turn. Prevents Flee and Disengage for 2 turns. Not Stackable.",
+					"mastery": "Melee hit chance boost increases to 10%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 3
+					},
+					"range": "0m",
+					"target": "Self",
+					"duration": "1 turn/2 turns",
+					"stackable": "No"
+				},
+				"icon": "witch_hunters_fanatical_zeal"
 			}
 		},
 		"passive": {
@@ -6397,15 +7173,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Trap Resistance by 15%.",
-					"mastery": "Trap Resistance increases to 30%."
+					"basic": "Increases Trap Resistance by 30%.",
+					"mastery": "Trap Resistance increases to 60%."
 				},
 				"effects": {
 					"basic": {
-						"trap": 15
+						"trap": 30
 					},
 					"mastery": {
-						"trap": 30
+						"trap": 60
 					}
 				},
 				"icon": "intelligence_tracker"
@@ -6565,15 +7341,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Wyrdstone Resistance by 10%.",
-					"mastery": "Wyrdstone Resistance increases to 20%."
+					"basic": "Increases Wyrdstone Resistance by 20%.",
+					"mastery": "Wyrdstone Resistance increases to 40%."
 				},
 				"effects": {
 					"basic": {
-						"wyrdstone": 10
+						"wyrdstone": 20
 					},
 					"mastery": {
-						"wyrdstone": 20
+						"wyrdstone": 40
 					}
 				},
 				"icon": "intelligence_resist_corruption"
@@ -6590,8 +7366,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Perception chance by 10%.",
-					"mastery": "Perception chance increases to 20%."
+					"basic": "Increases Perception chance by 20%.",
+					"mastery": "Perception chance increases to 40%."
 				},
 				"icon": "alertness_sixth_sense"
 			},
@@ -7638,7 +8414,7 @@
 						"terror": 35
 					}
 				},
-        "icon": "wolf_priest_heart_of_the_wolf"
+                "icon": "wolf_priest_heart_of_the_wolf"
 			},
 			"paralysing_discharge": {
 				"name": "Paralysing Discharge",
@@ -8047,6 +8823,133 @@
 					"mastery": "Spell damage increased by 20%"
 				},
 				"icon": "doomweaver_daub_of_hatred"
+			},
+			"hunters_patience": {
+				"name": "Hunter's Patience",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point."
+				},
+                "icon": "witch_hunters_hunters_patience"
+			},
+			"purge_the_heretic": {
+				"name": "Purge the Heretic!",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "When dealing melee damage, increases melee damage by 20% for the next attack. The next action taken must be a melee attack or skill, or the effect is lost."
+				},
+                "icon": "witch_hunters_purge_the_heretic"
+			},
+			"divine_rage": {
+				"name": "Divine Rage",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "When dealing melee damage, increases the Spellcasting chance of the next spell by 15%. The next action taken must be a spell or the effect is lost."
+				},
+                "icon": "witch_hunters_divine_rage"
+			},
+			"stoic": {
+				"name": "Stoic",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "When engaged with 2 or more enemies, increases Melee Resistance by 10%. Not Stackable"
+				},
+                "icon": "witch_hunters_stoic"
+			},
+			"fanaticism": {
+				"name": "Fanaticism",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "Grants immunity to All Alone, Fear and Terror tests."
+				},
+                "icon": "witch_hunters_fanaticism"
+			},
+			"vengeance": {
+				"name": "Vengeance",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "When receiving damage, increases Melee damage by 10% for 1 turn. Stackable."
+				},
+                "icon": "witch_hunters_vengeance"
+			},
+			"ardent_cleansing": {
+				"name": "Ardent Cleansing",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "After gathering a Wyrdstone, increases Wyrdstone Resistance by 10% for 2 turns and receive a 25% chance to recover 1 Strategy Point. Not Stackable.",
+					"mastery": "Wyrdstone Resistance increases to 20% and change to recover 1 SP to 50%"
+				},
+				"icon": "witch_hunters_ardent_cleansing"
+			},
+			"sigil_of_sigmar": {
+				"name": "Sigil of Sigmar",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "After failing a Magic Resistance test, increases Melee Damage by 20% for 1 turn. Stackable.",
+					"mastery": "Melee damage boost increases to 40%"
+				},
+				"icon": "witch_hunters_sigil_of_sigmar"
+			},
+			"witchfinders_ward": {
+				"name": "Witchfinder's Ward",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Poison and Wyrdstone Resistance by 10%.",
+					"mastery": "Poison and Wyrdstone Resistance increases to 20%"
+				},
+				"effects": {
+					"basic": {
+					    "poison": 10,
+                        "wyrdstone": 10
+					},
+					"mastery": {
+					    "poison": 20,
+                        "wyrdstone": 20
+					}
+				},
+				"icon": "witch_hunters_witchfinders_ward"
 			}
 		}
 	},
@@ -8077,7 +8980,7 @@
 		},
 		"unwavering": {
 		    "name": "Unwavering",
-			"description": "Immune to Alone, Fear, and Terror tests."
+			"description": "Immune to All Alone, Fear, and Terror tests."
 		},
 		"mutations": {
 		    "name": "Mutations",
@@ -8086,6 +8989,10 @@
 		"creation_instability": {
 		    "name": "Creation Instability",
 			"description": " Instead of suffering permanent injuries when it falls Out of Action, the warrior has a 20% chance to vanish back to the Realm of Chaos."
+		},
+		"chaotic_behaviour": {
+		    "name": "Chaotic Behaviour",
+			"description": "Cannot Parry."
 		},
 		"impressive": {
 		    "name": "Impressive",
@@ -8121,6 +9028,32 @@
 		"fast": {
 		    "name": "Fast",
 			"description": "Increases Movement range by 1m."
+		},
+		"sigmars_aegis": {
+		    "name": "Sigmar's Aegis",
+			"description": "The warrior has a natural Magic resistance bonus of 20%.",
+			"effects": {
+				"magic": 20
+			}
+		},
+		"sigmars_ward": {
+		    "name": "Sigmar's Ward",
+			"description": "The warrior has a natural Magic resistance bonus of 10%.",
+			"effects": {
+				"magic": 10
+			}
+		},
+		"no_talent": {
+		    "name": "No Talent",
+			"description": "This unit cannot buy the 'Lad's got talent' skill."
+		},
+		"fire_purge": {
+		    "name": "Fire Purge",
+			"description": "Each melee attack has 25% chances to light the enemy on fire for 2 turns, the fire damage is taken at the beginning of its turn."
+		},
+		"burning_rage": {
+		    "name": "Burning Rage",
+			"description": "Cannot use consumable items, or the Search and Activate actions."
 		}
 	},
 
@@ -8614,8 +9547,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the nine Primary attributes and increases it by 4. Stackable.",
-				"mastery": "Attribute bonus increases to 8, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and increases its stats by 2. Not Stackable (per category).",
+				"mastery": "Attribute bonus increases to 4, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -8670,8 +9603,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "A veil of corruption encloses the targeted area. Reduces Wyrdstone Resistance by 25% for anyone within the area. Gathering a Wyrdstone in the area deals 6-11 damage on next turn start. Leaving the area inflicts a debuff that reduces Wyrdstone Resistance by 25% and lasts 2 turns. Stackable.",
-				"mastery": "Damage increases to 12-22, Wyrdstone Resistance penalty to 50%, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Deals 7-12 damage. Applies a debuff that reduces Armour Absorption by 5% for 1 turn and deals another 7-12 damage on turn start. Stackable.",
+				"mastery": "Damage increases to 10-20, Armour Absorption penalty to 10%.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -8726,8 +9659,8 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the nine Primary attributes and reduces it by 3 on all targets. Cannot reduce below 1. Stackable.",
-				"mastery": "Attributes penalty increases to 6, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and reduces its stats by 1 on all targets. Cannot reduce below 1. Stackable.",
+				"mastery": "Attributes penalty increases to 2, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
 				"cost": {
@@ -9466,6 +10399,230 @@
 				"divine_wrath": "+20%"
 			},
 			"icon": "doomweaver_idol_of_lust"
+		},
+		"immaculate_flesh": {
+			"name": "Immaculate Flesh",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Removes all active Poison effects and increases Poison and Wyrdstone Resistance by 15% to a single ally. Not stackable.",
+				"mastery": "Also removes Warp effects. Poison and Wyrdstone Resistance boost increases to 30%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "witch_hunters_immaculate_flesh"
+		},
+		"shield_of_faith": {
+			"name": "Shield of Faith",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": " Increases Magic Resistance by 15% of every allies around the caster. Not Stackable.",
+				"mastery": "Magic Resistance boost increases to 25%, duration to 2 turns. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Allies within 5m of the caster",
+				"divine_wrath": "+15%"
+			},
+			"icon": "witch_hunters_shield_of_faith"
+		},
+		"armour_of_righteousness": {
+			"name": "Armour of Righteousness",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Grants immunity to Fear and provokes Fear on engaged enemies. Increases Armour Absorption by 10%. Not Stackable.",
+				"mastery": "Armour Absorbtion boost increases to 20%, range to 30m and duration to 2 turns. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Single Ally",
+				"divine_wrath": "+20%"
+			},
+			"icon": "witch_hunters_armour_of_righteousness"
+		},
+		"deny_the_heretic": {
+			"name": "Deny the Heretic",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Creates a zone effect at the selected area. Enemies entering or starting a turn inside the area inflicts a debuff that reduces current and maximum Offense Points by 1 and Melee Hit chance by 5% for 1 turn. Not Stackable.",
+				"mastery": "Hit chance reduction increases to 15%. Zone duration increases to 2 turns, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Enemies in a 5m radius",
+				"divine_wrath": "+20%"
+			},
+			"icon": "witch_hunters_deny_the_heretic"
+		},
+		"word_of_damnation": {
+			"name": "Word of Damnation",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Reduces Magic Resistance by 10% and the chance to pass All Alone, Fear, and Terror tests by 25% of a single enemy. Not Stackable.",
+				"mastery": "Magic Resistance penalty increases to 20%, All Alone, Fear, and Terror penalty to 50%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "-15%",
+				"target": "Single enemy",
+				"divine_wrath": "+15%"
+			},
+			"icon": "witch_hunters_word_of_damnation"
+		},
+		"soulfire": {
+			"name": "Soulfire",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 10-15 damage to enemies around the caster. Bypasses Armour Absorption.",
+				"mastery": "Damage increases to 20-30. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-25%",
+				"target": "Enemies within 5m of the caster",
+				"divine_wrath": "+25%"
+			},
+			"icon": "witch_hunters_soulfire"
+		},
+		"prayer_of_absolution": {
+			"name": "Prayer of Absolution",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Increases Armour Absorption by 5% and Dodge and Parry chance by 10% of allies around the caster. Not Stackable.",
+				"mastery": "Armour Absorbtion boost increases to 10% and Dodge and Parry boost to 20%. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "0m",
+				"duration": "1 turn",
+				"casting_chance": "-20%",
+				"target": "Allies within 5m of the caster",
+				"divine_wrath": "+20%"
+			},
+			"icon": "witch_hunters_prayer_of_absolution"
+		},
+		"healing_hand": {
+			"name": "Healing Hand",
+			"type": "witch_hunter",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Restores up to 40 wounds to a single target.",
+				"mastery": "Wounds restored increases to 80, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "15m",
+				"duration": "N/A",
+				"casting_chance": "-25%",
+				"target": "Single ally",
+				"divine_wrath": "+25%"
+			},
+			"icon": "witch_hunters_healing_hand"
 		}
 	},
 
@@ -10084,6 +11241,39 @@
 					}
 				}
 			},
+			"great_ulrican_axe": {
+				"type": "melee",
+				"name": "Great Ulrican Axe",
+				"description": "Blessed: Divine Wrath chance -{{ divine_wrath }}%. <br>Savage: Critical Hit chance +{{ critical_hit_chance }}% <br>Slow: Attacks have a +10% chance to be Dodged.<br>Heavy: -15% melee damage after each successive Attack. Stackable.<br>Tiring: +1 OP cost for each successive Attack or Attack Skill. Stackable.",
+				"initiative": -10,
+				"twohanded": true,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 28,
+							"max": 38
+						},
+						"divine_wrath": 4,
+						"critical_hit_chance": 5
+					},
+					"good": {
+						"damage": {
+							"min": 38,
+							"max": 48
+						},
+						"divine_wrath": 7,
+						"critical_hit_chance": 7
+					},
+					"masterwork": {
+						"damage": {
+							"min": 48,
+							"max": 58
+						},
+						"divine_wrath": 10,
+						"critical_hit_chance": 9
+					}
+				}
+			},
 			"great_flail": {
 				"type": "melee",
 				"name": "Great Flail",
@@ -10522,6 +11712,36 @@
 							"max": 36
 						},
 						"ranged_armour_bypass": 15
+					}
+				}
+			},
+			"crossbow_pistol": {
+				"type": "ranged",
+				"name": "Crossbow Pistol",
+				"description": "Reload: 1 Strategy Point.<br>Sunder: Attacks bypass {{ ranged_armour_bypass }}% Armour Absorption.",
+				"initiative": 5,
+				"twohanded": true,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 16,
+							"max": 22
+						},
+						"ranged_armour_bypass": 6
+					},
+					"good": {
+						"damage": {
+							"min": 22,
+							"max": 28
+						},
+						"ranged_armour_bypass": 9
+					},
+					"masterwork": {
+						"damage": {
+							"min": 28,
+							"max": 34
+						},
+						"ranged_armour_bypass": 12
 					}
 				}
 			},
