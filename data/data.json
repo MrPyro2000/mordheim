@@ -88,6 +88,7 @@
 					"sigmarite_warhammer",
 					"great_flail",
 					"great_hammer",
+					"sigmarite_great_hammer",
 					"cloth",
 					"light",
 					"heavy",
@@ -280,6 +281,7 @@
 					"sigmarite_warhammer",
 					"great_flail",
 					"great_hammer",
+					"sigmarite_great_hammer",
 					"cloth",
 					"light",
 					"shield",
@@ -651,6 +653,7 @@
 					"sigmarite_warhammer",
 					"great_flail",
 					"great_hammer",
+					"sigmarite_great_hammer",
 					"heavy",
 					"shield",
 					"pendant",
@@ -3294,6 +3297,7 @@
 					"sigmarite_warhammer",
 					"great_flail",
 					"great_hammer",
+					"sigmarite_great_hammer",
 					"cloth",
 					"light",
 					"heavy",
@@ -3481,6 +3485,7 @@
 					"dagger",
 					"flail",
 					"hammer",
+					"mace",
 					"great_axe",
 					"great_flail",
 					"great_hammer",
@@ -6123,7 +6128,7 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Take a stance that ends the current turn. The stance allows 1 attempt to Parry incoming attacks and increases Counter-Attack Hit chance by 10%.",
+					"basic": "Take a stance that ends the current turn. The stance allows 1 attempt to Parry incoming attacks and increases Counter-Attack Hit chance by 10%. A successful Parry will reduce the OP cost of a counter-attack by 1.",
 					"mastery": "Parry attempts increases to 2, Counter Attack Hit chance increases by 20%"
 				},
 				"info": {
@@ -6389,7 +6394,8 @@
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2,
+						"strategy": 1
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -6415,7 +6421,7 @@
 				},
 				"info": {
 					"cost": {
-						"strategy": 3
+						"strategy": 2
 					},
 					"range": "0m",
 					"target": "Self",
@@ -9547,7 +9553,7 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and increases its stats by 2. Not Stackable (per category).",
+				"basic": "Randomly selects one of the three Primary attribute categories (Physical, Mental or Martial) and increases its stats by 2. Stackable.",
 				"mastery": "Attribute bonus increases to 4, range to 30 meters.<br>Casting chance and Tzeentch Curse +5%."
 			},
 			"info": {
@@ -10161,15 +10167,15 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": " Increases Melee Critical hit chance by 5% and Critical damage by 15%. Not Stackable.",
-				"mastery": "Melee Critical hit chance increases by 10% and Critical damage by 30%. Casting chance and Wrath chance +5%"
+				"basic": " Increases Melee Critical hit chance by 5% and Critical damage by 10%. Not Stackable.",
+				"mastery": "Melee Critical hit chance increases by 10% and Critical damage by 20%. Casting chance and Wrath chance +5%"
 			},
 			"info": {
 				"cost": {
 					"offense": 4
 				},
 				"range": "0m",
-				"duration": "1 turn",
+				"duration": "2 turns",
 				"casting_chance": "-25%",
 				"target": "self and allies within 5m of caster.",
 				"divine_wrath": "+25%"
@@ -10225,7 +10231,7 @@
 					"offense": 2
 				},
 				"range": "15m",
-				"duration": "1 turn",
+				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Self or single ally",
 				"divine_wrath": "+15%"
@@ -10525,15 +10531,15 @@
 				"mastery": 4
 			},
 			"description": {
-				"basic": "Reduces Magic Resistance by 10% and the chance to pass All Alone, Fear, and Terror tests by 25% of a single enemy. Not Stackable.",
-				"mastery": "Magic Resistance penalty increases to 20%, All Alone, Fear, and Terror penalty to 50%, range to 30m. Casting chance and Curse chance +5%"
+				"basic": "Reduces Magic Resistance by 10% and the chance to pass All Alone, Fear, and Terror tests by 15% of a single enemy. Not Stackable.",
+				"mastery": "Magic Resistance penalty increases to 20%, All Alone, Fear, and Terror penalty to 30%, range to 30m. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
 					"offense": 2
 				},
 				"range": "15m",
-				"duration": "1 turn",
+				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Single enemy",
 				"divine_wrath": "+15%"
@@ -10610,13 +10616,13 @@
 			},
 			"description": {
 				"basic": "Restores up to 40 wounds to a single target.",
-				"mastery": "Wounds restored increases to 80, range to 30m. Casting chance and Curse chance +5%"
+				"mastery": "Wounds restored increases to 80. Casting chance and Curse chance +5%"
 			},
 			"info": {
 				"cost": {
 					"offense": 4
 				},
-				"range": "15m",
+				"range": "3m",
 				"duration": "N/A",
 				"casting_chance": "-25%",
 				"target": "Single ally",
@@ -11452,6 +11458,39 @@
 					}
 				}
 			},
+			"sigmarite_great_hammer": {
+				"type": "melee",
+				"name": "Sigmarite Great Hammer",
+				"description": "Blessed: Divine Wrath chance -{{ divine_wrath }}%.<br>Sunder: Attacks bypass {{ melee_armour_bypass }}% Armour Absorption.<br>Slow: Attacks have a +10% chance to be Dodged.<br>Heavy: -15% melee damage after each successive Attack. Stackable.<br>Tiring: +1 OP cost for each successive Attack or Attack Skill. Stackable.",
+				"initiative": -5,
+				"twohanded": true,
+				"effects": {
+					"normal": {
+						"damage": {
+							"min": 32,
+							"max": 36
+						},
+						"melee_armour_bypass": 9,
+						"divine_wrath": 6
+					},
+					"good": {
+						"damage": {
+							"min": 42,
+							"max": 46
+						},
+						"melee_armour_bypass": 12,
+						"divine_wrath": 9
+					},
+					"masterwork": {
+						"damage": {
+							"min": 52,
+							"max": 56
+						},
+						"melee_armour_bypass": 15,
+						"divine_wrath": 12
+					}
+				}
+			},			
 			"sigmarite_warhammer": {
 				"type": "melee",
 				"name": "Sigmarite Warhammer",
