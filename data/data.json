@@ -2999,6 +2999,7 @@
 					"great_hammer",
 					"great_sword",
 					"great_ulrican_axe",
+					"halberd",
 					"cloth",
 					"light",
 					"heavy",
@@ -8293,7 +8294,7 @@
 			},
 			"tzeentchs_warding": {
 				"name": "Tzeentch's Warding",
-				"attribute": "weapon_skill",
+				"attribute": "intelligence",
 				"requirements": {
 					"basic": 6,
 					"mastery": 9
@@ -10644,7 +10645,7 @@
 		"executioner": {
 			"name": "Executioner",
 			"slot": "left_arm",
-			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +6% Armour Absorption<br>On hit, applies a poison debuff that reduces Armour Absorption by y for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +6% Armour Absorption<br>On hit, applies a poison debuff that reduces Armour Absorption by 3% for 1 turn. Stackable.",
 			"effects": {
 				"melee_armour_bypass": 6
 			}
