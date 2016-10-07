@@ -3686,7 +3686,613 @@
 				]
 			},
 			"icon": "wh_executioner"
-		}		
+		},
+		"vampire": {
+			"type": "leader",
+			"rating": 114,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 14,
+				"mental": 14,
+				"martial": 17
+			},
+			"attributes": {
+				"strength": {
+					"min": 7,
+					"max": 18
+				},
+				"toughness": {
+					"min": 6,
+					"max": 15
+				},
+				"agility": {
+					"min": 6,
+					"max": 15
+				},
+				"leadership": {
+					"min": 8,
+					"max": 15
+				},
+				"intelligence": {
+					"min": 5,
+					"max": 15
+				},
+				"alertness": {
+					"min": 7,
+					"max": 16
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 15
+				},
+				"ballistic_skill": {
+					"min": 4,
+					"max": 12
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 9
+				}
+			},
+			"other": {
+				"movement": 7
+			},
+			"skills": [
+				"terror"
+			],
+			"perks": [
+				"unwavering",
+				"immunity_poison"
+			],
+			"icon": "und_vampire",
+			"restrictions": {
+				"skills": [
+					"leader",
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"halberd",
+					"hammer",
+					"mace",
+					"spear",
+					"sword",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"bow",
+					"longbow",
+					"short_bow",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			}
+		},
+		"necromancer": {
+			"type": "hero",
+			"rating": 114,
+			"skillpoints": 30,
+			"spellpoints": 18,
+			"attributepoints": {
+				"physical": 16,
+				"mental": 16,
+				"martial": 13
+			},
+			"attributes": {
+				"strength": {
+					"min": 3,
+					"max": 9
+				},
+				"toughness": {
+					"min": 5,
+					"max": 15
+				},
+				"agility": {
+					"min": 3,
+					"max": 10
+				},
+				"leadership": {
+					"min": 5,
+					"max": 15
+				},
+				"intelligence": {
+					"min": 9,
+					"max": 20
+				},
+				"alertness": {
+					"min": 3,
+					"max": 9
+				},
+				"weapon_skill": {
+					"min": 3,
+					"max": 12
+				},
+				"ballistic_skill": {
+					"min": 5,
+					"max": 15
+				},
+				"accuracy": {
+					"min": 4,
+					"max": 15
+				}
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"warp_attunement"
+			],
+			"spells": [
+				"rotten_touch"
+			],
+			"perks": [
+				"arcane_caster",
+				"death_stench_immunity"
+			],
+			"icon": "und_necromancer",
+			"restrictions": {
+				"skills": [
+					"born_leader",
+					"arcane_caster",
+					"undead"
+				],
+				"spells": [
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"halberd",
+					"hammer",
+					"mace",
+					"spear",
+					"staff",
+					"sword",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"bow",
+					"longbow",
+					"short_bow",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			}
+		},
+		"vampire_thrall": {
+			"type": "hero",
+			"rating": 96,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 13,
+				"mental": 15,
+				"martial": 17
+			},
+			"attributes": {
+				"strength": {
+					"min": 5,
+					"max": 15
+				},
+				"toughness": {
+					"min": 5,
+					"max": 15
+				},
+				"agility": {
+					"min": 5,
+					"max": 15
+				},
+				"leadership": {
+					"min": 6,
+					"max": 12
+				},
+				"intelligence": {
+					"min": 4,
+					"max": 12
+				},
+				"alertness": {
+					"min": 5,
+					"max": 15
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 15
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 12
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 9
+				}
+			},
+			"other": {
+				"movement": 7
+			},
+			"skills": [
+				"fear"
+			],
+			"perks": [
+				"unwavering",
+				"immunity_poison"
+			],
+			"icon": "und_vampire_thrall",
+			"restrictions": {
+				"skills": [
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"halberd",
+					"hammer",
+					"mace",
+					"spear",
+					"sword",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"bow",
+					"longbow",
+					"short_bow",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			}
+		},
+		"dreg": {
+			"type": "hero",
+			"rating": 94,
+			"skillpoints": 30,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 16,
+				"mental": 14,
+				"martial": 15
+			},
+			"attributes": {
+				"strength": {
+					"min": 6,
+					"max": 18
+				},
+				"toughness": {
+					"min": 4,
+					"max": 12
+				},
+				"agility": {
+					"min": 4,
+					"max": 12
+				},
+				"leadership": {
+					"min": 1,
+					"max": 6
+				},
+				"intelligence": {
+					"min": 3,
+					"max": 9
+				},
+				"alertness": {
+					"min": 4,
+					"max": 13
+				},
+				"weapon_skill": {
+					"min": 6,
+					"max": 18
+				},
+				"ballistic_skill": {
+					"min": 6,
+					"max": 16
+				},
+				"accuracy": {
+					"min": 6,
+					"max": 16
+				}
+			},
+			"other": {
+				"movement": 5
+			},
+			"skills": [
+				"humble_servant"
+			],
+			"perks": [
+				"death_stench_immunity"
+			],
+			"icon": "und_dreg",
+			"restrictions": {
+				"skills": [
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"halberd",
+					"hammer",
+					"mace",
+					"spear",
+					"sword",
+					"great_axe",
+					"great_hammer",
+					"great_sword",
+					"bow",
+					"longbow",
+					"short_bow",
+					"cloth",
+					"light",
+					"heavy",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			}
+		},
+		"zombie": {
+			"type": "henchman",
+			"rating": 69,
+			"skillpoints": 10,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 15,
+				"mental": 13,
+				"martial": 17
+			},
+			"attributes": {
+				"strength": {
+					"min": 6,
+					"max": 16
+				},
+				"toughness": {
+					"min": 6,
+					"max": 16
+				},
+				"agility": {
+					"min": 1,
+					"max": 9
+				},
+				"leadership": {
+					"min": 3,
+					"max": 3
+				},
+				"intelligence": {
+					"min": 1,
+					"max": 12
+				},
+				"alertness": {
+					"min": 3,
+					"max": 15
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 16
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 15
+				}
+			},
+			"other": {
+				"movement": 4
+			},
+			"skills": [
+				"puppet",
+				"rotten_corpse"
+			],
+			"perks": [
+				"unwavering",
+				"immunity_poison",
+				"no_talent",
+				"expendable",
+				"feral"
+			],
+			"icon": "und_zombie",
+			"restrictions": {
+				"skills": [
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"spear",
+					"sword",
+					"cloth",
+					"shield",
+					"pendant",
+					"amulet",
+					"helmet"
+				]
+			}
+		},
+		"ghoul": {
+			"type": "henchman",
+			"rating": 74,
+			"skillpoints": 14,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 21,
+				"mental": 14,
+				"martial": 10
+			},
+			"attributes": {
+				"strength": {
+					"min": 5,
+					"max": 15
+				},
+				"toughness": {
+					"min": 3,
+					"max": 12
+				},
+				"agility": {
+					"min": 4,
+					"max": 15
+				},
+				"leadership": {
+					"min": 3,
+					"max": 12
+				},
+				"intelligence": {
+					"min": 2,
+					"max": 9
+				},
+				"alertness": {
+					"min": 3,
+					"max": 12
+				},
+				"weapon_skill": {
+					"min": 4,
+					"max": 15
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 3,
+					"max": 12
+				}
+			},
+			"other": {
+				"movement": 6
+			},
+			"skills": [
+				"disease_carrier"
+			],
+			"perks": [
+				"last_stand",
+				"unwavering",
+				"feral",
+				"death_stench_immunity"
+			],
+			"icon": "und_ghoul",
+			"restrictions": {
+				"skills": [
+					"lads_got_talent",
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"spear",
+					"great_axe",
+					"great_hammer",
+					"cloth",
+					"pendant",
+					"amulet"
+				]
+			}
+		},
+		"crypt_horror": {
+			"type": "impressive",
+			"rating": 184,
+			"skillpoints": 38,
+			"spellpoints": 0,
+			"attributepoints": {
+				"physical": 18,
+				"mental": 17,
+				"martial": 10
+			},
+			"attributes": {
+				"strength": {
+					"min": 14,
+					"max": 20
+				},
+				"toughness": {
+					"min": 8,
+					"max": 16
+				},
+				"agility": {
+					"min": 12,
+					"max": 20
+				},
+				"leadership": {
+					"min": 7,
+					"max": 15
+				},
+				"intelligence": {
+					"min": 6,
+					"max": 12
+				},
+				"alertness": {
+					"min": 10,
+					"max": 18
+				},
+				"weapon_skill": {
+					"min": 10,
+					"max": 20
+				},
+				"ballistic_skill": {
+					"min": 3,
+					"max": 3
+				},
+				"accuracy": {
+					"min": 10,
+					"max": 16
+				}
+			},
+			"other": {
+				"movement": 7
+			},
+			"skills": [
+				"terror"
+			],
+			"perks": [
+				"large",
+				"impressive",
+				"last_stand",
+				"unwavering",
+				"death_stench_immunity"
+			],
+			"icon": "und_crypt_horror",
+			"restrictions": {
+				"skills": [
+					"undead"
+				],
+				"equipment": [
+					"empty_hand",
+					"axe",
+					"dagger",
+					"hammer",
+					"mace",
+					"spear",
+					"great_axe",
+					"great_hammer",
+					"cloth",
+					"pendant",
+					"amulet"
+				]
+			}
+		}
 	},
 
 	"skills": {
@@ -4000,7 +4606,7 @@
 				},
 				"info": {
 					"cost": {
-						"strategy": 3
+						"strategy": 2
 					},
 					"range": "0m",
 					"target": "Self",
@@ -4126,7 +4732,7 @@
 				},
 				"description": {
 					"basic": "Take a stance that ends the current turn. Ambush the next enemy that moves into range with a melee attack that deals +50% damage but with a -10% chance to hit. Also allows 1 attempt to Dodge an incoming melee attack with +5% chance.",
-					"mastery": "Ambush hit chance increases to +5% and Dodge chance to 15%."
+					"mastery": "Ambush hit chance increases to +5% and Dodge chance to 15%. Cost of using reduced by 1SP"
 				},
 				"info": {
 					"cost": {
@@ -4266,7 +4872,7 @@
 				},
 				"info": {
 					"cost": {
-						"strategy": 2
+						"strategy": 1
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -5025,7 +5631,7 @@
 				},
 				"description": {
 					"basic": "Take a stance that ends the current turn. Ambush the next enemy that moves into range with a -10% chance to hit and a 50% damage bonus. Also allows 1 attempt to Parry an incoming melee attack with +5% chance. A successful Parry attempt will reduce the cost of a Counter-Attack by 1 Offense Point. Requires a parrying weapon or a shield.",
-					"mastery": "Ambush hit chance increases to +5% and Parry chance to 15%."
+					"mastery": "Ambush hit chance increases to +5% and Parry chance to 15%. Cost of using reduced by 1SP."
 				},
 				"info": {
 					"cost": {
@@ -5487,7 +6093,8 @@
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2,
+						"strategy": 1
 					},
 					"range": "0",
 					"target": "Single enemy",
@@ -5743,7 +6350,8 @@
 				},
 				"info": {
 					"cost": {
-						"offense": 3
+						"offense": 2,
+						"strategy": 1
 					},
 					"range": "0m",
 					"target": "Single enemy",
@@ -6430,6 +7038,104 @@
 					"stackable": "No"
 				},
 				"icon": "witch_hunters_fanatical_zeal"
+			},
+			"humble_servant": {
+				"name": "Humble Servant",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "Sacrifice 25 wounds. Restores up to 15 wounds and grants a buff that increases Initiative by 15 and Dodge chance by 10% for 2 turns. Only affects Vampires and Vampire Thralls."
+				},
+				"info": {
+					"cost": {
+						"strategy": 1
+					},
+					"range": "3m",
+					"target": "Single ally within 3 metres",
+					"duration": "2 turns",
+					"stackable": "Yes"
+				},
+				"icon": "undead_humble_servant"
+			},
+			"death_stench": {
+				"name": "Death Stench",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Reduces Melee Resistance, Parry and Dodge chances by 5%. Resistable Poison effect. Undead warriors are immune. Not Stackable.",
+					"mastery": "Melee Resistance, Dodge and Parry penalties increase to 10%"
+				},
+				"info": {
+					"cost": {
+						"strategy": 3
+					},
+					"range": "0m",
+					"target": "Everyone within a 5m radius around the user",
+					"duration": "2 turns",
+					"stackable": "No"
+				},
+				"icon": "undead_death_stench"
+			},
+			"death_trap": {
+				"name": "Death Trap",
+				"attribute": "agility",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Place a trapped skull at target location that explodes when an enemy approaches within 2.5m. Deals 12-24 damage to everyone within 5m and applies a debuff that reduces Melee and Ranged Hit chance by 5%. Usable once per turn. Not Stackable",
+					"mastery": "Damage increases to 24-48 and Hit chance penalty to 10%."
+				},
+				"info": {
+					"cost": {
+						"offense": 3
+					},
+					"range": "0m",
+					"target": "Special",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "undead_death_trap"
+			},
+			"eye_see_you": {
+				"name": "Eye See You",
+				"attribute": "agility",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Place a trapped skull at target location that explodes when an enemy approaches within 2.5m. Applies a debuff to enemies within 10m that reduces Initiative by 10, All Alone, Fear, and Terror by 5% and renders their location visible. Usable once per turn. Not Stackable",
+					"mastery": "Initiative penalty increases to 20 and All Alone, Fear, and Terror penalty to 10%"
+				},
+				"info": {
+					"cost": {
+						"offense": 2
+					},
+					"range": "0m",
+					"target": "Special",
+					"duration": "1 turn",
+					"stackable": "No"
+				},
+				"icon": "undead_eye_see_you"
 			}
 		},
 		"passive": {
@@ -6938,17 +7644,17 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases the chance to pass Fear and Terror tests by 10%.",
-					"mastery": "Chance to pass increases to 20%."
+					"basic": "Increases the chance to pass Fear and Terror tests by 20%.",
+					"mastery": "Chance to pass increases to 40%."
 				},
 				"effects": {
 					"basic": {
-						"fear": 10,
-						"terror": 10
-					},
-					"mastery": {
 						"fear": 20,
 						"terror": 20
+					},
+					"mastery": {
+						"fear": 40,
+						"terror": 40
 					}
 				},
 				"icon": "leadership_nerves_of_steel"
@@ -7096,15 +7802,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Magic Resistance by 5%.",
-					"mastery": "Magic Resistance increases 10%."
+					"basic": "Increases Magic Resistance by 10%.",
+					"mastery": "Magic Resistance increases 20%."
 				},
 				"effects": {
 					"basic": {
-						"magic": 5
+						"magic": 10
 					},
 					"mastery": {
-						"magic": 10
+						"magic": 20
 					}
 				},
 				"icon": "intelligence_resist_magic"
@@ -7499,15 +8205,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Parry chance by 5%.",
-					"mastery": "Parry chance increases to 15%."
+					"basic": "Increases Parry chance by 10%.",
+					"mastery": "Parry chance increases to 20%."
 				},
 				"effects": {
 					"basic": {
-						"parry": 5
+						"parry": 10
 					},
 					"mastery": {
-						"parry": 15
+						"parry": 20
 					}
 				},
 				"icon": "weapon_flash_parry"
@@ -7758,7 +8464,7 @@
 				},
 				"description": {
 					"basic": "Attacks bypass 5% of target's Dodge and Parry chance.",
-					"mastery": "Dodge and Parry bypass increases to 10%."
+					"mastery": "Dodge and Parry bypass increases to 15%."
 				},
 				"effects": {
 					"basic": {
@@ -7766,8 +8472,8 @@
 						"dodge_bypass": 5
 					},
 					"mastery": {
-						"parry_bypass": 10,
-						"dodge_bypass": 10
+						"parry_bypass": 15,
+						"dodge_bypass": 15
 					}
 				},
 				"icon": "accuracy_weak_spot"
@@ -7968,19 +8674,19 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases the chance to pass All Alone, Fear, Terror, and Rout tests by 5%.",
-					"mastery": "Chance to pass increases to 15%."
+					"basic": "Increases the chance to pass All Alone, Fear, Terror, and Rout tests by 15%.",
+					"mastery": "Chance to pass increases to 30%."
 				},
 				"effects": {
 					"basic": {
-						"all_alone": 5,
-						"fear": 5,
-						"terror": 5
-					},
-					"mastery": {
 						"all_alone": 15,
 						"fear": 15,
 						"terror": 15
+					},
+					"mastery": {
+						"all_alone": 30,
+						"fear": 30,
+						"terror": 30
 					}
 				},
 				"icon": "sisters_absolute_faith"
@@ -8022,15 +8728,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Magic Resistance by 5%.",
-					"mastery": "Magic Resistance increases to 15%."
+					"basic": "Increases Magic Resistance by 15%.",
+					"mastery": "Magic Resistance increases to 30%."
 				},
 				"effects": {
 					"basic": {
-						"magic": 5
+						"magic": 15
 					},
 					"mastery": {
-						"magic": 15
+						"magic": 30
 					}
 				},
 				"icon": "sisters_protection_of_sigmar"
@@ -8304,15 +9010,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Magic Resistance by 5%.",
-					"mastery": "Magic Resistance increases to 15%."
+					"basic": "Increases Magic Resistance by 15%.",
+					"mastery": "Magic Resistance increases to 30%."
 				},
 				"effects": {
 					"basic": {
-						"magic": 5
+						"magic": 15
 					},
 					"mastery": {
-						"magic": 15
+						"magic": 30
 					}
 				},
 				"icon": "possessed_tzeentch_warding"
@@ -8838,7 +9544,12 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point."
+					"basic": "Increases Dodge change by 10%. After a successful Dodge attempt, reduces the cost of a Counter-Attack performed in response by 1 Offense Point."
+				},
+				"effects": {
+				    "basic": {
+					    "dodge": 10
+					}
 				},
                 "icon": "witch_hunters_hunters_patience"
 			},
@@ -8893,7 +9604,7 @@
 					"basic": 0
 				},
 				"description": {
-					"basic": "When receiving damage, increases Melee damage by 10% for 1 turn. Stackable."
+					"basic": "When receiving damage, increases Melee damage by 10% for 2 turns. Stackable."
 				},
                 "icon": "witch_hunters_vengeance"
 			},
@@ -8957,6 +9668,117 @@
 					}
 				},
 				"icon": "witch_hunters_witchfinders_ward"
+			},
+			"warp_attunement": {
+				"name": "Warp Attunement",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "After gathering a Wyrdstone, decrease Spellcasting cost of the next spell by 1OP and Tzeentch's Curse chance by 10%. The next action must be a spell or the effect is lost."
+				},
+                "icon": "undead_warp_attunement"
+			},
+			"puppet": {
+				"name": "Puppet",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "The Zombie becomes bound to its master. Ritual ingredients must be paid for in the form of an upkeep. The Zombie will gain experience and will receive four fewer skill points than regular Henchmen<br>Failing to perform the ritual for extended periods weakens the bond, causing the Zombie to decay and be destroyed."
+				},
+                "icon": "undead_puppet"
+			},
+			"rotten_corpse": {
+				"name": "Rotten Corpse",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "The Zombie is immune to Open Wound effects and all injuries except Destroyed (Dead), Severed Arm, Severed Leg, Hand Injury, Full Recovery. If it must roll for Injuries at the end of combat, it has a 20% chance to decay and effectively be destroyed. Every Rank of the Zombie reduces this chance by 1%."
+				},
+                "icon": "undead_rotten_corpse"
+			},
+			"disease_carrier": {
+				"name": "Disease Carrier",
+				"attribute": "class",
+				"cost": {
+					"basic": 0
+				},
+				"description": {
+					"basic": "On melee damage, inflicts a random poison debuff from the following: -5 Initiative, OR -3% Critical Resistance, OR -3% Dodge and Parry chance. All debuffs are stackable, last 3 turns, and increase Damage received from the spell Rotten Touch by 5%."
+				},
+                "icon": "undead_disease_carrier"
+			},
+			"body_reconstruction": {
+				"name": "Body Reconstruction",
+				"attribute": "toughness",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases the resistance to Critical hit by 10%.",
+					"mastery": "Critical hit Resistance increases to 20%."
+				},
+				"effects": {
+					"basic": {
+						"critical_hit": 10
+					},
+					"mastery": {
+						"critical_hit": 20
+					}
+				},
+				"icon": "undead_body_reconstruction"
+			},
+			"embedded_wyrdstones": {
+				"name": "Embedded Wyrdstones",
+				"attribute": "intelligence",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "Increases Wyrdstone Resistance by 15% and grants immunity to a quarter of all detrimental Wyrdstone effects.",
+					"mastery": "Wyrdstone Resistance increases to 30% and grants immunity to half of all detrimental Wyrdstone effects."
+				},
+				"effects": {
+					"basic": {
+						"wyrdstone": 15
+					},
+					"mastery": {
+						"wyrdstone": 30
+					}
+				},
+				"icon": "undead_embedded_wyrdstones"
+			},
+			"find_the_breach": {
+				"name": "Find the Breach",
+				"attribute": "weapon_skill",
+				"requirements": {
+					"basic": 6,
+					"mastery": 9
+				},
+				"cost": {
+					"basic": 2,
+					"mastery": 4
+				},
+				"description": {
+					"basic": "When another ally is engaged with the same target, increases Armour Absorption bypass by 5%. Not Stackable",
+					"mastery": "Armour Absorption bypass increases to 10%."
+				},
+				"icon": "undead_find_the_breach"
 			}
 		}
 	},
@@ -9061,6 +9883,18 @@
 		"burning_rage": {
 		    "name": "Burning Rage",
 			"description": "Cannot use consumable items, or the Search and Activate actions."
+		},
+		"death_stench_immunity": {
+			"name": "Death Stench Immunity",
+			"description": "The warrior is accustomed to corpses and is immune to Death Stench."
+		},
+		"expendable": {
+			"name": "Expendable",
+			"description": "When falling Out of Action, does not lower the Warband's Morale."
+		},
+		"feral": {
+			"name": "Feral",
+			"description": "This warrior can't use consumables in combat."
 		}
 	},
 
@@ -9387,14 +10221,14 @@
 			},
 			"description": {
 				"basic": "Increases the chance to pass Climb, Leap, and Jump Down tests by 15%.",
-				"mastery": "Duration increases to 2 turns, range to 30 meters.<br>Casting chance and Divine Wrath +5%."
+				"mastery": "Duration increases to 3 turns, range to 30 meters.<br>Casting chance and Divine Wrath +5%."
 			},
 			"info": {
 				"cost": {
 					"offense": 3
 				},
 				"range": "0",
-				"duration": "1 turn",
+				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Self and allies within a 5 meter radius around the caster.",
 				"divine_wrath": "+20%"
@@ -9562,7 +10396,7 @@
 					"offense": 2
 				},
 				"range": "15m",
-				"duration": "3 turns",
+				"duration": "2 turns",
 				"casting_chance": "-15%",
 				"target": "Self or Ally",
 				"divine_wrath": "+15%"
@@ -9674,7 +10508,7 @@
 					"offense": 3
 				},
 				"range": "15m",
-				"duration": "3 turns",
+				"duration": "2 turns",
 				"casting_chance": "-20%",
 				"target": "Enemies within a 5 meter radius",
 				"divine_wrath": "+20%"
@@ -10630,6 +11464,230 @@
 				"divine_wrath": "+25%"
 			},
 			"icon": "witch_hunters_healing_hand"
+		},
+		"rotten_touch": {
+			"name": "Rotten Touch",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 8-13 damage to living targets. Bypasses Armour Absorption. Damage is increased by Disease Carrier debuffs.",
+				"mastery": "Damage increases to 16-26, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "0 turn",
+				"casting_chance": "-15%",
+				"target": "Single enemy",
+				"divine_wrath": "+15%"
+			},
+			"icon": "undead_rotten_touch"
+		},
+		"call_of_vanhel": {
+			"name": "Call of Vanhel",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 3,
+				"mastery": 9
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Increases Movement by 2m and Armour Absorption by 15% for Zombies. Increases Initiative by 10 and Dodge chance by 10% for Vampires, Vampire Thralls, Ghouls and Crypt Horrors. Not Stackable. Does not affect living targets.",
+				"mastery": "Movement increases to 4m, Armour Absorption to 30%, Initiative to 10, Dodge chance to 20%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "2 turns",
+				"casting_chance": "-15%",
+				"target": "Single ally",
+				"divine_wrath": "+15%"
+			},
+			"icon": "undead_call_of_vanhel"
+		},
+		"corpse_flesh": {
+			"name": "Corpse Flesh",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Increases Critical and Poison Resistance by 15% and Armour Absorption by 5%. Not Stackable.",
+				"mastery": "Critical and Poison Resistance increases to 30%, Armour Absorption increases to 10%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "15m",
+				"duration": "2 turn",
+				"casting_chance": "-20%",
+				"target": "Single ally",
+				"divine_wrath": "+20%"
+			},
+			"icon": "undead_corpse_flesh"
+		},
+		"idol_of_death": {
+			"name": "Idol of Death",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Summons an idol at the target area. Living enemies near the totem have their All Alone, Fear and Terror resistance reduced by 15%, Morale Impact increased by 2 and the cost of Flee and Disengage increased by 1 SP. The idol must be placed on a walkable area, and can be destroyed by enemies. Only one idol may be created per turn.",
+				"mastery": "All Alone, Fear and Terror penalty increases to 30%, Morale Impact to 4, the cost of Flee and Disengage to 2 SP, range to 10m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "5m",
+				"duration": "2 turns",
+				"casting_chance": "-20%",
+				"target": "Living enemies within a 5m radius of the idol.",
+				"divine_wrath": "+20%"
+			},
+			"icon": "undead_idol_of_death"
+		},
+		"lifestealer": {
+			"name": "Lifestealer",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 12-16 damage. Bypasses Armour Absorption. If damage is dealt, restores up to 8 wounds to the caster.",
+				"mastery": "Damage increases to 24-32, wounds restored to 16, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 3
+				},
+				"range": "15m",
+				"duration": "0 turn",
+				"casting_chance": "-20%",
+				"target": "Single enemy",
+				"divine_wrath": "+20%"
+			},
+			"icon": "undead_lifestealer"
+		},
+		"warp_overcharge": {
+			"name": "Warp Overcharge",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 6,
+				"mastery": 12
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Applies a debuff that deals 15-20 damage on the target's second turn, but has no effect on the first turn. Gathering a Wyrdstone removes the debuff. Bypasses Armour Absorption. Not Stackable.",
+				"mastery": "Damage increases to 30-40, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 2
+				},
+				"range": "15m",
+				"duration": "1 turn",
+				"casting_chance": "0%",
+				"target": "Single enemy",
+				"divine_wrath": "+15%"
+			},
+			"icon": "undead_warp_overcharge"
+		},
+		"heart_failure": {
+			"name": "Heart Failure",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "When performing a melee attack or an Athletic action, receive a 25% chance to lose 2 OP and SP. Affects only living targets. Not Stackable.",
+				"mastery": "Debuff chance increases to 50%, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "15m",
+				"duration": "0 turn",
+				"casting_chance": "-25%",
+				"target": "Everyone within a 5m radius",
+				"divine_wrath": "+25%"
+			},
+			"icon": "undead_heart_failure"
+		},
+		"spell_of_doom": {
+			"name": "Spell of Doom",
+			"type": "undead",
+			"attribute": "intelligence",
+			"requirements": {
+				"basic": 9,
+				"mastery": 15
+			},
+			"cost": {
+				"basic": 2,
+				"mastery": 4
+			},
+			"description": {
+				"basic": "Deals 7-12 damage. Bypasses Armour Absorption.",
+				"mastery": "Damage increases to 14-24, range to 30m. Casting chance and Curse chance +5%"
+			},
+			"info": {
+				"cost": {
+					"offense": 4
+				},
+				"range": "15m",
+				"duration": "0 turn",
+				"casting_chance": "0%",
+				"target": "Enemies within a 10m radius",
+				"divine_wrath": "0%"
+			},
+			"icon": "undead_spell_of_doom"
 		}
 	},
 
@@ -10637,57 +11695,141 @@
 		"destroyer": {
 			"name": "Destroyer",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +6% Armour Absorption<br>On hit, applies a poison debuff that reduces Melee Damage dealt by -3% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +{{ melee_armour_bypass }}% Armour Absorption<br>On hit, applies a poison debuff that reduces Melee Damage dealt by {{ melee_damage_reduction }}% for 1 turn. Stackable.",
 			"effects": {
-				"melee_armour_bypass": 6
+				"initiative": 0,
+			    "normal": {
+				    "melee_armour_bypass": 6,
+				    "melee_damage_reduction": 3
+				},
+				"good": {
+				    "melee_armour_bypass": 9,
+				    "melee_damage_reduction": 6				
+				},
+				"masterwork": {
+				    "melee_armour_bypass": 12,
+				    "melee_damage_reduction": 9				
+				}
 			}
 		},
 		"executioner": {
 			"name": "Executioner",
 			"slot": "left_arm",
-			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +6% Armour Absorption<br>On hit, applies a poison debuff that reduces Armour Absorption by 3% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Attacks bypass +{{ melee_armour_bypass }}% Armour Absorption<br>On hit, applies a poison debuff that reduces Armour Absorption by {{ armour_reduction }}% for 1 turn. Stackable.",
 			"effects": {
-				"melee_armour_bypass": 6
+				"initiative": 0,
+				"normal": {
+				    "melee_armour_bypass": 6,
+				    "armour_reduction": 3
+				},
+				"good": {
+				    "melee_armour_bypass": 9,
+				    "armour_reduction": 6				
+				},
+				"masterwork": {
+				    "melee_armour_bypass": 12,
+				    "armour_reduction": 9			
+				}
 			}
 		},
 		"slicer": {
 			"name": "Slicer",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Hit chance +8%<br>On hit, applies a poison debuff that reduces Melee Resistance by 6% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Hit chance +{{ melee_hit_chance }}%<br>On hit, applies a poison debuff that reduces Melee Resistance by {{ melee_resist_reduction }}% for 1 turn. Stackable. Also grants Parry and +5 Initiative.",
 			"effects": {
-				"melee_hit_chance": 8
+				"initiative": 5,
+				"normal": {
+					"melee_hit_chance": 4,
+					"melee_resist_reduction": 3
+				},
+				"good": {
+					"melee_hit_chance": 8,
+					"melee_resist_reduction": 6
+				},
+				"masterwork": {
+					"melee_hit_chance": 12,
+					"melee_resist_reduction": 9
+				}
 			}
 		},
 		"piercer": {
 			"name": "Piercer",
 			"slot": "left_arm",
-			"description": "Melee attacks gain the following benefits:<br>Hit chance +8%<br>On hit, applies a poison debuff that reduces Ranged Resistance by 6% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Hit chance +{{ melee_hit_chance }}%<br>On hit, applies a poison debuff that reduces Ranged Resistance by {{ ranged_resist_reduction }}% for 1 turn. Stackable. Also grants Parry and +5 Initiative.",
 			"effects": {
-				"melee_hit_chance": 8
+				"initiative": 5,
+				"normal": {
+					"melee_hit_chance": 4,
+					"ranged_resist_reduction": 3
+				},
+				"good": {
+					"melee_hit_chance": 8,
+					"ranged_resist_reduction": 6
+				},
+				"masterwork": {
+					"melee_hit_chance": 12,
+					"ranged_resist_reduction": 9
+				}
 			}
 		},
 		"crusher": {
 			"name": "Crusher",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +4%<br>On hit, applies a poison debuff that reduces Poison Resistance by 5% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +{{ critical_hit_chance }}%<br>On hit, applies a poison debuff that reduces Poison Resistance by {{ poison_resist_reduction }}% for 1 turn. Stackable. -5 Initiative.",
 			"effects": {
-				"critical_hit_chance": 4
+				"initiative": -5,
+				"normal": {
+					"critical_hit_chance": 4,
+					"poison_resist_reduction": 5
+				},
+				"good": {
+					"critical_hit_chance": 6,
+					"poison_resist_reduction": 10
+				},
+				"masterwork": {
+					"critical_hit_chance": 8,
+					"poison_resist_reduction": 15
+				}
 			}
 		},
 		"smasher": {
 			"name": "Smasher",
 			"slot": "left_arm",
-			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +4%<br>On hit, applies a poison debuff that reduces Stun Resistance by 5% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Critical hit chance +{{ critical_hit_chance }}%<br>On hit, applies a poison debuff that reduces Stun Resistance by {{ stun_resist_reduction }}% for 1 turn. Stackable. -5 Initiative.",
 			"effects": {
-				"critical_hit_chance": 4
+				"initiative": -5,
+			    "normal": {
+					"critical_hit_chance": 4,
+					"stun_resist_reduction": 5
+				},
+				"good": {
+					"critical_hit_chance": 6,
+					"stun_resist_reduction": 10
+				},
+				"masterwork": {
+					"critical_hit_chance": 8,
+					"stun_resist_reduction": 15
+				}
 			}
 		},
 		"ripper": {
 			"name": "Ripper",
 			"slot": "right_arm",
-			"description": "Melee attacks gain the following benefits:<br>Critical hit damage +5%<br>On hit, applies a poison debuff that reduces Critical hit Resistance by 5% for 1 turn. Stackable.",
+			"description": "Melee attacks gain the following benefits:<br>Critical hit damage +{{ critical_hit_damage }}%<br>On hit, applies a poison debuff that reduces Critical hit Resistance by {{ critical_resist_reduction }}% for 1 turn. Stackable. +10 Initiative.",
 			"effects": {
-				"critical_hit_damage": 5
+				"initiative": 10,
+				"normal": {
+					"critical_hit_damage": 5,
+					"critical_resist_reduction": 5
+				},
+				"good": {
+					"critical_hit_damage": 10,
+					"critical_resist_reduction": 10
+				},
+				"masterwork": {
+					"critical_hit_damage": 16,
+					"critical_resist_reduction": 15
+				}
 			}
 		},
 		"extra_limb_axe": {
@@ -11679,21 +12821,24 @@
 							"min": 15,
 							"max": 21
 						},
-						"ranged_hit_chance": 8
+						"ranged_hit_chance": 8,
+						"range": 20
 					},
 					"good": {
 						"damage": {
 							"min": 21,
 							"max": 27
 						},
-						"ranged_hit_chance": 10
+						"ranged_hit_chance": 10,
+						"range": 25
 					},
 					"masterwork": {
 						"damage": {
 							"min": 27,
 							"max": 33
 						},
-						"ranged_hit_chance": 12
+						"ranged_hit_chance": 12,
+						"range": 30
 					}
 				}
 			},
@@ -11709,19 +12854,22 @@
 						"damage": {
 							"min": 22,
 							"max": 32
-						}
+						},
+						"range": 10
 					},
 					"good": {
 						"damage": {
 							"min": 30,
 							"max": 40
-						}
+						},
+						"range": 15
 					},
 					"masterwork": {
 						"damage": {
 							"min": 38,
 							"max": 48
-						}
+						},
+						"range": 20
 					}
 				}
 			},
@@ -11737,21 +12885,24 @@
 							"min": 20,
 							"max": 24
 						},
-						"ranged_armour_bypass": 9
+						"ranged_armour_bypass": 9,
+						"range": 25
 					},
 					"good": {
 						"damage": {
 							"min": 26,
 							"max": 30
 						},
-						"ranged_armour_bypass": 12
+						"ranged_armour_bypass": 12,
+						"range": 30
 					},
 					"masterwork": {
 						"damage": {
 							"min": 32,
 							"max": 36
 						},
-						"ranged_armour_bypass": 15
+						"ranged_armour_bypass": 15,
+						"range": 35
 					}
 				}
 			},
@@ -11767,21 +12918,24 @@
 							"min": 16,
 							"max": 22
 						},
-						"ranged_armour_bypass": 6
+						"ranged_armour_bypass": 6,
+						"range": 20
 					},
 					"good": {
 						"damage": {
 							"min": 22,
 							"max": 28
 						},
-						"ranged_armour_bypass": 9
+						"ranged_armour_bypass": 9,
+						"range": 25
 					},
 					"masterwork": {
 						"damage": {
 							"min": 28,
 							"max": 34
 						},
-						"ranged_armour_bypass": 12
+						"ranged_armour_bypass": 12,
+						"range": 30
 					}
 				}
 			},
@@ -11798,21 +12952,24 @@
 							"min": 24,
 							"max": 32
 						},
-						"ranged_hit_chance": 8
+						"ranged_hit_chance": 8,
+						"range": 15
 					},
 					"good": {
 						"damage": {
 							"min": 32,
 							"max": 40
 						},
-						"ranged_hit_chance": 10
+						"ranged_hit_chance": 10,
+						"range": 20
 					},
 					"masterwork": {
 						"damage": {
 							"min": 40,
 							"max": 48
 						},
-						"ranged_hit_chance": 12
+						"ranged_hit_chance": 12,
+						"range": 25
 					}
 				}
 			},
@@ -11829,21 +12986,24 @@
 							"min": 29,
 							"max": 35
 						},
-						"ranged_armour_bypass": 12
+						"ranged_armour_bypass": 12,
+						"range": 20
 					},
 					"good": {
 						"damage": {
 							"min": 37,
 							"max": 43
 						},
-						"ranged_armour_bypass": 15
+						"ranged_armour_bypass": 15,
+						"range": 25
 					},
 					"masterwork": {
 						"damage": {
 							"min": 45,
 							"max": 51
 						},
-						"ranged_armour_bypass": 18
+						"ranged_armour_bypass": 18,
+						"range": 30
 					}
 				}
 			},
@@ -11860,21 +13020,24 @@
 							"min": 29,
 							"max": 31
 						},
-						"critical_hit_damage": 20
+						"critical_hit_damage": 20,
+						"range": 30
 					},
 					"good": {
 						"damage": {
 							"min": 35,
 							"max": 39
 						},
-						"critical_hit_damage": 25
+						"critical_hit_damage": 25,
+						"range": 35
 					},
 					"masterwork": {
 						"damage": {
 							"min": 45,
 							"max": 47
 						},
-						"critical_hit_damage": 30
+						"critical_hit_damage": 30,
+						"range": 40
 					}
 				}
 			},
@@ -11890,21 +13053,24 @@
 							"min": 15,
 							"max": 25
 						},
-						"critical_hit_damage": 10
+						"critical_hit_damage": 10,
+						"range": 25
 					},
 					"good": {
 						"damage": {
 							"min": 21,
 							"max": 31
 						},
-						"critical_hit_damage": 15
+						"critical_hit_damage": 15,
+						"range": 30
 					},
 					"masterwork": {
 						"damage": {
 							"min": 27,
 							"max": 37
 						},
-						"critical_hit_damage": 20
+						"critical_hit_damage": 20,
+						"range": 35
 					}
 				}
 			},
@@ -11921,21 +13087,24 @@
 							"min": 27,
 							"max": 37
 						},
-						"critical_hit_chance": 3
+						"critical_hit_chance": 3,
+						"range": 15
 					},
 					"good": {
 						"damage": {
 							"min": 35,
 							"max": 45
 						},
-						"critical_hit_chance": 5
+						"critical_hit_chance": 5,
+						"range": 20
 					},
 					"masterwork": {
 						"damage": {
 							"min": 43,
 							"max": 53
 						},
-						"critical_hit_chance": 7
+						"critical_hit_chance": 7,
+						"range": 25
 					}
 				}
 			},
@@ -11951,21 +13120,24 @@
 							"min": 15,
 							"max": 21
 						},
-						"critical_hit_chance": 3
+						"critical_hit_chance": 3,
+						"range": 15
 					},
 					"good": {
 						"damage": {
 							"min": 21,
 							"max": 27
 						},
-						"critical_hit_chance": 5
+						"critical_hit_chance": 5,
+						"range": 20
 					},
 					"masterwork": {
 						"damage": {
 							"min": 27,
 							"max": 33
 						},
-						"critical_hit_chance": 7
+						"critical_hit_chance": 7,
+						"range": 25
 					}
 				}
 			},
@@ -11982,7 +13154,8 @@
 							"max": 21
 						},
 						"ranged_hit_chance": 6,
-						"overwatch_damage": 15
+						"overwatch_damage": 15,
+						"range": 15
 					},
 					"good": {
 						"damage": {
@@ -11990,7 +13163,8 @@
 							"max": 27
 						},
 						"ranged_hit_chance": 8,
-						"overwatch_damage": 20
+						"overwatch_damage": 20,
+						"range": 20
 					},
 					"masterwork": {
 						"damage": {
@@ -11998,7 +13172,8 @@
 							"max": 33
 						},
 						"ranged_hit_chance": 10,
-						"overwatch_damage": 25
+						"overwatch_damage": 25,
+						"range": 25
 					}
 				}
 			},
@@ -12015,21 +13190,24 @@
 							"min": 26,
 							"max": 34
 						},
-						"warp_ammo": 2
+						"warp_ammo": 2,
+						"range": 15
 					},
 					"good": {
 						"damage": {
 							"min": 34,
 							"max": 42
 						},
-						"warp_ammo": 4
+						"warp_ammo": 4,
+						"range": 20
 					},
 					"masterwork": {
 						"damage": {
 							"min": 42,
 							"max": 50
 						},
-						"warp_ammo": 6
+						"warp_ammo": 6,
+						"range": 25
 					}
 				}
 			},
@@ -12271,9 +13449,9 @@
 			"type": "mental",
 			"rating": 1,
 			"resistances": {
-				"all_alone": 4,
-				"fear": 4,
-				"terror": 4
+				"all_alone": 3,
+				"fear": 3,
+				"terror": 3
 			},
 			"effects": {
 				"morale": 2
@@ -12335,7 +13513,7 @@
 	},
 
 	"resistances": {
-		"all_alone": 20,
+		"all_alone": 30,
 		"fear": 20,
 		"terror": 20,
 		"wyrdstone": 25,

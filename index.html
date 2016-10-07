@@ -86,6 +86,15 @@
                     <option value="brethren">Brethren</option>
                     <option value="chaos_spawn">Chaos Spawn</option>
                   </optgroup>
+				  <optgroup label="Undead">
+                    <option value="vampire">Vampire</option>
+                    <option value="dreg">Dreg</option>
+                    <option value="vampire_thrall">Vampire Thrall</option>
+                    <option value="necromancer">Necromancer</option>
+                    <option value="zombie">Zombie</option>
+                    <option value="ghoul">Ghoul</option>
+                    <option value="crypt_horror">Crypt Horror</option>
+                  </optgroup>
                   <optgroup label="DLC Heroes">
                     <option value="smuggler">Smuggler</option>
                     <option value="globadier">Poison Wind Globadier</option>
@@ -190,6 +199,24 @@
                   <div class="profile-icon"><button class="button-profile-icon" value="chaos_spawn"><div><img src="images/class_icons/unit_icon_pos_chaos_spawn.png"></div></button>
                     <h5>Chaos Spawn</h5></div>
                 </div>
+				<div class="panel-profile-icons-warband">
+                  <h3>Undead</h3>
+                  <div class="profile-icon"><button class="button-profile-icon" value="vampire"><div><img src="images/class_icons/unit_icon_undead_vampire.png"></div></button>
+                    <h5>Vampire</h5></div>
+                  <div class="profile-icon"><button class="button-profile-icon" value="dreg"><div><img src="images/class_icons/unit_icon_undead_dreg.png"></div></button>
+                    <h5>Dreg</h5></div>
+                  <div class="profile-icon"><button class="button-profile-icon" value="vampire_thrall"><div><img src="images/class_icons/unit_icon_undead_vampire_thrall.png"></div></button>
+                    <h5>Vampire Thrall</br>&nbsp;</h5></div>
+                  <div class="profile-icon"><button class="button-profile-icon" value="necromancer"><div><img src="images/class_icons/unit_icon_undead_necromancer.png"></div></button>
+                    <h5>Necromancer</h5></div>
+                  <div class="profile-icon"><button class="button-profile-icon" value="zombie"><div><img src="images/class_icons/unit_icon_undead_zombie.png"></div></button>
+                    <h5>Zombie</h5></div>
+                  <div class="profile-icon"><button class="button-profile-icon" value="ghoul"><div><img src="images/class_icons/unit_icon_undead_ghoul.png"></div></button>
+                    <h5>Ghoul</h5></div>
+                  <div class="profile-icon"><button class="button-profile-icon" value="crypt_horror"><div><img src="images/class_icons/unit_icon_undead_crypt_horror.png"></div></button>
+                    <h5>Crypt Horror</h5></div>
+                </div>
+
                 <div class="panel-profile-icons-warband">
                   <h3>DLC Heroes - Destruction</h3>
                   <div class="profile-icon"><button class="button-profile-icon" value="globadier"><div><img src="images/class_icons/unit_icon_dlc_globadier.png"></div></button>
@@ -555,6 +582,11 @@
 						<option value="burn_the_witch">Burn the Witch</option>
 						<option value="fanatical_zeal">Fanatical Zeal</option>
 					</optgroup>
+					<optgroup class="skill-options-undead" label="Undead">
+					    <option value="death_stench">Death Stench</option>
+						<option value="death_trap">Death Trap</option>
+						<option value="eye_see_you">Eye See You</option>
+					</optgroup>
 				</select>
 				<button id="skill-action-add-active" type="button">	<img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button>
 			    </form>
@@ -717,6 +749,11 @@
 						<option value="sigil_of_sigmar">Sigil of Sigmar</option>
 						<option value="witchfinders_ward">Witchfinder's Ward</option>
 					</optgroup>
+					<optgroup class="skill-options-undead" label="Undead">
+					    <option value="body_reconstruction">Body Reconstruction</option>
+						<option value="embedded_wyrdstones">Embedded Wyrdstones</option>
+						<option value="find_the_breach">Find the Breach</option>
+					</optgroup>
 					</select>
 					<button id="skill-action-add-passive" type="button"><img src="images/icons/stats/Icn_stats_attack.png"> Add skill</button>
 				</form>
@@ -797,6 +834,7 @@
 						<option value="ice_storm">Ice Storm</option>
 					</optgroup>
 					<optgroup id="spell-options-witch-hunter" label="Witch Hunter">
+						<option value="immaculate_flesh">Immaculate Flesh</option>
 						<option value="shield_of_faith">Shield of Faith</option>
 						<option value="armour_of_righteousness">Armour of Righteousness</option>
 						<option value="deny_the_heretic">Deny the Heretic</option>
@@ -804,6 +842,16 @@
 						<option value="soulfire">Soulfire</option>
 						<option value="prayer_of_absolution">Prayer of Absolution</option>
 						<option value="healing_hand">Healing Hand</option>
+					</optgroup>
+					<optgroup id="spell-options-undead" label="Undead">
+						<option value="rotten_touch">Rotten Touch</option>
+						<option value="call_of_vanhel">Call of Vanhel</option>
+						<option value="corpse_flesh">Corpse Flesh</option>
+						<option value="idol_of_death">Idol of Death</option>
+						<option value="lifestealer">Lifestealer</option>
+						<option value="warp_overcharge">Warp Overcharge</option>
+						<option value="heart_failure">Heart Failure</option>
+						<option value="spell_of_doom">Spell of Doom</option>
 					</optgroup>
 					</select>
 					<button id="spell-action-add" type="button"><img src="images/icons/action_stance/mordheim_icons_action_cast.png"> Add spell</button>
@@ -977,7 +1025,7 @@
       <td>
         <div class="panel-ability {{ ability }}-option">{{#if remove}}
           <div class="ability-option-remove"><a href="#" class="ability-action-remove {{ ability }}-action-remove" data-ability-key="{{ name }}">&times;</a></div>{{/if}}
-          <div class="ability-option-title">{{#if icon}} <img src="{{ icon }}"> {{/if}} {{ title }} {{#if equipment}} <span><img src="dev/images/icons/stats/Icn_stats_initiative.png" alt="Initiative"> {{ initiative }} {{#if damage}} <img src="dev/images/icons/stats/Icn_stats_attack.png" alt="Damage"> {{ damage.min }} - {{ damage.max }} {{/if}}</span> {{/if}}</div>
+          <div class="ability-option-title">{{#if icon}} <img src="{{ icon }}"> {{/if}} {{ title }} {{#if equipment}} <span><img src="dev/images/icons/stats/Icn_stats_initiative.png" alt="Initiative"> {{ initiative }} {{#if damage}} <img src="dev/images/icons/stats/Icn_stats_attack.png" alt="Damage"> {{ damage.min }} - {{ damage.max }} {{/if}} {{#if range}} <img src="images/icons/stats/Icn_stats_accuracy.png"> {{range}} {{/if}} </span> {{/if}}</div>
           <div class="ability-option-info">{{#if equipment}}
             <div class="ability-option-description ability-option-description-basic clearfix">{{#if quality}}
               <div class="ability-option-version ability-option-version-equipment">
