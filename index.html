@@ -1046,7 +1046,7 @@
                 <div class="ability-option-description-other"><span class="ability-option-label">Tzeentch's Curse:</span> {{ tzeentchs_curse }}</div>{{/if}}</div>{{/if}} {{/if}}</div>{{#if mastery}}
             <div class="ability-option-actions clearfix">
               <div class="ability-option-version">
-                <form><label>Skill Version:</label><select class="{{ ability }}-select-version" name="version" data-ability-key="{{ name }}"><option value="basic">Basic</option><option value="mastery">Mastery</option></select></form>
+                <form><label>Skill Version:</label><select class="{{ ability }}-select-version" name="version" data-ability-key="{{ name }}"><option value="basic">Basic</option>{{#if can_master}}<option value="mastery">Mastery</option>{{/if}}</select></form>
               </div>
               <div class="ability-option-requirements ability-option-requirement-{{ requirementClass }}">Requirement: {{ requirement }}</div>
             </div>{{/if}}</div>
