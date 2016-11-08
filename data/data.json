@@ -6057,7 +6057,7 @@
 					},
 					"range": "15m",
 					"target": "Single ally",
-					"duration": "1 turn",
+					"duration": "3 turns",
 					"stackable": "No"
 				},
 				"icon": "mercenaries_tactician"
@@ -7569,8 +7569,8 @@
 				"name": "Inspiring",
 				"attribute": "leadership",
 				"requirements": {
-					"basic": 6,
-					"mastery": 12
+					"basic": 3,
+					"mastery": 9
 				},
 				"cost": {
 					"basic": 2,
@@ -7636,8 +7636,8 @@
 				"name": "Nerves of Steel",
 				"attribute": "leadership",
 				"requirements": {
-					"basic": 9,
-					"mastery": 15
+					"basic": 6,
+					"mastery": 12
 				},
 				"cost": {
 					"basic": 2,
@@ -8180,15 +8180,15 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "Increases Initiative by 4.",
-					"mastery": "Initiative increases to 8."
+					"basic": "Increases Initiative by 8.",
+					"mastery": "Initiative increases to 16."
 				},
 				"effects": {
 					"basic": {
-						"initiative": 4
+						"initiative": 8
 					},
 					"mastery": {
-						"initiative": 8
+						"initiative": 16
 					}
 				},
 				"icon": "alertness_nimble"
@@ -8507,8 +8507,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When engaged with 2 or more enemies, increases melee Critical hit chance by 5%.",
-					"mastery": "Critical hit chance increases to 10%."
+					"basic": "When engaged with 2 or more enemies, increases melee Critical hit chance by 8%.",
+					"mastery": "Critical hit chance increases to 15%."
 				},
 				"icon": "accuracy_underdog"
 			},
@@ -8566,8 +8566,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "When engaged with 2 or more enemies, increases chance to Dodge and Parry by 5%.",
-					"mastery": "Dodge and Parry chance increases to 10%."
+					"basic": "When engaged with 2 or more enemies, increases chance to Dodge and Parry by 10%.",
+					"mastery": "Dodge and Parry chance increases to 20%."
 				},
 				"icon": "mercenaries_combat_expertise"
 			},
@@ -8584,14 +8584,14 @@
 				},
 				"description": {
 					"basic": "Increases Critical hit Resistance by 5%.",
-					"mastery": "Critical Resistance increases to 10%."
+					"mastery": "Critical Resistance increases to 15%."
 				},
 				"effects": {
 					"basic": {
 						"critical_hit": 5
 					},
 					"mastery": {
-						"critical_hit": 10
+						"critical_hit": 15
 					}
 				},
 				"icon": "mercenaries_flawless_positioning"
