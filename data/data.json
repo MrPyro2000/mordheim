@@ -7485,8 +7485,8 @@
 				"name": "Quick Draw",
 				"attribute": "agility",
 				"requirements": {
-					"basic": 6,
-					"mastery": 12
+					"basic": 9,
+					"mastery": 15
 				},
 				"cost": {
 					"basic": 2,
