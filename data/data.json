@@ -13409,7 +13409,93 @@
 		}
 	},
 
-	"enchantments": {},
+	"enchants": {
+		"body": {
+			"rune_of_ballistic_skill": {
+				"name": "Rune of Ballistic Skill",
+				"description": "+{{enchant_ballistic_skill}} Ballistic Skill and max Ballistic Skill.\nThis increase is ignored when training skills or spells.\nCannot surpass 20 (25 for Impressive).",
+				"effects": {
+					"good": {
+						"enchant_ballistic_skill": 2
+					},
+					"masterwork": {
+						"enchant_ballistic_skill": 4
+					}
+				}
+			},
+			"rune_of_weapon_skill": {
+				"name": "Rune of Weapon Skill",
+				"description": "+{{enchant_weapon_skill}} Weapon Skill and max Weapon Skill.\nThis increase is ignored when training skills or spells.\nCannot surpass 20 (25 for Impressive).",
+				"effects": {
+					"good": {
+						"enchant_weapon_skill": 2
+					},
+					"masterwork": {
+						"enchant_weapon_skill": 4
+					}
+				}
+			}
+		},
+		"head": {
+			"rune_of_celerity": {
+				"name": "Rune of Celerity",
+				"description": "+{{initiative}} Initiative",
+				"effects": {
+					"good": {
+						"initiative": 10
+					},
+					"masterwork": {
+						"initiative": 10
+					}
+				}
+			},
+			"rune_of_health": {
+				"name": "Rune of Health",
+				"description": "+{{wounds}} Wounds",
+				"effects": {
+					"good": {
+						"wounds": 30
+					},
+					"masterwork": {
+						"wounds": 60
+					}
+				}
+			}
+		},
+		"hand": {
+			"rune_of_slaying": {
+				"name": "Rune of Slaying",
+				"description": "+{{damage_boost}} to weapon damage",
+				"effects": {
+					"good": {
+						"damage_boost": 2
+					},
+					"masterwork": {
+						"damage_boost": 4
+					}
+				},
+				"restrictions": [
+					"melee",
+					"ranged"
+				]
+			},
+			"rune_of_shielding": {
+				"name": "Rune of Shielding",
+				"description": "+{{melee}} Melee Resistance.",
+				"effects": {
+					"good": {
+						"melee": 6
+					},
+					"masterwork":{
+						"melee": 12
+					}
+				},
+				"restrictions": [
+					"offhand"
+				]
+			}
+		}
+	},
 
 	"attributes": {
 		"strength": {

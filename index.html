@@ -947,6 +947,63 @@
               </div>
             </div>
           </div>
+          <div id="panel-enchants" class="panel-ability panel-enchants">
+			  <h3>Enchantments</h3>
+				<div id="panel-enchant-view" class="panel-view">
+				  <div id="panel-enchant-mainhand">
+					<h4>Main hand</h4>
+					<table id="enchant-mainhand-table" class="table table-ability">
+					  <tbody>
+						<tr>
+						  <td class="table-placeholder"></td>
+						</tr>
+					  </tbody>
+					</table>
+					<div class="selector-ability">
+					  <form class="ability-select form-inline"><select id="enchant-mainhand-select" class="form-control" name="mainhand"><option>Select a main hand enchantment</option><option value="rune_of_ballistic_skill">Rune of Ballistic Skill</option></select><button id="enchant-mainhand-action-add" type="button"><img src="images/icons/stats/Icn_stats_armor.png"> Apply main hand enchant</button></form>
+					</div>
+				  </div>
+				  <div id="panel-enchant-offhand">
+					<h4>Offhand</h4>
+					<table id="enchant-offhand-table" class="table table-ability">
+					  <tbody>
+						<tr>
+						  <td class="table-placeholder"></td>
+						</tr>
+					  </tbody>
+					</table>
+					<div class="selector-ability">
+					  <form class="ability-select form-inline"><select id="enchant-offhand-select" class="form-control" name="offhand"><option>Select an off hand enchantment</option><option value="rune_of_ballistic_skill">Rune of Ballistic Skill</option></select><button id="enchant-offhand-action-add" type="button"><img src="images/icons/stats/Icn_stats_armor.png"> Equip offhand enchant</button></form>
+					</div>
+				  </div>
+				<div id="panel-enchant-body">
+					<h4>Body</h4>
+					<table id="enchant-body-table" class="table table-ability">
+					  <tbody>
+						<tr>
+						  <td class="table-placeholder"></td>
+						</tr>
+					  </tbody>
+					</table>
+					<div class="selector-ability">
+					  <form class="ability-select form-inline"><select id="enchant-body-select" class="form-control" name="body"><option>Select a body enchantment</option><option value="rune_of_ballistic_skill">Rune of Ballistic Skill</option></select><button id="enchant-body-action-add" type="button"><img src="images/icons/stats/Icn_stats_armor.png"> Equip body enchant</button></form>
+					</div>
+				  </div>
+				  <div id="panel-enchant-head">
+					<h4>Head</h4>
+					<table id="enchant-head-table" class="table table-ability">
+					  <tbody>
+						<tr>
+						  <td class="table-placeholder"></td>
+						</tr>
+					  </tbody>
+					</table>
+					<div class="selector-ability">
+					  <form class="ability-select form-inline"><select id="enchant-head-select" class="form-control" name="head"><option>Select a head enchantment</option><option value="rune_of_ballistic_skill">Rune of Ballistic Skill</option></select><button id="enchant-head-action-add" type="button"><img src="images/icons/stats/Icn_stats_armor.png"> Equip head enchant</button></form>
+					</div>
+				  </div>
+				</div>
+			</div>
 		  <div id="panel-perks" class="panel-ability panel-perks">
             <h3>Perks</h3>
             <table id="perks-table" class="table table-ability">
@@ -1050,7 +1107,15 @@
                 <form><label>Skill Version:</label><select class="{{ ability }}-select-version" name="version" data-ability-key="{{ name }}"><option value="basic">Basic</option>{{#if can_master}}<option value="mastery">Mastery</option>{{/if}}</select></form>
               </div>
               <div class="ability-option-requirements ability-option-requirement-{{ requirementClass }}">Requirement: {{ requirement }}</div>
-            </div>{{/if}}</div>
+            </div>{{/if}}
+			{{#if enchantlevel}}
+			<div class="ability-option-actions clearfix">
+              <div class="ability-option-version">
+                <form><label>Enchantment Version:</label><select class="{{ ability }}-select-version" name="version" data-ability-key="{{ name }}">{{#select quality}}<option value="good">Normal</option><option value="masterwork">Master</option>{{/select}}</select></form>
+              </div>
+            </div>
+			{{/if}}
+		  </div>
         </div>
       </td>
     </tr>
