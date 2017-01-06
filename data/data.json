@@ -8446,8 +8446,8 @@
 					"mastery": 4
 				},
 				"description": {
-					"basic": "After dealing melee damage, the target gains a debuff that reduces Melee Resistance by 2% for 1 turn.",
-					"mastery": "Melee Resistance penalty increases to 4%."
+					"basic": "After dealing melee damage, the target gains a debuff that reduces Melee Resistance by 3% for 1 turn.",
+					"mastery": "Melee Resistance penalty increases to 6%."
 				},
 				"icon": "accuracy_quick_incision"
 			},
